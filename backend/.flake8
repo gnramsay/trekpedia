@@ -1,0 +1,9 @@
+[flake8]
+max-line-length = 80
+docstring-convention=google
+exclude =
+  migrations
+  __init__.py
+  settings.py
+  manage.py
+  apps.py
