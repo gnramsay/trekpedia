@@ -23,7 +23,7 @@ iterations.
 #### `trekpedia-stage-1.ipynb [COMPLETE]`
 
 * Scrape the main Wikipedia Star Trek page and create a JSON file containing
-  Series names and metadata(number of seasons, number of episodes etc.) This
+  Series names and metadata (number of seasons, number of episodes etc.) This
   metadata will probably include series summary and other data in future
   iterations (not necessarily from Wikipedia)
 
