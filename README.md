@@ -4,7 +4,7 @@ Star Trek TV/Film episode database scraped from web sources, with a Django-based
 Backend API and a React Frontend. This is a work in progress which will follow
 the path `Scraper` -> `Backend` -> `Frontend`.
 
-All copyright to the `Star Trek` name belongs to [ViacomCBS][viacomcbs]. All
+All copyright to the 'Star Trek' name belongs to [ViacomCBS][viacomcbs]. All
 data in this project has been mined from the [Wikipedia Star Trek page][wst] and
 associated subpages under the [Fair Use][fup] principal.
 
@@ -13,7 +13,7 @@ associated subpages under the [Fair Use][fup] principal.
 ## Development
 
 First development of the scraper is being carried out using Jupyter Notebooks.
-These can be found in the 'notebooks' folder under the `backend` folder.
+These can be found in the `notebooks` folder under the `backend` folder.
 
 ### Current progress
 
