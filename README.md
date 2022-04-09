@@ -1,7 +1,7 @@
 # Trekpedia
 
-Star Trek TV/Film episode database scraped from web sources, with a Django-based
-Backend API and a React Frontend. This is a work in progress which will follow
+Star Trek TV/Film episode database scraped from web sources in JSOn format for
+imclusion in a later API. This is a work in progress which will follow
 the path `Scraper` -> `Backend` -> `Frontend`.
 
 All copyright to the 'Star Trek' name belongs to [ViacomCBS][viacomcbs]. All
