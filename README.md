@@ -12,8 +12,8 @@ associated subpages under the [Fair Use][fup] principal.
 
 ## Development
 
-First development of the scraper is being carried out using Jupyter Notebooks.
-These can be found in the `notebooks` folder under the `backend` folder.
+First development of the scraper is being carried out using [Jupyter
+Notebooks][jupyter] . These can be found in the `notebooks` folder.
 
 ### Current progress
 
@@ -43,3 +43,4 @@ As Above
 [viacomcbs]:https://www.viacomcbs.com
 [wst]: https://en.wikipedia.org/wiki/Star_Trek
 [fup]: https://en.wikipedia.org/wiki/Fair_use#Text_and_data_mining
+[jupyter]: https://jupyter.org/
