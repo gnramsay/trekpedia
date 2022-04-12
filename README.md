@@ -43,7 +43,7 @@ iterations.
 ## Produced Files
 
 A work-in-progress version of the derived data is available in the
-[output](output) directory.
+[output](notebooks/output) directory.
 
 This contains:
 
