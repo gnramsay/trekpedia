@@ -40,6 +40,22 @@ iterations.
   * Discovery and Prodigy need special treatment as their markup seems to follow
     no logic know to man, God or Vulcan.
 
+## Produced Files
+
+A work-in-progress version of the derived data is available in the
+[output](output) directory.
+
+This contains:
+
+* [star_trek_series_info.json](notebooks/output/star_trek_series_info.json)
+  which lists info and links for each series only, and is used as the basis for
+  getting the individual series data.
+* One individual JSON file for each Star Trek incarnation (Currently 10 as we
+  are skipping Prodigy for now).
+
+A tarball is included in the [releases](releases) folder and attached to each
+GitHuB release.
+
 ## Installation
 
 To Write as code progresses.
