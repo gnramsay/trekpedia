@@ -1,0 +1,456 @@
+{
+    "seasons": {
+        "1": {
+            "total": "15",
+            "start": "9",
+            "end": "September 24, 2017",
+            "episodes": [
+                {
+                    "num_overall": "1",
+                    "num_in_season": "1",
+                    "title": "The Vulcan Hello",
+                    "link": "https://en.wikipedia.org/wiki/The_Vulcan_Hello",
+                    "director": "David Semel",
+                    "air_date": "September 24, 2017"
+                },
+                {
+                    "num_overall": "2",
+                    "num_in_season": "2",
+                    "title": "Battle at the Binary Stars",
+                    "link": "https://en.wikipedia.org/wiki/Battle_at_the_Binary_Stars",
+                    "director": "Adam Kane",
+                    "air_date": "September 24, 2017"
+                },
+                {
+                    "num_overall": "3",
+                    "num_in_season": "3",
+                    "title": "Context Is for Kings",
+                    "link": "https://en.wikipedia.org/wiki/Context_Is_for_Kings",
+                    "director": "Akiva Goldsman",
+                    "air_date": "October 1, 2017"
+                },
+                {
+                    "num_overall": "4",
+                    "num_in_season": "4",
+                    "title": "The Butcher's Knife Cares Not for the Lamb's Cry",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "October 8, 2017"
+                },
+                {
+                    "num_overall": "5",
+                    "num_in_season": "5",
+                    "title": "Choose Your Pain",
+                    "link": "",
+                    "director": "Lee Rose",
+                    "air_date": "October 15, 2017"
+                },
+                {
+                    "num_overall": "6",
+                    "num_in_season": "6",
+                    "title": "Lethe",
+                    "link": "",
+                    "director": "Douglas Aarniokoski",
+                    "air_date": "October 22, 2017"
+                },
+                {
+                    "num_overall": "7",
+                    "num_in_season": "7",
+                    "title": "Magic to Make the Sanest Man Go Mad",
+                    "link": "",
+                    "director": "David M. Barrett",
+                    "air_date": "October 29, 2017"
+                },
+                {
+                    "num_overall": "8",
+                    "num_in_season": "8",
+                    "title": "Si Vis Pacem, Para Bellum",
+                    "link": "",
+                    "director": "John S. Scott",
+                    "air_date": "November 5, 2017"
+                },
+                {
+                    "num_overall": "9",
+                    "num_in_season": "9",
+                    "title": "Into the Forest I Go",
+                    "link": "",
+                    "director": "Chris Byrne",
+                    "air_date": "November 12, 2017"
+                },
+                {
+                    "num_overall": "10",
+                    "num_in_season": "10",
+                    "title": "Despite Yourself",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "January 7, 2018"
+                },
+                {
+                    "num_overall": "11",
+                    "num_in_season": "11",
+                    "title": "The Wolf Inside",
+                    "link": "",
+                    "director": "T. J. Scott",
+                    "air_date": "January 14, 2018"
+                },
+                {
+                    "num_overall": "12",
+                    "num_in_season": "12",
+                    "title": "Vaulting Ambition",
+                    "link": "",
+                    "director": "Hanelle M. Culpepper",
+                    "air_date": "January 21, 2018"
+                },
+                {
+                    "num_overall": "13",
+                    "num_in_season": "13",
+                    "title": "What's Past Is Prologue",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "January 28, 2018"
+                },
+                {
+                    "num_overall": "14",
+                    "num_in_season": "14",
+                    "title": "The War Without, The War Within",
+                    "link": "",
+                    "director": "David Solomon",
+                    "air_date": "February 4, 2018"
+                },
+                {
+                    "num_overall": "15",
+                    "num_in_season": "15",
+                    "title": "Will You Take My Hand?",
+                    "link": "",
+                    "director": "Akiva Goldsman",
+                    "air_date": "February 11, 2018"
+                }
+            ]
+        },
+        "2": {
+            "total": "14",
+            "start": "January 17, 2019",
+            "end": "April 18, 2019",
+            "episodes": [
+                {
+                    "num_overall": "16",
+                    "num_in_season": "1",
+                    "title": "Brother",
+                    "link": "",
+                    "director": "Alex Kurtzman",
+                    "air_date": "January 17, 2019"
+                },
+                {
+                    "num_overall": "17",
+                    "num_in_season": "2",
+                    "title": "New Eden",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "January 24, 2019"
+                },
+                {
+                    "num_overall": "18",
+                    "num_in_season": "3",
+                    "title": "Point of Light",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "January 31, 2019"
+                },
+                {
+                    "num_overall": "19",
+                    "num_in_season": "4",
+                    "title": "An Obol for Charon",
+                    "link": "",
+                    "director": "Lee Rose",
+                    "air_date": "February 7, 2019"
+                },
+                {
+                    "num_overall": "20",
+                    "num_in_season": "5",
+                    "title": "Saints of Imperfection",
+                    "link": "",
+                    "director": "David Barrett",
+                    "air_date": "February 14, 2019"
+                },
+                {
+                    "num_overall": "21",
+                    "num_in_season": "6",
+                    "title": "The Sound of Thunder",
+                    "link": "",
+                    "director": "Douglas Aarniokoski",
+                    "air_date": "February 21, 2019"
+                },
+                {
+                    "num_overall": "22",
+                    "num_in_season": "7",
+                    "title": "Light and Shadows",
+                    "link": "",
+                    "director": "Marta Cunningham",
+                    "air_date": "February 28, 2019"
+                },
+                {
+                    "num_overall": "23",
+                    "num_in_season": "8",
+                    "title": "If Memory Serves",
+                    "link": "",
+                    "director": "T. J. Scott",
+                    "air_date": "March 7, 2019"
+                },
+                {
+                    "num_overall": "24",
+                    "num_in_season": "9",
+                    "title": "Project Daedalus",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "March 14, 2019"
+                },
+                {
+                    "num_overall": "25",
+                    "num_in_season": "10",
+                    "title": "The Red Angel",
+                    "link": "",
+                    "director": "Hanelle M. Culpepper",
+                    "air_date": "March 21, 2019"
+                },
+                {
+                    "num_overall": "26",
+                    "num_in_season": "11",
+                    "title": "Perpetual Infinity",
+                    "link": "",
+                    "director": "Maja Vrvilo",
+                    "air_date": "March 28, 2019"
+                },
+                {
+                    "num_overall": "27",
+                    "num_in_season": "12",
+                    "title": "Through the Valley of Shadows",
+                    "link": "",
+                    "director": "Douglas Aarniokoski",
+                    "air_date": "April 4, 2019"
+                },
+                {
+                    "num_overall": "28–29",
+                    "num_in_season": "13–14",
+                    "title": "Such Sweet Sorrow",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "April 11, 2019"
+                }
+            ]
+        },
+        "3": {
+            "total": "13",
+            "start": "October 15, 2020",
+            "end": "January 7, 2021",
+            "episodes": [
+                {
+                    "num_overall": "30",
+                    "num_in_season": "1",
+                    "title": "That Hope Is You, Part 1",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "October 15, 2020"
+                },
+                {
+                    "num_overall": "31",
+                    "num_in_season": "2",
+                    "title": "Far from Home",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "October 22, 2020"
+                },
+                {
+                    "num_overall": "32",
+                    "num_in_season": "3",
+                    "title": "People of Earth",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "October 29, 2020"
+                },
+                {
+                    "num_overall": "33",
+                    "num_in_season": "4",
+                    "title": "Forget Me Not",
+                    "link": "",
+                    "director": "Hanelle M. Culpepper",
+                    "air_date": "November 5, 2020"
+                },
+                {
+                    "num_overall": "34",
+                    "num_in_season": "5",
+                    "title": "Die Trying",
+                    "link": "",
+                    "director": "Maja Vrvilo",
+                    "air_date": "November 12, 2020"
+                },
+                {
+                    "num_overall": "35",
+                    "num_in_season": "6",
+                    "title": "Scavengers",
+                    "link": "",
+                    "director": "Douglas Aarniokoski",
+                    "air_date": "November 19, 2020"
+                },
+                {
+                    "num_overall": "36",
+                    "num_in_season": "7",
+                    "title": "Unification III",
+                    "link": "",
+                    "director": "Jon Dudkowski",
+                    "air_date": "November 26, 2020"
+                },
+                {
+                    "num_overall": "37",
+                    "num_in_season": "8",
+                    "title": "The Sanctuary",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "December 3, 2020"
+                },
+                {
+                    "num_overall": "38–39",
+                    "num_in_season": "9–10",
+                    "title": "Terra Firma",
+                    "link": "https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)",
+                    "director": "Omar Madha",
+                    "air_date": "December 10, 2020"
+                },
+                {
+                    "num_overall": "40",
+                    "num_in_season": "11",
+                    "title": "Su'Kal",
+                    "link": "",
+                    "director": "Norma Bailey",
+                    "air_date": "December 24, 2020"
+                },
+                {
+                    "num_overall": "41",
+                    "num_in_season": "12",
+                    "title": "There Is a Tide...",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "December 31, 2020"
+                },
+                {
+                    "num_overall": "42",
+                    "num_in_season": "13",
+                    "title": "That Hope Is You, Part 2",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "January 7, 2021"
+                }
+            ]
+        },
+        "4": {
+            "total": "13",
+            "start": "November 18, 2021",
+            "end": "March 17, 2022",
+            "episodes": [
+                {
+                    "num_overall": "43",
+                    "num_in_season": "1",
+                    "title": "Kobayashi Maru",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "November 18, 2021"
+                },
+                {
+                    "num_overall": "44",
+                    "num_in_season": "2",
+                    "title": "Anomaly",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "November 25, 2021"
+                },
+                {
+                    "num_overall": "45",
+                    "num_in_season": "3",
+                    "title": "Choose to Live",
+                    "link": "",
+                    "director": "Christopher J. Byrne",
+                    "air_date": "December 2, 2021"
+                },
+                {
+                    "num_overall": "46",
+                    "num_in_season": "4",
+                    "title": "All Is Possible",
+                    "link": "",
+                    "director": "John Ottman",
+                    "air_date": "December 9, 2021"
+                },
+                {
+                    "num_overall": "47",
+                    "num_in_season": "5",
+                    "title": "The Examples",
+                    "link": "",
+                    "director": "Lee Rose",
+                    "air_date": "December 16, 2021"
+                },
+                {
+                    "num_overall": "48",
+                    "num_in_season": "6",
+                    "title": "Stormy Weather",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "December 23, 2021"
+                },
+                {
+                    "num_overall": "49",
+                    "num_in_season": "7",
+                    "title": "...But to Connect",
+                    "link": "",
+                    "director": "Lee Rose",
+                    "air_date": "December 30, 2021"
+                },
+                {
+                    "num_overall": "50",
+                    "num_in_season": "8",
+                    "title": "All In",
+                    "link": "",
+                    "director": "Christopher J. Byrne & Jen McGowan",
+                    "air_date": "February 10, 2022"
+                },
+                {
+                    "num_overall": "51",
+                    "num_in_season": "9",
+                    "title": "Rubicon",
+                    "link": "",
+                    "director": "Andi Armaganian",
+                    "air_date": "February 17, 2022"
+                },
+                {
+                    "num_overall": "52",
+                    "num_in_season": "10",
+                    "title": "The Galactic Barrier",
+                    "link": "",
+                    "director": "Deborah Kampmeier",
+                    "air_date": "February 24, 2022"
+                },
+                {
+                    "num_overall": "53",
+                    "num_in_season": "11",
+                    "title": "Rosetta",
+                    "link": "",
+                    "director": "Jeff Byrd & Jen McGowan",
+                    "air_date": "March 3, 2022"
+                },
+                {
+                    "num_overall": "54",
+                    "num_in_season": "12",
+                    "title": "Species Ten-C",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "March 10, 2022"
+                },
+                {
+                    "num_overall": "55",
+                    "num_in_season": "13",
+                    "title": "Coming Home",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "March 17, 2022"
+                }
+            ]
+        }
+    }
+}

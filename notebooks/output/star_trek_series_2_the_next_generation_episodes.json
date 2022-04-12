@@ -1,0 +1,1461 @@
+{
+    "seasons": {
+        "1": {
+            "total": "26",
+            "start": "September 28, 1987",
+            "end": "May 16, 1988",
+            "episodes": [
+                {
+                    "num_overall": "12",
+                    "num_in_season": "12",
+                    "title": "Encounter at Farpoint",
+                    "link": "https://en.wikipedia.org/wiki/Encounter_at_Farpoint",
+                    "director": "Corey Allen",
+                    "air_date": "September 28, 1987"
+                },
+                {
+                    "num_overall": "3",
+                    "num_in_season": "3",
+                    "title": "The Naked Now",
+                    "link": "https://en.wikipedia.org/wiki/The_Naked_Now",
+                    "director": "Paul Lynch",
+                    "air_date": "October 5, 1987"
+                },
+                {
+                    "num_overall": "4",
+                    "num_in_season": "4",
+                    "title": "Code of Honor",
+                    "link": "https://en.wikipedia.org/wiki/Code_of_Honor_(Star_Trek:_The_Next_Generation)",
+                    "director": "Russ Mayberry",
+                    "air_date": "October 12, 1987"
+                },
+                {
+                    "num_overall": "5",
+                    "num_in_season": "5",
+                    "title": "The Last Outpost",
+                    "link": "https://en.wikipedia.org/wiki/The_Last_Outpost_(Star_Trek:_The_Next_Generation)",
+                    "director": "Richard Colla",
+                    "air_date": "October 19, 1987"
+                },
+                {
+                    "num_overall": "6",
+                    "num_in_season": "6",
+                    "title": "Where No One Has Gone Before",
+                    "link": "https://en.wikipedia.org/wiki/Where_No_One_Has_Gone_Before",
+                    "director": "Rob Bowman",
+                    "air_date": "October 26, 1987"
+                },
+                {
+                    "num_overall": "7",
+                    "num_in_season": "7",
+                    "title": "Lonely Among Us",
+                    "link": "https://en.wikipedia.org/wiki/Lonely_Among_Us",
+                    "director": "Cliff Bole",
+                    "air_date": "November 2, 1987"
+                },
+                {
+                    "num_overall": "8",
+                    "num_in_season": "8",
+                    "title": "Justice",
+                    "link": "https://en.wikipedia.org/wiki/Justice_(Star_Trek:_The_Next_Generation)",
+                    "director": "James L. Conway",
+                    "air_date": "November 9, 1987"
+                },
+                {
+                    "num_overall": "9",
+                    "num_in_season": "9",
+                    "title": "The Battle",
+                    "link": "https://en.wikipedia.org/wiki/The_Battle_(Star_Trek:_The_Next_Generation)",
+                    "director": "Rob Bowman",
+                    "air_date": "November 16, 1987"
+                },
+                {
+                    "num_overall": "10",
+                    "num_in_season": "10",
+                    "title": "Hide and Q",
+                    "link": "https://en.wikipedia.org/wiki/Hide_and_Q",
+                    "director": "Cliff Bole",
+                    "air_date": "November 23, 1987"
+                },
+                {
+                    "num_overall": "11",
+                    "num_in_season": "11",
+                    "title": "Haven",
+                    "link": "https://en.wikipedia.org/wiki/Haven_(Star_Trek:_The_Next_Generation)",
+                    "director": "Richard Compton",
+                    "air_date": "November 30, 1987"
+                },
+                {
+                    "num_overall": "12",
+                    "num_in_season": "12",
+                    "title": "The Big Goodbye",
+                    "link": "https://en.wikipedia.org/wiki/The_Big_Goodbye",
+                    "director": "Joseph L. Scanlan",
+                    "air_date": "January 11, 1988"
+                },
+                {
+                    "num_overall": "13",
+                    "num_in_season": "13",
+                    "title": "Datalore",
+                    "link": "https://en.wikipedia.org/wiki/Datalore",
+                    "director": "Rob Bowman",
+                    "air_date": "January 18, 1988"
+                },
+                {
+                    "num_overall": "14",
+                    "num_in_season": "14",
+                    "title": "Angel One",
+                    "link": "https://en.wikipedia.org/wiki/Angel_One",
+                    "director": "Michael Rhoades",
+                    "air_date": "January 25, 1988"
+                },
+                {
+                    "num_overall": "15",
+                    "num_in_season": "15",
+                    "title": "11001001",
+                    "link": "https://en.wikipedia.org/wiki/11001001",
+                    "director": "Paul Lynch",
+                    "air_date": "February 1, 1988"
+                },
+                {
+                    "num_overall": "16",
+                    "num_in_season": "16",
+                    "title": "Too Short a Season",
+                    "link": "https://en.wikipedia.org/wiki/Too_Short_a_Season",
+                    "director": "Rob Bowman",
+                    "air_date": "February 8, 1988"
+                },
+                {
+                    "num_overall": "17",
+                    "num_in_season": "17",
+                    "title": "When the Bough Breaks",
+                    "link": "https://en.wikipedia.org/wiki/When_the_Bough_Breaks_(Star_Trek:_The_Next_Generation)",
+                    "director": "Kim Manners",
+                    "air_date": "February 15, 1988"
+                },
+                {
+                    "num_overall": "18",
+                    "num_in_season": "18",
+                    "title": "Home Soil",
+                    "link": "https://en.wikipedia.org/wiki/Home_Soil",
+                    "director": "Corey Allen",
+                    "air_date": "February 22, 1988"
+                },
+                {
+                    "num_overall": "19",
+                    "num_in_season": "19",
+                    "title": "Coming of Age",
+                    "link": "https://en.wikipedia.org/wiki/Coming_of_Age_(Star_Trek:_The_Next_Generation)",
+                    "director": "Mike Vejar",
+                    "air_date": "March 14, 1988"
+                },
+                {
+                    "num_overall": "20",
+                    "num_in_season": "20",
+                    "title": "Heart of Glory",
+                    "link": "https://en.wikipedia.org/wiki/Heart_of_Glory",
+                    "director": "Rob Bowman",
+                    "air_date": "March 21, 1988"
+                },
+                {
+                    "num_overall": "21",
+                    "num_in_season": "21",
+                    "title": "The Arsenal of Freedom",
+                    "link": "https://en.wikipedia.org/wiki/The_Arsenal_of_Freedom",
+                    "director": "Les Landau",
+                    "air_date": "April 11, 1988"
+                },
+                {
+                    "num_overall": "22",
+                    "num_in_season": "22",
+                    "title": "Symbiosis",
+                    "link": "https://en.wikipedia.org/wiki/Symbiosis_(Star_Trek:_The_Next_Generation)",
+                    "director": "Win Phelps",
+                    "air_date": "April 18, 1988"
+                },
+                {
+                    "num_overall": "23",
+                    "num_in_season": "23",
+                    "title": "Skin of Evil",
+                    "link": "https://en.wikipedia.org/wiki/Skin_of_Evil",
+                    "director": "Joseph L. Scanlan",
+                    "air_date": "April 25, 1988"
+                },
+                {
+                    "num_overall": "24",
+                    "num_in_season": "24",
+                    "title": "We'll Always Have Paris",
+                    "link": "https://en.wikipedia.org/wiki/We%27ll_Always_Have_Paris_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Becker",
+                    "air_date": "May 2, 1988"
+                },
+                {
+                    "num_overall": "25",
+                    "num_in_season": "25",
+                    "title": "Conspiracy",
+                    "link": "https://en.wikipedia.org/wiki/Conspiracy_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "May 9, 1988"
+                },
+                {
+                    "num_overall": "26",
+                    "num_in_season": "26",
+                    "title": "The Neutral Zone",
+                    "link": "https://en.wikipedia.org/wiki/The_Neutral_Zone_(Star_Trek:_The_Next_Generation)",
+                    "director": "James L. Conway",
+                    "air_date": "May 16, 1988"
+                }
+            ]
+        },
+        "2": {
+            "total": "22",
+            "start": "November 21, 1988",
+            "end": "July 17, 1989",
+            "episodes": [
+                {
+                    "num_overall": "27",
+                    "num_in_season": "1",
+                    "title": "The Child",
+                    "link": "https://en.wikipedia.org/wiki/The_Child_(Star_Trek:_The_Next_Generation)",
+                    "director": "Rob Bowman",
+                    "air_date": "November 21, 1988"
+                },
+                {
+                    "num_overall": "28",
+                    "num_in_season": "2",
+                    "title": "Where Silence Has Lease",
+                    "link": "https://en.wikipedia.org/wiki/Where_Silence_Has_Lease",
+                    "director": "Winrich Kolbe",
+                    "air_date": "November 28, 1988"
+                },
+                {
+                    "num_overall": "29",
+                    "num_in_season": "3",
+                    "title": "Elementary, Dear Data",
+                    "link": "https://en.wikipedia.org/wiki/Elementary,_Dear_Data",
+                    "director": "Rob Bowman",
+                    "air_date": "December 5, 1988"
+                },
+                {
+                    "num_overall": "30",
+                    "num_in_season": "4",
+                    "title": "The Outrageous Okona",
+                    "link": "https://en.wikipedia.org/wiki/The_Outrageous_Okona",
+                    "director": "Robert Becker",
+                    "air_date": "December 12, 1988"
+                },
+                {
+                    "num_overall": "31",
+                    "num_in_season": "5",
+                    "title": "Loud as a Whisper",
+                    "link": "https://en.wikipedia.org/wiki/Loud_as_a_Whisper",
+                    "director": "Larry Shaw",
+                    "air_date": "January 9, 1989"
+                },
+                {
+                    "num_overall": "32",
+                    "num_in_season": "6",
+                    "title": "The Schizoid Man",
+                    "link": "https://en.wikipedia.org/wiki/The_Schizoid_Man_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "January 23, 1989"
+                },
+                {
+                    "num_overall": "33",
+                    "num_in_season": "7",
+                    "title": "Unnatural Selection",
+                    "link": "https://en.wikipedia.org/wiki/Unnatural_Selection_(Star_Trek:_The_Next_Generation)",
+                    "director": "Paul Lynch",
+                    "air_date": "January 30, 1989"
+                },
+                {
+                    "num_overall": "34",
+                    "num_in_season": "8",
+                    "title": "A Matter of Honor",
+                    "link": "https://en.wikipedia.org/wiki/A_Matter_of_Honor",
+                    "director": "Rob Bowman",
+                    "air_date": "February 6, 1989"
+                },
+                {
+                    "num_overall": "35",
+                    "num_in_season": "9",
+                    "title": "The Measure of a Man",
+                    "link": "https://en.wikipedia.org/wiki/The_Measure_of_a_Man_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Scheerer",
+                    "air_date": "February 13, 1989"
+                },
+                {
+                    "num_overall": "36",
+                    "num_in_season": "10",
+                    "title": "The Dauphin",
+                    "link": "https://en.wikipedia.org/wiki/The_Dauphin_(Star_Trek:_The_Next_Generation)",
+                    "director": "Rob Bowman",
+                    "air_date": "February 20, 1989"
+                },
+                {
+                    "num_overall": "37",
+                    "num_in_season": "11",
+                    "title": "Contagion",
+                    "link": "https://en.wikipedia.org/wiki/Contagion_(Star_Trek:_The_Next_Generation)",
+                    "director": "Joseph L. Scanlan",
+                    "air_date": "March 20, 1989"
+                },
+                {
+                    "num_overall": "38",
+                    "num_in_season": "12",
+                    "title": "The Royale",
+                    "link": "https://en.wikipedia.org/wiki/The_Royale",
+                    "director": "Cliff Bole",
+                    "air_date": "March 27, 1989"
+                },
+                {
+                    "num_overall": "39",
+                    "num_in_season": "13",
+                    "title": "Time Squared",
+                    "link": "https://en.wikipedia.org/wiki/Time_Squared_(Star_Trek:_The_Next_Generation)",
+                    "director": "Joseph L. Scanlan",
+                    "air_date": "April 3, 1989"
+                },
+                {
+                    "num_overall": "40",
+                    "num_in_season": "14",
+                    "title": "The Icarus Factor",
+                    "link": "https://en.wikipedia.org/wiki/The_Icarus_Factor",
+                    "director": "Robert Iscove",
+                    "air_date": "April 24, 1989"
+                },
+                {
+                    "num_overall": "41",
+                    "num_in_season": "15",
+                    "title": "Pen Pals",
+                    "link": "https://en.wikipedia.org/wiki/Pen_Pals_(Star_Trek:_The_Next_Generation)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "May 1, 1989"
+                },
+                {
+                    "num_overall": "42",
+                    "num_in_season": "16",
+                    "title": "Q Who",
+                    "link": "https://en.wikipedia.org/wiki/Q_Who",
+                    "director": "Rob Bowman",
+                    "air_date": "May 8, 1989"
+                },
+                {
+                    "num_overall": "43",
+                    "num_in_season": "17",
+                    "title": "Samaritan Snare",
+                    "link": "https://en.wikipedia.org/wiki/Samaritan_Snare",
+                    "director": "Les Landau",
+                    "air_date": "May 15, 1989"
+                },
+                {
+                    "num_overall": "44",
+                    "num_in_season": "18",
+                    "title": "Up the Long Ladder",
+                    "link": "https://en.wikipedia.org/wiki/Up_the_Long_Ladder",
+                    "director": "Winrich Kolbe",
+                    "air_date": "May 22, 1989"
+                },
+                {
+                    "num_overall": "45",
+                    "num_in_season": "19",
+                    "title": "Manhunt",
+                    "link": "https://en.wikipedia.org/wiki/Manhunt_(Star_Trek:_The_Next_Generation)",
+                    "director": "Rob Bowman",
+                    "air_date": "June 19, 1989"
+                },
+                {
+                    "num_overall": "46",
+                    "num_in_season": "20",
+                    "title": "The Emissary",
+                    "link": "https://en.wikipedia.org/wiki/The_Emissary_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "June 26, 1989"
+                },
+                {
+                    "num_overall": "47",
+                    "num_in_season": "21",
+                    "title": "Peak Performance",
+                    "link": "https://en.wikipedia.org/wiki/Peak_Performance_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Scheerer",
+                    "air_date": "July 10, 1989"
+                },
+                {
+                    "num_overall": "48",
+                    "num_in_season": "22",
+                    "title": "Shades of Gray",
+                    "link": "https://en.wikipedia.org/wiki/Shades_of_Gray_(Star_Trek:_The_Next_Generation)",
+                    "director": "Rob Bowman",
+                    "air_date": "July 17, 1989"
+                }
+            ]
+        },
+        "3": {
+            "total": "26",
+            "start": "September 25, 1989",
+            "end": "June 18, 1990",
+            "episodes": [
+                {
+                    "num_overall": "50",
+                    "num_in_season": "1",
+                    "title": "Evolution",
+                    "link": "https://en.wikipedia.org/wiki/Evolution_(Star_Trek:_The_Next_Generation)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "September 25, 1989"
+                },
+                {
+                    "num_overall": "49",
+                    "num_in_season": "2",
+                    "title": "The Ensigns of Command",
+                    "link": "https://en.wikipedia.org/wiki/The_Ensigns_of_Command",
+                    "director": "Cliff Bole",
+                    "air_date": "October 2, 1989"
+                },
+                {
+                    "num_overall": "51",
+                    "num_in_season": "3",
+                    "title": "The Survivors",
+                    "link": "https://en.wikipedia.org/wiki/The_Survivors_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "October 9, 1989"
+                },
+                {
+                    "num_overall": "52",
+                    "num_in_season": "4",
+                    "title": "Who Watches the Watchers",
+                    "link": "https://en.wikipedia.org/wiki/Who_Watches_the_Watchers",
+                    "director": "Robert Wiemer",
+                    "air_date": "October 16, 1989"
+                },
+                {
+                    "num_overall": "53",
+                    "num_in_season": "5",
+                    "title": "The Bonding",
+                    "link": "https://en.wikipedia.org/wiki/The_Bonding",
+                    "director": "Winrich Kolbe",
+                    "air_date": "October 23, 1989"
+                },
+                {
+                    "num_overall": "54",
+                    "num_in_season": "6",
+                    "title": "Booby Trap",
+                    "link": "https://en.wikipedia.org/wiki/Booby_Trap_(Star_Trek:_The_Next_Generation)",
+                    "director": "Gabrielle Beaumont",
+                    "air_date": "October 30, 1989"
+                },
+                {
+                    "num_overall": "55",
+                    "num_in_season": "7",
+                    "title": "The Enemy",
+                    "link": "https://en.wikipedia.org/wiki/The_Enemy_(Star_Trek:_The_Next_Generation)",
+                    "director": "David Carson",
+                    "air_date": "November 6, 1989"
+                },
+                {
+                    "num_overall": "56",
+                    "num_in_season": "8",
+                    "title": "The Price",
+                    "link": "https://en.wikipedia.org/wiki/The_Price_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Scheerer",
+                    "air_date": "November 13, 1989"
+                },
+                {
+                    "num_overall": "57",
+                    "num_in_season": "9",
+                    "title": "The Vengeance Factor",
+                    "link": "https://en.wikipedia.org/wiki/The_Vengeance_Factor",
+                    "director": "Timothy Bond",
+                    "air_date": "November 20, 1989"
+                },
+                {
+                    "num_overall": "58",
+                    "num_in_season": "10",
+                    "title": "The Defector",
+                    "link": "https://en.wikipedia.org/wiki/The_Defector_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Scheerer",
+                    "air_date": "January 1, 1990"
+                },
+                {
+                    "num_overall": "59",
+                    "num_in_season": "11",
+                    "title": "The Hunted",
+                    "link": "https://en.wikipedia.org/wiki/The_Hunted_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "January 8, 1990"
+                },
+                {
+                    "num_overall": "60",
+                    "num_in_season": "12",
+                    "title": "The High Ground",
+                    "link": "https://en.wikipedia.org/wiki/The_High_Ground_(Star_Trek:_The_Next_Generation)",
+                    "director": "Gabrielle Beaumont",
+                    "air_date": "January 29, 1990"
+                },
+                {
+                    "num_overall": "61",
+                    "num_in_season": "13",
+                    "title": "Deja Q",
+                    "link": "https://en.wikipedia.org/wiki/Deja_Q",
+                    "director": "Les Landau",
+                    "air_date": "February 5, 1990"
+                },
+                {
+                    "num_overall": "62",
+                    "num_in_season": "14",
+                    "title": "A Matter of Perspective",
+                    "link": "https://en.wikipedia.org/wiki/A_Matter_of_Perspective",
+                    "director": "Cliff Bole",
+                    "air_date": "February 12, 1990"
+                },
+                {
+                    "num_overall": "63",
+                    "num_in_season": "15",
+                    "title": "Yesterday's Enterprise",
+                    "link": "https://en.wikipedia.org/wiki/Yesterday%27s_Enterprise",
+                    "director": "David Carson",
+                    "air_date": "February 19, 1990"
+                },
+                {
+                    "num_overall": "64",
+                    "num_in_season": "16",
+                    "title": "The Offspring",
+                    "link": "https://en.wikipedia.org/wiki/The_Offspring_(Star_Trek:_The_Next_Generation)",
+                    "director": "Jonathan Frakes",
+                    "air_date": "March 12, 1990"
+                },
+                {
+                    "num_overall": "65",
+                    "num_in_season": "17",
+                    "title": "Sins of the Father",
+                    "link": "https://en.wikipedia.org/wiki/Sins_of_the_Father_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "March 19, 1990"
+                },
+                {
+                    "num_overall": "66",
+                    "num_in_season": "18",
+                    "title": "Allegiance",
+                    "link": "https://en.wikipedia.org/wiki/Allegiance_(Star_Trek:_The_Next_Generation)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "March 26, 1990"
+                },
+                {
+                    "num_overall": "67",
+                    "num_in_season": "19",
+                    "title": "Captain's Holiday",
+                    "link": "https://en.wikipedia.org/wiki/Captain%27s_Holiday",
+                    "director": "Chip Chalmers",
+                    "air_date": "April 2, 1990"
+                },
+                {
+                    "num_overall": "68",
+                    "num_in_season": "20",
+                    "title": "Tin Man",
+                    "link": "https://en.wikipedia.org/wiki/Tin_Man_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Scheerer",
+                    "air_date": "April 23, 1990"
+                },
+                {
+                    "num_overall": "69",
+                    "num_in_season": "21",
+                    "title": "Hollow Pursuits",
+                    "link": "https://en.wikipedia.org/wiki/Hollow_Pursuits",
+                    "director": "Cliff Bole",
+                    "air_date": "April 30, 1990"
+                },
+                {
+                    "num_overall": "70",
+                    "num_in_season": "22",
+                    "title": "The Most Toys",
+                    "link": "https://en.wikipedia.org/wiki/The_Most_Toys",
+                    "director": "Timothy Bond",
+                    "air_date": "May 7, 1990"
+                },
+                {
+                    "num_overall": "71",
+                    "num_in_season": "23",
+                    "title": "Sarek",
+                    "link": "https://en.wikipedia.org/wiki/Sarek_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "May 14, 1990"
+                },
+                {
+                    "num_overall": "72",
+                    "num_in_season": "24",
+                    "title": "Ménage à Troi",
+                    "link": "https://en.wikipedia.org/wiki/M%C3%A9nage_%C3%A0_Troi",
+                    "director": "Robert Legato",
+                    "air_date": "May 28, 1990"
+                },
+                {
+                    "num_overall": "73",
+                    "num_in_season": "25",
+                    "title": "Transfigurations",
+                    "link": "https://en.wikipedia.org/wiki/Transfigurations",
+                    "director": "Tom Benko",
+                    "air_date": "June 4, 1990"
+                },
+                {
+                    "num_overall": "74",
+                    "num_in_season": "26",
+                    "title": "The Best of Both Worlds, Part I",
+                    "link": "https://en.wikipedia.org/wiki/The_Best_of_Both_Worlds_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "June 18, 1990"
+                }
+            ]
+        },
+        "4": {
+            "total": "26",
+            "start": "September 24, 1990",
+            "end": "June 17, 1991",
+            "episodes": [
+                {
+                    "num_overall": "75",
+                    "num_in_season": "1",
+                    "title": "The Best of Both Worlds, Part II",
+                    "link": "https://en.wikipedia.org/wiki/The_Best_of_Both_Worlds_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "September 24, 1990"
+                },
+                {
+                    "num_overall": "76",
+                    "num_in_season": "2",
+                    "title": "Family",
+                    "link": "https://en.wikipedia.org/wiki/Family_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "October 1, 1990"
+                },
+                {
+                    "num_overall": "77",
+                    "num_in_season": "3",
+                    "title": "Brothers",
+                    "link": "https://en.wikipedia.org/wiki/Brothers_(Star_Trek:_The_Next_Generation)",
+                    "director": "Rob Bowman",
+                    "air_date": "October 8, 1990"
+                },
+                {
+                    "num_overall": "78",
+                    "num_in_season": "4",
+                    "title": "Suddenly Human",
+                    "link": "https://en.wikipedia.org/wiki/Suddenly_Human",
+                    "director": "Gabrielle Beaumont",
+                    "air_date": "October 15, 1990"
+                },
+                {
+                    "num_overall": "79",
+                    "num_in_season": "5",
+                    "title": "Remember Me",
+                    "link": "https://en.wikipedia.org/wiki/Remember_Me_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "October 22, 1990"
+                },
+                {
+                    "num_overall": "80",
+                    "num_in_season": "6",
+                    "title": "Legacy",
+                    "link": "https://en.wikipedia.org/wiki/Legacy_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Scheerer",
+                    "air_date": "October 29, 1990"
+                },
+                {
+                    "num_overall": "81",
+                    "num_in_season": "7",
+                    "title": "Reunion",
+                    "link": "https://en.wikipedia.org/wiki/Reunion_(Star_Trek:_The_Next_Generation)",
+                    "director": "Jonathan Frakes",
+                    "air_date": "November 5, 1990"
+                },
+                {
+                    "num_overall": "82",
+                    "num_in_season": "8",
+                    "title": "Future Imperfect",
+                    "link": "https://en.wikipedia.org/wiki/Future_Imperfect",
+                    "director": "Les Landau",
+                    "air_date": "November 12, 1990"
+                },
+                {
+                    "num_overall": "83",
+                    "num_in_season": "9",
+                    "title": "Final Mission",
+                    "link": "https://en.wikipedia.org/wiki/Final_Mission",
+                    "director": "Corey Allen",
+                    "air_date": "November 19, 1990"
+                },
+                {
+                    "num_overall": "84",
+                    "num_in_season": "10",
+                    "title": "The Loss",
+                    "link": "https://en.wikipedia.org/wiki/The_Loss",
+                    "director": "Chip Chalmers",
+                    "air_date": "December 31, 1990"
+                },
+                {
+                    "num_overall": "85",
+                    "num_in_season": "11",
+                    "title": "Data's Day",
+                    "link": "https://en.wikipedia.org/wiki/Data%27s_Day",
+                    "director": "Robert Wiemer",
+                    "air_date": "January 7, 1991"
+                },
+                {
+                    "num_overall": "86",
+                    "num_in_season": "12",
+                    "title": "The Wounded",
+                    "link": "https://en.wikipedia.org/wiki/The_Wounded_(Star_Trek:_The_Next_Generation)",
+                    "director": "Chip Chalmers",
+                    "air_date": "January 28, 1991"
+                },
+                {
+                    "num_overall": "87",
+                    "num_in_season": "13",
+                    "title": "Devil's Due",
+                    "link": "https://en.wikipedia.org/wiki/Devil%27s_Due_(Star_Trek:_The_Next_Generation)",
+                    "director": "Tom Benko",
+                    "air_date": "February 4, 1991"
+                },
+                {
+                    "num_overall": "88",
+                    "num_in_season": "14",
+                    "title": "Clues",
+                    "link": "https://en.wikipedia.org/wiki/Clues_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "February 11, 1991"
+                },
+                {
+                    "num_overall": "89",
+                    "num_in_season": "15",
+                    "title": "First Contact",
+                    "link": "https://en.wikipedia.org/wiki/First_Contact_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "February 18, 1991"
+                },
+                {
+                    "num_overall": "90",
+                    "num_in_season": "16",
+                    "title": "Galaxy's Child",
+                    "link": "https://en.wikipedia.org/wiki/Galaxy%27s_Child",
+                    "director": "Winrich Kolbe",
+                    "air_date": "March 11, 1991"
+                },
+                {
+                    "num_overall": "91",
+                    "num_in_season": "17",
+                    "title": "Night Terrors",
+                    "link": "https://en.wikipedia.org/wiki/Night_Terrors_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "March 18, 1991"
+                },
+                {
+                    "num_overall": "92",
+                    "num_in_season": "18",
+                    "title": "Identity Crisis",
+                    "link": "https://en.wikipedia.org/wiki/Identity_Crisis_(Star_Trek:_The_Next_Generation)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "March 25, 1991"
+                },
+                {
+                    "num_overall": "93",
+                    "num_in_season": "19",
+                    "title": "The Nth Degree",
+                    "link": "https://en.wikipedia.org/wiki/The_Nth_Degree_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Legato",
+                    "air_date": "April 1, 1991"
+                },
+                {
+                    "num_overall": "94",
+                    "num_in_season": "20",
+                    "title": "Qpid",
+                    "link": "https://en.wikipedia.org/wiki/Qpid",
+                    "director": "Cliff Bole",
+                    "air_date": "April 22, 1991"
+                },
+                {
+                    "num_overall": "95",
+                    "num_in_season": "21",
+                    "title": "The Drumhead",
+                    "link": "https://en.wikipedia.org/wiki/The_Drumhead",
+                    "director": "Jonathan Frakes",
+                    "air_date": "April 29, 1991"
+                },
+                {
+                    "num_overall": "96",
+                    "num_in_season": "22",
+                    "title": "Half a Life",
+                    "link": "https://en.wikipedia.org/wiki/Half_a_Life_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "May 6, 1991"
+                },
+                {
+                    "num_overall": "97",
+                    "num_in_season": "23",
+                    "title": "The Host",
+                    "link": "https://en.wikipedia.org/wiki/The_Host_(Star_Trek:_The_Next_Generation)",
+                    "director": "Marvin V. Rush",
+                    "air_date": "May 13, 1991"
+                },
+                {
+                    "num_overall": "98",
+                    "num_in_season": "24",
+                    "title": "The Mind's Eye",
+                    "link": "https://en.wikipedia.org/wiki/The_Mind%27s_Eye_(Star_Trek:_The_Next_Generation)",
+                    "director": "David Livingston",
+                    "air_date": "May 27, 1991"
+                },
+                {
+                    "num_overall": "99",
+                    "num_in_season": "25",
+                    "title": "In Theory",
+                    "link": "https://en.wikipedia.org/wiki/In_Theory_(Star_Trek:_The_Next_Generation)",
+                    "director": "Patrick Stewart",
+                    "air_date": "June 3, 1991"
+                },
+                {
+                    "num_overall": "100",
+                    "num_in_season": "26",
+                    "title": "Redemption, Part I",
+                    "link": "https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "June 17, 1991"
+                }
+            ]
+        },
+        "5": {
+            "total": "26",
+            "start": "September 23, 1991",
+            "end": "June 15, 1992",
+            "episodes": [
+                {
+                    "num_overall": "101",
+                    "num_in_season": "1",
+                    "title": "Redemption, Part II",
+                    "link": "https://en.wikipedia.org/wiki/Redemption_(Star_Trek:_The_Next_Generation)",
+                    "director": "David Carson",
+                    "air_date": "September 23, 1991"
+                },
+                {
+                    "num_overall": "102",
+                    "num_in_season": "2",
+                    "title": "Darmok",
+                    "link": "https://en.wikipedia.org/wiki/Darmok",
+                    "director": "Winrich Kolbe",
+                    "air_date": "September 30, 1991"
+                },
+                {
+                    "num_overall": "103",
+                    "num_in_season": "3",
+                    "title": "Ensign Ro",
+                    "link": "https://en.wikipedia.org/wiki/Ensign_Ro_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "October 7, 1991"
+                },
+                {
+                    "num_overall": "104",
+                    "num_in_season": "4",
+                    "title": "Silicon Avatar",
+                    "link": "https://en.wikipedia.org/wiki/Silicon_Avatar",
+                    "director": "Cliff Bole",
+                    "air_date": "October 14, 1991"
+                },
+                {
+                    "num_overall": "105",
+                    "num_in_season": "5",
+                    "title": "Disaster",
+                    "link": "https://en.wikipedia.org/wiki/Disaster_(Star_Trek:_The_Next_Generation)",
+                    "director": "Gabrielle Beaumont",
+                    "air_date": "October 21, 1991"
+                },
+                {
+                    "num_overall": "106",
+                    "num_in_season": "6",
+                    "title": "The Game",
+                    "link": "https://en.wikipedia.org/wiki/The_Game_(Star_Trek:_The_Next_Generation)",
+                    "director": "Corey Allen",
+                    "air_date": "October 28, 1991"
+                },
+                {
+                    "num_overall": "107",
+                    "num_in_season": "7",
+                    "title": "Unification, Part I",
+                    "link": "https://en.wikipedia.org/wiki/Unification_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "November 4, 1991"
+                },
+                {
+                    "num_overall": "108",
+                    "num_in_season": "8",
+                    "title": "Unification, Part II",
+                    "link": "https://en.wikipedia.org/wiki/Unification_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "November 11, 1991"
+                },
+                {
+                    "num_overall": "109",
+                    "num_in_season": "9",
+                    "title": "A Matter of Time",
+                    "link": "https://en.wikipedia.org/wiki/A_Matter_of_Time_(Star_Trek:_The_Next_Generation)",
+                    "director": "Paul Lynch",
+                    "air_date": "November 18, 1991"
+                },
+                {
+                    "num_overall": "110",
+                    "num_in_season": "10",
+                    "title": "New Ground",
+                    "link": "https://en.wikipedia.org/wiki/New_Ground_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Scheerer",
+                    "air_date": "December 30, 1991"
+                },
+                {
+                    "num_overall": "111",
+                    "num_in_season": "11",
+                    "title": "Hero Worship",
+                    "link": "https://en.wikipedia.org/wiki/Hero_Worship_(Star_Trek:_The_Next_Generation)",
+                    "director": "Patrick Stewart",
+                    "air_date": "January 6, 1992"
+                },
+                {
+                    "num_overall": "112",
+                    "num_in_season": "12",
+                    "title": "Violations",
+                    "link": "https://en.wikipedia.org/wiki/Violations_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Wiemer",
+                    "air_date": "January 27, 1992"
+                },
+                {
+                    "num_overall": "113",
+                    "num_in_season": "13",
+                    "title": "The Masterpiece Society",
+                    "link": "https://en.wikipedia.org/wiki/The_Masterpiece_Society",
+                    "director": "Winrich Kolbe",
+                    "air_date": "February 3, 1992"
+                },
+                {
+                    "num_overall": "114",
+                    "num_in_season": "14",
+                    "title": "Conundrum",
+                    "link": "https://en.wikipedia.org/wiki/Conundrum_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "February 10, 1992"
+                },
+                {
+                    "num_overall": "115",
+                    "num_in_season": "15",
+                    "title": "Power Play",
+                    "link": "https://en.wikipedia.org/wiki/Power_Play_(Star_Trek:_The_Next_Generation)",
+                    "director": "David Livingston",
+                    "air_date": "February 17, 1992"
+                },
+                {
+                    "num_overall": "116",
+                    "num_in_season": "16",
+                    "title": "Ethics",
+                    "link": "https://en.wikipedia.org/wiki/Ethics_(Star_Trek:_The_Next_Generation)",
+                    "director": "Chip Chalmers",
+                    "air_date": "February 24, 1992"
+                },
+                {
+                    "num_overall": "117",
+                    "num_in_season": "17",
+                    "title": "The Outcast",
+                    "link": "https://en.wikipedia.org/wiki/The_Outcast_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Scheerer",
+                    "air_date": "March 16, 1992"
+                },
+                {
+                    "num_overall": "118",
+                    "num_in_season": "18",
+                    "title": "Cause and Effect",
+                    "link": "https://en.wikipedia.org/wiki/Cause_and_Effect_(Star_Trek:_The_Next_Generation)",
+                    "director": "Jonathan Frakes",
+                    "air_date": "March 23, 1992"
+                },
+                {
+                    "num_overall": "119",
+                    "num_in_season": "19",
+                    "title": "The First Duty",
+                    "link": "https://en.wikipedia.org/wiki/The_First_Duty",
+                    "director": "Paul Lynch",
+                    "air_date": "March 30, 1992"
+                },
+                {
+                    "num_overall": "120",
+                    "num_in_season": "20",
+                    "title": "Cost of Living",
+                    "link": "https://en.wikipedia.org/wiki/Cost_of_Living_(Star_Trek:_The_Next_Generation)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "April 20, 1992"
+                },
+                {
+                    "num_overall": "121",
+                    "num_in_season": "21",
+                    "title": "The Perfect Mate",
+                    "link": "https://en.wikipedia.org/wiki/The_Perfect_Mate",
+                    "director": "Cliff Bole",
+                    "air_date": "April 27, 1992"
+                },
+                {
+                    "num_overall": "122",
+                    "num_in_season": "22",
+                    "title": "Imaginary Friend",
+                    "link": "https://en.wikipedia.org/wiki/Imaginary_Friend_(Star_Trek:_The_Next_Generation)",
+                    "director": "Gabrielle Beaumont",
+                    "air_date": "May 4, 1992"
+                },
+                {
+                    "num_overall": "123",
+                    "num_in_season": "23",
+                    "title": "I, Borg",
+                    "link": "https://en.wikipedia.org/wiki/I,_Borg",
+                    "director": "Robert Lederman",
+                    "air_date": "May 11, 1992"
+                },
+                {
+                    "num_overall": "124",
+                    "num_in_season": "24",
+                    "title": "The Next Phase",
+                    "link": "https://en.wikipedia.org/wiki/The_Next_Phase",
+                    "director": "David Carson",
+                    "air_date": "May 18, 1992"
+                },
+                {
+                    "num_overall": "125",
+                    "num_in_season": "25",
+                    "title": "The Inner Light",
+                    "link": "https://en.wikipedia.org/wiki/The_Inner_Light_(Star_Trek:_The_Next_Generation)",
+                    "director": "Peter Lauritson",
+                    "air_date": "June 1, 1992"
+                },
+                {
+                    "num_overall": "126",
+                    "num_in_season": "26",
+                    "title": "Time's Arrow, Part I",
+                    "link": "https://en.wikipedia.org/wiki/Time%27s_Arrow_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "June 15, 1992"
+                }
+            ]
+        },
+        "6": {
+            "total": "26",
+            "start": "September 21, 1992",
+            "end": "June 21, 1993",
+            "episodes": [
+                {
+                    "num_overall": "127",
+                    "num_in_season": "1",
+                    "title": "Time's Arrow, Part II",
+                    "link": "https://en.wikipedia.org/wiki/Time%27s_Arrow_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "September 21, 1992"
+                },
+                {
+                    "num_overall": "128",
+                    "num_in_season": "2",
+                    "title": "Realm of Fear",
+                    "link": "https://en.wikipedia.org/wiki/Realm_of_Fear",
+                    "director": "Cliff Bole",
+                    "air_date": "September 28, 1992"
+                },
+                {
+                    "num_overall": "129",
+                    "num_in_season": "3",
+                    "title": "Man of the People",
+                    "link": "https://en.wikipedia.org/wiki/Man_of_the_People_(Star_Trek:_The_Next_Generation)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "October 5, 1992"
+                },
+                {
+                    "num_overall": "130",
+                    "num_in_season": "4",
+                    "title": "Relics",
+                    "link": "https://en.wikipedia.org/wiki/Relics_(Star_Trek:_The_Next_Generation)",
+                    "director": "Alexander Singer",
+                    "air_date": "October 12, 1992"
+                },
+                {
+                    "num_overall": "131",
+                    "num_in_season": "5",
+                    "title": "Schisms",
+                    "link": "https://en.wikipedia.org/wiki/Schisms_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Wiemer",
+                    "air_date": "October 19, 1992"
+                },
+                {
+                    "num_overall": "132",
+                    "num_in_season": "6",
+                    "title": "True Q",
+                    "link": "https://en.wikipedia.org/wiki/True_Q",
+                    "director": "Robert Scheerer",
+                    "air_date": "October 26, 1992"
+                },
+                {
+                    "num_overall": "133",
+                    "num_in_season": "7",
+                    "title": "Rascals",
+                    "link": "https://en.wikipedia.org/wiki/Rascals_(Star_Trek:_The_Next_Generation)",
+                    "director": "Adam Nimoy",
+                    "air_date": "November 2, 1992"
+                },
+                {
+                    "num_overall": "134",
+                    "num_in_season": "8",
+                    "title": "A Fistful of Datas",
+                    "link": "https://en.wikipedia.org/wiki/A_Fistful_of_Datas",
+                    "director": "Patrick Stewart",
+                    "air_date": "November 9, 1992"
+                },
+                {
+                    "num_overall": "135",
+                    "num_in_season": "9",
+                    "title": "The Quality of Life",
+                    "link": "https://en.wikipedia.org/wiki/The_Quality_of_Life_(Star_Trek:_The_Next_Generation)",
+                    "director": "Jonathan Frakes",
+                    "air_date": "November 16, 1992"
+                },
+                {
+                    "num_overall": "136",
+                    "num_in_season": "10",
+                    "title": "Chain of Command, Part I",
+                    "link": "https://en.wikipedia.org/wiki/Chain_of_Command_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Scheerer",
+                    "air_date": "December 14, 1992"
+                },
+                {
+                    "num_overall": "137",
+                    "num_in_season": "11",
+                    "title": "Chain of Command, Part II",
+                    "link": "https://en.wikipedia.org/wiki/Chain_of_Command_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "December 21, 1992"
+                },
+                {
+                    "num_overall": "138",
+                    "num_in_season": "12",
+                    "title": "Ship in a Bottle",
+                    "link": "https://en.wikipedia.org/wiki/Ship_in_a_Bottle_(Star_Trek:_The_Next_Generation)",
+                    "director": "Alexander Singer",
+                    "air_date": "January 25, 1993"
+                },
+                {
+                    "num_overall": "139",
+                    "num_in_season": "13",
+                    "title": "Aquiel",
+                    "link": "https://en.wikipedia.org/wiki/Aquiel",
+                    "director": "Cliff Bole",
+                    "air_date": "February 1, 1993"
+                },
+                {
+                    "num_overall": "140",
+                    "num_in_season": "14",
+                    "title": "Face of the Enemy",
+                    "link": "https://en.wikipedia.org/wiki/Face_of_the_Enemy_(Star_Trek:_The_Next_Generation)",
+                    "director": "Gabrielle Beaumont",
+                    "air_date": "February 8, 1993"
+                },
+                {
+                    "num_overall": "141",
+                    "num_in_season": "15",
+                    "title": "Tapestry",
+                    "link": "https://en.wikipedia.org/wiki/Tapestry_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "February 15, 1993"
+                },
+                {
+                    "num_overall": "142",
+                    "num_in_season": "16",
+                    "title": "Birthright, Part I",
+                    "link": "https://en.wikipedia.org/wiki/Birthright_(Star_Trek:_The_Next_Generation)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "February 22, 1993"
+                },
+                {
+                    "num_overall": "143",
+                    "num_in_season": "17",
+                    "title": "Birthright, Part II",
+                    "link": "https://en.wikipedia.org/wiki/Birthright_(Star_Trek:_The_Next_Generation)",
+                    "director": "Dan Curry",
+                    "air_date": "March 1, 1993"
+                },
+                {
+                    "num_overall": "144",
+                    "num_in_season": "18",
+                    "title": "Starship Mine",
+                    "link": "https://en.wikipedia.org/wiki/Starship_Mine",
+                    "director": "Cliff Bole",
+                    "air_date": "March 29, 1993"
+                },
+                {
+                    "num_overall": "145",
+                    "num_in_season": "19",
+                    "title": "Lessons",
+                    "link": "https://en.wikipedia.org/wiki/Lessons_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Wiemer",
+                    "air_date": "April 5, 1993"
+                },
+                {
+                    "num_overall": "146",
+                    "num_in_season": "20",
+                    "title": "The Chase",
+                    "link": "https://en.wikipedia.org/wiki/The_Chase_(Star_Trek:_The_Next_Generation)",
+                    "director": "Jonathan Frakes",
+                    "air_date": "April 26, 1993"
+                },
+                {
+                    "num_overall": "147",
+                    "num_in_season": "21",
+                    "title": "Frame of Mind",
+                    "link": "https://en.wikipedia.org/wiki/Frame_of_Mind_(Star_Trek:_The_Next_Generation)",
+                    "director": "James L. Conway",
+                    "air_date": "May 3, 1993"
+                },
+                {
+                    "num_overall": "148",
+                    "num_in_season": "22",
+                    "title": "Suspicions",
+                    "link": "https://en.wikipedia.org/wiki/Suspicions_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "May 10, 1993"
+                },
+                {
+                    "num_overall": "149",
+                    "num_in_season": "23",
+                    "title": "Rightful Heir",
+                    "link": "https://en.wikipedia.org/wiki/Rightful_Heir_(Star_Trek:_The_Next_Generation)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "May 17, 1993"
+                },
+                {
+                    "num_overall": "150",
+                    "num_in_season": "24",
+                    "title": "Second Chances",
+                    "link": "https://en.wikipedia.org/wiki/Second_Chances_(Star_Trek:_The_Next_Generation)",
+                    "director": "LeVar Burton",
+                    "air_date": "May 24, 1993"
+                },
+                {
+                    "num_overall": "151",
+                    "num_in_season": "25",
+                    "title": "Timescape",
+                    "link": "https://en.wikipedia.org/wiki/Timescape_(Star_Trek:_The_Next_Generation)",
+                    "director": "Adam Nimoy",
+                    "air_date": "June 14, 1993"
+                },
+                {
+                    "num_overall": "152",
+                    "num_in_season": "26",
+                    "title": "Descent, Part I",
+                    "link": "https://en.wikipedia.org/wiki/Descent_(Star_Trek:_The_Next_Generation)",
+                    "director": "Alexander Singer",
+                    "air_date": "June 21, 1993"
+                }
+            ]
+        },
+        "7": {
+            "total": "26",
+            "start": "September 20, 1993",
+            "end": "May 23, 1994",
+            "episodes": [
+                {
+                    "num_overall": "153",
+                    "num_in_season": "1",
+                    "title": "Descent, Part II",
+                    "link": "https://en.wikipedia.org/wiki/Descent_(Star_Trek:_The_Next_Generation)",
+                    "director": "Alexander Singer",
+                    "air_date": "September 20, 1993"
+                },
+                {
+                    "num_overall": "154",
+                    "num_in_season": "2",
+                    "title": "Liaisons",
+                    "link": "https://en.wikipedia.org/wiki/Liaisons_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "September 27, 1993"
+                },
+                {
+                    "num_overall": "155",
+                    "num_in_season": "3",
+                    "title": "Interface",
+                    "link": "https://en.wikipedia.org/wiki/Interface_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Wiemer",
+                    "air_date": "October 4, 1993"
+                },
+                {
+                    "num_overall": "156",
+                    "num_in_season": "4",
+                    "title": "Gambit, Part I",
+                    "link": "https://en.wikipedia.org/wiki/Gambit_(Star_Trek:_The_Next_Generation)",
+                    "director": "Peter Lauritson",
+                    "air_date": "October 11, 1993"
+                },
+                {
+                    "num_overall": "157",
+                    "num_in_season": "5",
+                    "title": "Gambit, Part II",
+                    "link": "https://en.wikipedia.org/wiki/Gambit_(Star_Trek:_The_Next_Generation)",
+                    "director": "Alexander Singer",
+                    "air_date": "October 18, 1993"
+                },
+                {
+                    "num_overall": "158",
+                    "num_in_season": "6",
+                    "title": "Phantasms",
+                    "link": "https://en.wikipedia.org/wiki/Phantasms_(Star_Trek:_The_Next_Generation)",
+                    "director": "Patrick Stewart",
+                    "air_date": "October 25, 1993"
+                },
+                {
+                    "num_overall": "159",
+                    "num_in_season": "7",
+                    "title": "Dark Page",
+                    "link": "https://en.wikipedia.org/wiki/Dark_Page",
+                    "director": "Les Landau",
+                    "air_date": "November 1, 1993"
+                },
+                {
+                    "num_overall": "160",
+                    "num_in_season": "8",
+                    "title": "Attached",
+                    "link": "https://en.wikipedia.org/wiki/Attached",
+                    "director": "Jonathan Frakes",
+                    "air_date": "November 8, 1993"
+                },
+                {
+                    "num_overall": "161",
+                    "num_in_season": "9",
+                    "title": "Force of Nature",
+                    "link": "https://en.wikipedia.org/wiki/Force_of_Nature_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Lederman",
+                    "air_date": "November 15, 1993"
+                },
+                {
+                    "num_overall": "162",
+                    "num_in_season": "10",
+                    "title": "Inheritance",
+                    "link": "https://en.wikipedia.org/wiki/Inheritance_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Scheerer",
+                    "air_date": "November 22, 1993"
+                },
+                {
+                    "num_overall": "163",
+                    "num_in_season": "11",
+                    "title": "Parallels",
+                    "link": "https://en.wikipedia.org/wiki/Parallels_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Wiemer",
+                    "air_date": "November 29, 1993"
+                },
+                {
+                    "num_overall": "164",
+                    "num_in_season": "12",
+                    "title": "The Pegasus",
+                    "link": "https://en.wikipedia.org/wiki/The_Pegasus_(Star_Trek:_The_Next_Generation)",
+                    "director": "LeVar Burton",
+                    "air_date": "January 10, 1994"
+                },
+                {
+                    "num_overall": "165",
+                    "num_in_season": "13",
+                    "title": "Homeward",
+                    "link": "https://en.wikipedia.org/wiki/Homeward_(Star_Trek:_The_Next_Generation)",
+                    "director": "Alexander Singer",
+                    "air_date": "January 17, 1994"
+                },
+                {
+                    "num_overall": "166",
+                    "num_in_season": "14",
+                    "title": "Sub Rosa",
+                    "link": "https://en.wikipedia.org/wiki/Sub_Rosa_(Star_Trek:_The_Next_Generation)",
+                    "director": "Jonathan Frakes",
+                    "air_date": "January 31, 1994"
+                },
+                {
+                    "num_overall": "167",
+                    "num_in_season": "15",
+                    "title": "Lower Decks",
+                    "link": "https://en.wikipedia.org/wiki/Lower_Decks_(Star_Trek:_The_Next_Generation)",
+                    "director": "Gabrielle Beaumont",
+                    "air_date": "February 7, 1994"
+                },
+                {
+                    "num_overall": "168",
+                    "num_in_season": "16",
+                    "title": "Thine Own Self",
+                    "link": "https://en.wikipedia.org/wiki/Thine_Own_Self",
+                    "director": "Winrich Kolbe",
+                    "air_date": "February 14, 1994"
+                },
+                {
+                    "num_overall": "169",
+                    "num_in_season": "17",
+                    "title": "Masks",
+                    "link": "https://en.wikipedia.org/wiki/Masks_(Star_Trek:_The_Next_Generation)",
+                    "director": "Robert Wiemer",
+                    "air_date": "February 21, 1994"
+                },
+                {
+                    "num_overall": "170",
+                    "num_in_season": "18",
+                    "title": "Eye of the Beholder",
+                    "link": "https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "February 28, 1994"
+                },
+                {
+                    "num_overall": "171",
+                    "num_in_season": "19",
+                    "title": "Genesis",
+                    "link": "https://en.wikipedia.org/wiki/Genesis_(Star_Trek:_The_Next_Generation)",
+                    "director": "Gates McFadden",
+                    "air_date": "March 21, 1994"
+                },
+                {
+                    "num_overall": "172",
+                    "num_in_season": "20",
+                    "title": "Journey's End",
+                    "link": "https://en.wikipedia.org/wiki/Journey%27s_End_(Star_Trek:_The_Next_Generation)",
+                    "director": "Corey Allen",
+                    "air_date": "March 28, 1994"
+                },
+                {
+                    "num_overall": "173",
+                    "num_in_season": "21",
+                    "title": "Firstborn",
+                    "link": "https://en.wikipedia.org/wiki/Firstborn_(Star_Trek:_The_Next_Generation)",
+                    "director": "Jonathan West",
+                    "air_date": "April 25, 1994"
+                },
+                {
+                    "num_overall": "174",
+                    "num_in_season": "22",
+                    "title": "Bloodlines",
+                    "link": "https://en.wikipedia.org/wiki/Bloodlines_(Star_Trek:_The_Next_Generation)",
+                    "director": "Les Landau",
+                    "air_date": "May 2, 1994"
+                },
+                {
+                    "num_overall": "175",
+                    "num_in_season": "23",
+                    "title": "Emergence",
+                    "link": "https://en.wikipedia.org/wiki/Emergence_(Star_Trek:_The_Next_Generation)",
+                    "director": "Cliff Bole",
+                    "air_date": "May 9, 1994"
+                },
+                {
+                    "num_overall": "176",
+                    "num_in_season": "24",
+                    "title": "Preemptive Strike",
+                    "link": "https://en.wikipedia.org/wiki/Preemptive_Strike_(Star_Trek:_The_Next_Generation)",
+                    "director": "Patrick Stewart",
+                    "air_date": "May 16, 1994"
+                },
+                {
+                    "num_overall": "177178",
+                    "num_in_season": "2526",
+                    "title": "All Good Things...",
+                    "link": "https://en.wikipedia.org/wiki/All_Good_Things..._(Star_Trek:_The_Next_Generation)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "May 23, 1994"
+                }
+            ]
+        }
+    }
+}

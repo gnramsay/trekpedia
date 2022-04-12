@@ -1,0 +1,170 @@
+{
+    "seasons": {
+        "1": {
+            "total": "10",
+            "start": "January 23, 2020",
+            "end": "March 26, 2020",
+            "episodes": [
+                {
+                    "num_overall": "1",
+                    "num_in_season": "1",
+                    "title": "Remembrance",
+                    "link": "",
+                    "director": "Hanelle M. Culpepper",
+                    "air_date": "January 23, 2020"
+                },
+                {
+                    "num_overall": "2",
+                    "num_in_season": "2",
+                    "title": "Maps and Legends",
+                    "link": "",
+                    "director": "Hanelle M. Culpepper",
+                    "air_date": "January 30, 2020"
+                },
+                {
+                    "num_overall": "3",
+                    "num_in_season": "3",
+                    "title": "The End Is the Beginning",
+                    "link": "",
+                    "director": "Hanelle M. Culpepper",
+                    "air_date": "February 6, 2020"
+                },
+                {
+                    "num_overall": "4",
+                    "num_in_season": "4",
+                    "title": "Absolute Candor",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "February 13, 2020"
+                },
+                {
+                    "num_overall": "5",
+                    "num_in_season": "5",
+                    "title": "Stardust City Rag",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "February 20, 2020"
+                },
+                {
+                    "num_overall": "6",
+                    "num_in_season": "6",
+                    "title": "The Impossible Box",
+                    "link": "",
+                    "director": "Maja Vrvilo",
+                    "air_date": "February 27, 2020"
+                },
+                {
+                    "num_overall": "7",
+                    "num_in_season": "7",
+                    "title": "Nepenthe",
+                    "link": "",
+                    "director": "Doug Aarniokoski",
+                    "air_date": "March 5, 2020"
+                },
+                {
+                    "num_overall": "8",
+                    "num_in_season": "8",
+                    "title": "Broken Pieces",
+                    "link": "",
+                    "director": "Maja Vrvilo",
+                    "air_date": "March 12, 2020"
+                },
+                {
+                    "num_overall": "9–10",
+                    "num_in_season": "9–10",
+                    "title": "Et in Arcadia Ego",
+                    "link": "",
+                    "director": "Akiva Goldsman",
+                    "air_date": "March 19, 2020"
+                }
+            ]
+        },
+        "2": {
+            "total": "10",
+            "start": "March 3, 2022",
+            "end": "May 5, 2022",
+            "episodes": [
+                {
+                    "num_overall": "11",
+                    "num_in_season": "1",
+                    "title": "The Star Gazer",
+                    "link": "",
+                    "director": "Doug Aarniokoski",
+                    "air_date": "March 3, 2022"
+                },
+                {
+                    "num_overall": "12",
+                    "num_in_season": "2",
+                    "title": "Penance",
+                    "link": "",
+                    "director": "Doug Aarniokoski",
+                    "air_date": "March 10, 2022"
+                },
+                {
+                    "num_overall": "13",
+                    "num_in_season": "3",
+                    "title": "Assimilation",
+                    "link": "",
+                    "director": "Lea Thompson",
+                    "air_date": "March 17, 2022"
+                },
+                {
+                    "num_overall": "14",
+                    "num_in_season": "4",
+                    "title": "Watcher",
+                    "link": "",
+                    "director": "Lea Thompson",
+                    "air_date": "March 24, 2022"
+                },
+                {
+                    "num_overall": "15",
+                    "num_in_season": "5",
+                    "title": "Fly Me to the Moon",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "March 31, 2022"
+                },
+                {
+                    "num_overall": "16",
+                    "num_in_season": "6",
+                    "title": "Two of One",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "April 7, 2022"
+                },
+                {
+                    "num_overall": "17",
+                    "num_in_season": "7",
+                    "title": "Monsters",
+                    "link": "",
+                    "director": "Joe Menendez",
+                    "air_date": "April 14, 2022"
+                },
+                {
+                    "num_overall": "18",
+                    "num_in_season": "8",
+                    "title": "TBA",
+                    "link": "",
+                    "director": "Joe Menendez",
+                    "air_date": "April 21, 2022"
+                },
+                {
+                    "num_overall": "19",
+                    "num_in_season": "9",
+                    "title": "TBA",
+                    "link": "",
+                    "director": "TBA",
+                    "air_date": "April 28, 2022"
+                },
+                {
+                    "num_overall": "20",
+                    "num_in_season": "10",
+                    "title": "TBA",
+                    "link": "",
+                    "director": "Michael Weaver",
+                    "air_date": "May 5, 2022"
+                }
+            ]
+        }
+    }
+}

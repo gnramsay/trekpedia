@@ -1,0 +1,1437 @@
+{
+    "seasons": {
+        "1": {
+            "total": "20",
+            "start": "January 3, 1993",
+            "end": "June 20, 1993",
+            "episodes": [
+                {
+                    "num_overall": "12",
+                    "num_in_season": "12",
+                    "title": "Emissary",
+                    "link": "https://en.wikipedia.org/wiki/Emissary_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Carson",
+                    "air_date": "January 3, 1993"
+                },
+                {
+                    "num_overall": "3",
+                    "num_in_season": "3",
+                    "title": "Past Prologue",
+                    "link": "https://en.wikipedia.org/wiki/Past_Prologue",
+                    "director": "Winrich Kolbe",
+                    "air_date": "January 10, 1993"
+                },
+                {
+                    "num_overall": "4",
+                    "num_in_season": "4",
+                    "title": "A Man Alone",
+                    "link": "https://en.wikipedia.org/wiki/A_Man_Alone_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Paul Lynch",
+                    "air_date": "January 17, 1993"
+                },
+                {
+                    "num_overall": "5",
+                    "num_in_season": "5",
+                    "title": "Babel",
+                    "link": "https://en.wikipedia.org/wiki/Babel_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Paul Lynch",
+                    "air_date": "January 24, 1993"
+                },
+                {
+                    "num_overall": "6",
+                    "num_in_season": "6",
+                    "title": "Captive Pursuit",
+                    "link": "https://en.wikipedia.org/wiki/Captive_Pursuit",
+                    "director": "Corey Allen",
+                    "air_date": "January 31, 1993"
+                },
+                {
+                    "num_overall": "7",
+                    "num_in_season": "7",
+                    "title": "Q-Less",
+                    "link": "https://en.wikipedia.org/wiki/Q-Less",
+                    "director": "Paul Lynch",
+                    "air_date": "February 7, 1993"
+                },
+                {
+                    "num_overall": "8",
+                    "num_in_season": "8",
+                    "title": "Dax",
+                    "link": "https://en.wikipedia.org/wiki/Dax_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Carson",
+                    "air_date": "February 14, 1993"
+                },
+                {
+                    "num_overall": "9",
+                    "num_in_season": "9",
+                    "title": "The Passenger",
+                    "link": "https://en.wikipedia.org/wiki/The_Passenger_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Paul Lynch",
+                    "air_date": "February 21, 1993"
+                },
+                {
+                    "num_overall": "10",
+                    "num_in_season": "10",
+                    "title": "Move Along Home",
+                    "link": "https://en.wikipedia.org/wiki/Move_Along_Home",
+                    "director": "David Carson",
+                    "air_date": "March 14, 1993"
+                },
+                {
+                    "num_overall": "11",
+                    "num_in_season": "11",
+                    "title": "The Nagus",
+                    "link": "https://en.wikipedia.org/wiki/The_Nagus",
+                    "director": "David Livingston",
+                    "air_date": "March 21, 1993"
+                },
+                {
+                    "num_overall": "12",
+                    "num_in_season": "12",
+                    "title": "Vortex",
+                    "link": "https://en.wikipedia.org/wiki/Vortex_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "April 18, 1993"
+                },
+                {
+                    "num_overall": "13",
+                    "num_in_season": "13",
+                    "title": "Battle Lines",
+                    "link": "https://en.wikipedia.org/wiki/Battle_Lines_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Paul Lynch",
+                    "air_date": "April 25, 1993"
+                },
+                {
+                    "num_overall": "14",
+                    "num_in_season": "14",
+                    "title": "The Storyteller",
+                    "link": "https://en.wikipedia.org/wiki/The_Storyteller_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Livingston",
+                    "air_date": "May 2, 1993"
+                },
+                {
+                    "num_overall": "15",
+                    "num_in_season": "15",
+                    "title": "Progress",
+                    "link": "https://en.wikipedia.org/wiki/Progress_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Les Landau",
+                    "air_date": "May 9, 1993"
+                },
+                {
+                    "num_overall": "16",
+                    "num_in_season": "16",
+                    "title": "If Wishes Were Horses",
+                    "link": "https://en.wikipedia.org/wiki/If_Wishes_Were_Horses",
+                    "director": "Robert Legato",
+                    "air_date": "May 16, 1993"
+                },
+                {
+                    "num_overall": "17",
+                    "num_in_season": "17",
+                    "title": "The Forsaken",
+                    "link": "https://en.wikipedia.org/wiki/The_Forsaken_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Les Landau",
+                    "air_date": "May 23, 1993"
+                },
+                {
+                    "num_overall": "18",
+                    "num_in_season": "18",
+                    "title": "Dramatis Personae",
+                    "link": "https://en.wikipedia.org/wiki/Dramatis_Personae_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Cliff Bole",
+                    "air_date": "May 30, 1993"
+                },
+                {
+                    "num_overall": "19",
+                    "num_in_season": "19",
+                    "title": "Duet",
+                    "link": "https://en.wikipedia.org/wiki/Duet_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "James L. Conway",
+                    "air_date": "June 13, 1993"
+                },
+                {
+                    "num_overall": "20",
+                    "num_in_season": "20",
+                    "title": "In the Hands of the Prophets",
+                    "link": "https://en.wikipedia.org/wiki/In_the_Hands_of_the_Prophets",
+                    "director": "David Livingston",
+                    "air_date": "June 20, 1993"
+                }
+            ]
+        },
+        "2": {
+            "total": "26",
+            "start": "September 26, 1993",
+            "end": "June 12, 1994",
+            "episodes": [
+                {
+                    "num_overall": "21",
+                    "num_in_season": "1",
+                    "title": "The Homecoming",
+                    "link": "https://en.wikipedia.org/wiki/The_Homecoming_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "September 26, 1993"
+                },
+                {
+                    "num_overall": "22",
+                    "num_in_season": "2",
+                    "title": "The Circle",
+                    "link": "https://en.wikipedia.org/wiki/The_Circle_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Corey Allen",
+                    "air_date": "October 3, 1993"
+                },
+                {
+                    "num_overall": "23",
+                    "num_in_season": "3",
+                    "title": "The Siege",
+                    "link": "https://en.wikipedia.org/wiki/The_Siege_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "October 10, 1993"
+                },
+                {
+                    "num_overall": "24",
+                    "num_in_season": "4",
+                    "title": "Invasive Procedures",
+                    "link": "https://en.wikipedia.org/wiki/Invasive_Procedures_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Les Landau",
+                    "air_date": "October 17, 1993"
+                },
+                {
+                    "num_overall": "25",
+                    "num_in_season": "5",
+                    "title": "Cardassians",
+                    "link": "https://en.wikipedia.org/wiki/Cardassians_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Cliff Bole",
+                    "air_date": "October 24, 1993"
+                },
+                {
+                    "num_overall": "26",
+                    "num_in_season": "6",
+                    "title": "Melora",
+                    "link": "https://en.wikipedia.org/wiki/Melora_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "October 31, 1993"
+                },
+                {
+                    "num_overall": "27",
+                    "num_in_season": "7",
+                    "title": "Rules of Acquisition",
+                    "link": "https://en.wikipedia.org/wiki/Rules_of_Acquisition_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Livingston",
+                    "air_date": "November 7, 1993"
+                },
+                {
+                    "num_overall": "28",
+                    "num_in_season": "8",
+                    "title": "Necessary Evil",
+                    "link": "https://en.wikipedia.org/wiki/Necessary_Evil_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "James L. Conway",
+                    "air_date": "November 14, 1993"
+                },
+                {
+                    "num_overall": "29",
+                    "num_in_season": "9",
+                    "title": "Second Sight",
+                    "link": "https://en.wikipedia.org/wiki/Second_Sight_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Alexander Singer",
+                    "air_date": "November 21, 1993"
+                },
+                {
+                    "num_overall": "30",
+                    "num_in_season": "10",
+                    "title": "Sanctuary",
+                    "link": "https://en.wikipedia.org/wiki/Sanctuary_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Les Landau",
+                    "air_date": "November 28, 1993"
+                },
+                {
+                    "num_overall": "31",
+                    "num_in_season": "11",
+                    "title": "Rivals",
+                    "link": "https://en.wikipedia.org/wiki/Rivals_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Livingston",
+                    "air_date": "January 2, 1994"
+                },
+                {
+                    "num_overall": "32",
+                    "num_in_season": "12",
+                    "title": "The Alternate",
+                    "link": "https://en.wikipedia.org/wiki/The_Alternate_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Carson",
+                    "air_date": "January 9, 1994"
+                },
+                {
+                    "num_overall": "33",
+                    "num_in_season": "13",
+                    "title": "Armageddon Game",
+                    "link": "https://en.wikipedia.org/wiki/Armageddon_Game",
+                    "director": "Winrich Kolbe",
+                    "air_date": "January 30, 1994"
+                },
+                {
+                    "num_overall": "34",
+                    "num_in_season": "14",
+                    "title": "Whispers",
+                    "link": "https://en.wikipedia.org/wiki/Whispers_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Les Landau",
+                    "air_date": "February 6, 1994"
+                },
+                {
+                    "num_overall": "35",
+                    "num_in_season": "15",
+                    "title": "Paradise",
+                    "link": "https://en.wikipedia.org/wiki/Paradise_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Corey Allen",
+                    "air_date": "February 13, 1994"
+                },
+                {
+                    "num_overall": "36",
+                    "num_in_season": "16",
+                    "title": "Shadowplay",
+                    "link": "https://en.wikipedia.org/wiki/Shadowplay_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Robert Scheerer",
+                    "air_date": "February 20, 1994"
+                },
+                {
+                    "num_overall": "37",
+                    "num_in_season": "17",
+                    "title": "Playing God",
+                    "link": "https://en.wikipedia.org/wiki/Playing_God_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Livingston",
+                    "air_date": "February 27, 1994"
+                },
+                {
+                    "num_overall": "38",
+                    "num_in_season": "18",
+                    "title": "Profit and Loss",
+                    "link": "https://en.wikipedia.org/wiki/Profit_and_Loss_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Robert Wiemer",
+                    "air_date": "March 20, 1994"
+                },
+                {
+                    "num_overall": "39",
+                    "num_in_season": "19",
+                    "title": "Blood Oath",
+                    "link": "https://en.wikipedia.org/wiki/Blood_Oath_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "March 27, 1994"
+                },
+                {
+                    "num_overall": "40",
+                    "num_in_season": "20",
+                    "title": "The Maquis, Part I",
+                    "link": "https://en.wikipedia.org/wiki/The_Maquis_(Star_Trek:_Deep_Space_Nine_episode)",
+                    "director": "David Livingston",
+                    "air_date": "April 24, 1994"
+                },
+                {
+                    "num_overall": "41",
+                    "num_in_season": "21",
+                    "title": "The Maquis, Part II",
+                    "link": "https://en.wikipedia.org/wiki/The_Maquis",
+                    "director": "Corey Allen",
+                    "air_date": "May 1, 1994"
+                },
+                {
+                    "num_overall": "42",
+                    "num_in_season": "22",
+                    "title": "The Wire",
+                    "link": "https://en.wikipedia.org/wiki/The_Wire_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Kim Friedman",
+                    "air_date": "May 8, 1994"
+                },
+                {
+                    "num_overall": "43",
+                    "num_in_season": "23",
+                    "title": "Crossover",
+                    "link": "https://en.wikipedia.org/wiki/Crossover_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Livingston",
+                    "air_date": "May 15, 1994"
+                },
+                {
+                    "num_overall": "44",
+                    "num_in_season": "24",
+                    "title": "The Collaborator",
+                    "link": "https://en.wikipedia.org/wiki/The_Collaborator_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Cliff Bole",
+                    "air_date": "May 22, 1994"
+                },
+                {
+                    "num_overall": "45",
+                    "num_in_season": "25",
+                    "title": "Tribunal",
+                    "link": "https://en.wikipedia.org/wiki/Tribunal_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Avery Brooks",
+                    "air_date": "June 5, 1994"
+                },
+                {
+                    "num_overall": "46",
+                    "num_in_season": "26",
+                    "title": "The Jem'Hadar",
+                    "link": "https://en.wikipedia.org/wiki/The_Jem%27Hadar",
+                    "director": "Kim Friedman",
+                    "air_date": "June 12, 1994"
+                }
+            ]
+        },
+        "3": {
+            "total": "26",
+            "start": "September 26, 1994",
+            "end": "June 19, 1995",
+            "episodes": [
+                {
+                    "num_overall": "47",
+                    "num_in_season": "1",
+                    "title": "The Search, Part I",
+                    "link": "https://en.wikipedia.org/wiki/The_Search_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Kim Friedman",
+                    "air_date": "September 26, 1994"
+                },
+                {
+                    "num_overall": "48",
+                    "num_in_season": "2",
+                    "title": "The Search, Part II",
+                    "link": "https://en.wikipedia.org/wiki/The_Search_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Jonathan Frakes",
+                    "air_date": "October 3, 1994"
+                },
+                {
+                    "num_overall": "49",
+                    "num_in_season": "3",
+                    "title": "The House of Quark",
+                    "link": "https://en.wikipedia.org/wiki/The_House_of_Quark",
+                    "director": "Les Landau",
+                    "air_date": "October 10, 1994"
+                },
+                {
+                    "num_overall": "50",
+                    "num_in_season": "4",
+                    "title": "Equilibrium",
+                    "link": "https://en.wikipedia.org/wiki/Equilibrium_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Cliff Bole",
+                    "air_date": "October 17, 1994"
+                },
+                {
+                    "num_overall": "51",
+                    "num_in_season": "5",
+                    "title": "Second Skin",
+                    "link": "https://en.wikipedia.org/wiki/Second_Skin_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Les Landau",
+                    "air_date": "October 24, 1994"
+                },
+                {
+                    "num_overall": "52",
+                    "num_in_season": "6",
+                    "title": "The Abandoned",
+                    "link": "https://en.wikipedia.org/wiki/The_Abandoned_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Avery Brooks",
+                    "air_date": "October 31, 1994"
+                },
+                {
+                    "num_overall": "53",
+                    "num_in_season": "7",
+                    "title": "Civil Defense",
+                    "link": "https://en.wikipedia.org/wiki/Civil_Defense_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Reza Badiyi",
+                    "air_date": "November 7, 1994"
+                },
+                {
+                    "num_overall": "54",
+                    "num_in_season": "8",
+                    "title": "Meridian",
+                    "link": "https://en.wikipedia.org/wiki/Meridian_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Jonathan Frakes",
+                    "air_date": "November 14, 1994"
+                },
+                {
+                    "num_overall": "55",
+                    "num_in_season": "9",
+                    "title": "Defiant",
+                    "link": "https://en.wikipedia.org/wiki/Defiant_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Cliff Bole",
+                    "air_date": "November 21, 1994"
+                },
+                {
+                    "num_overall": "56",
+                    "num_in_season": "10",
+                    "title": "Fascination",
+                    "link": "https://en.wikipedia.org/wiki/Fascination_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Avery Brooks",
+                    "air_date": "November 28, 1994"
+                },
+                {
+                    "num_overall": "57",
+                    "num_in_season": "11",
+                    "title": "Past Tense, Part I",
+                    "link": "https://en.wikipedia.org/wiki/Past_Tense_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Reza Badiyi",
+                    "air_date": "January 2, 1995"
+                },
+                {
+                    "num_overall": "58",
+                    "num_in_season": "12",
+                    "title": "Past Tense, Part II",
+                    "link": "https://en.wikipedia.org/wiki/Past_Tense_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Jonathan Frakes",
+                    "air_date": "January 9, 1995"
+                },
+                {
+                    "num_overall": "59",
+                    "num_in_season": "13",
+                    "title": "Life Support",
+                    "link": "https://en.wikipedia.org/wiki/Life_Support_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Reza Badiyi",
+                    "air_date": "January 30, 1995"
+                },
+                {
+                    "num_overall": "60",
+                    "num_in_season": "14",
+                    "title": "Heart of Stone",
+                    "link": "https://en.wikipedia.org/wiki/Heart_of_Stone_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Alexander Singer",
+                    "air_date": "February 6, 1995"
+                },
+                {
+                    "num_overall": "61",
+                    "num_in_season": "15",
+                    "title": "Destiny",
+                    "link": "https://en.wikipedia.org/wiki/Destiny_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Les Landau",
+                    "air_date": "February 13, 1995"
+                },
+                {
+                    "num_overall": "62",
+                    "num_in_season": "16",
+                    "title": "Prophet Motive",
+                    "link": "https://en.wikipedia.org/wiki/Prophet_Motive",
+                    "director": "René Auberjonois",
+                    "air_date": "February 20, 1995"
+                },
+                {
+                    "num_overall": "63",
+                    "num_in_season": "17",
+                    "title": "Visionary",
+                    "link": "https://en.wikipedia.org/wiki/Visionary_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Reza Badiyi",
+                    "air_date": "February 27, 1995"
+                },
+                {
+                    "num_overall": "64",
+                    "num_in_season": "18",
+                    "title": "Distant Voices",
+                    "link": "https://en.wikipedia.org/wiki/Distant_Voices_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Alexander Singer",
+                    "air_date": "April 10, 1995"
+                },
+                {
+                    "num_overall": "65",
+                    "num_in_season": "19",
+                    "title": "Through the Looking Glass",
+                    "link": "https://en.wikipedia.org/wiki/Through_the_Looking_Glass_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "April 17, 1995"
+                },
+                {
+                    "num_overall": "66",
+                    "num_in_season": "20",
+                    "title": "Improbable Cause",
+                    "link": "https://en.wikipedia.org/wiki/Improbable_Cause",
+                    "director": "Avery Brooks",
+                    "air_date": "April 24, 1995"
+                },
+                {
+                    "num_overall": "67",
+                    "num_in_season": "21",
+                    "title": "The Die Is Cast",
+                    "link": "https://en.wikipedia.org/wiki/The_Die_Is_Cast_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Livingston",
+                    "air_date": "May 1, 1995"
+                },
+                {
+                    "num_overall": "68",
+                    "num_in_season": "22",
+                    "title": "Explorers",
+                    "link": "https://en.wikipedia.org/wiki/Explorers_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Cliff Bole",
+                    "air_date": "May 8, 1995"
+                },
+                {
+                    "num_overall": "69",
+                    "num_in_season": "23",
+                    "title": "Family Business",
+                    "link": "https://en.wikipedia.org/wiki/Family_Business_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "René Auberjonois",
+                    "air_date": "May 15, 1995"
+                },
+                {
+                    "num_overall": "70",
+                    "num_in_season": "24",
+                    "title": "Shakaar",
+                    "link": "https://en.wikipedia.org/wiki/Shakaar",
+                    "director": "Jonathan West",
+                    "air_date": "May 22, 1995"
+                },
+                {
+                    "num_overall": "71",
+                    "num_in_season": "25",
+                    "title": "Facets",
+                    "link": "https://en.wikipedia.org/wiki/Facets_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Cliff Bole",
+                    "air_date": "June 12, 1995"
+                },
+                {
+                    "num_overall": "72",
+                    "num_in_season": "26",
+                    "title": "The Adversary",
+                    "link": "https://en.wikipedia.org/wiki/The_Adversary_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Alexander Singer",
+                    "air_date": "June 19, 1995"
+                }
+            ]
+        },
+        "4": {
+            "total": "26",
+            "start": "October 2, 1995",
+            "end": "June 17, 1996",
+            "episodes": [
+                {
+                    "num_overall": "7374",
+                    "num_in_season": "12",
+                    "title": "The Way of the Warrior",
+                    "link": "https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "James L. Conway",
+                    "air_date": "October 2, 1995"
+                },
+                {
+                    "num_overall": "75",
+                    "num_in_season": "3",
+                    "title": "The Visitor",
+                    "link": "https://en.wikipedia.org/wiki/The_Visitor_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Livingston",
+                    "air_date": "October 9, 1995"
+                },
+                {
+                    "num_overall": "76",
+                    "num_in_season": "4",
+                    "title": "Hippocratic Oath",
+                    "link": "https://en.wikipedia.org/wiki/Hippocratic_Oath_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "René Auberjonois",
+                    "air_date": "October 16, 1995"
+                },
+                {
+                    "num_overall": "77",
+                    "num_in_season": "5",
+                    "title": "Indiscretion",
+                    "link": "https://en.wikipedia.org/wiki/Indiscretion_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "LeVar Burton",
+                    "air_date": "October 23, 1995"
+                },
+                {
+                    "num_overall": "78",
+                    "num_in_season": "6",
+                    "title": "Rejoined",
+                    "link": "https://en.wikipedia.org/wiki/Rejoined",
+                    "director": "Avery Brooks",
+                    "air_date": "October 30, 1995"
+                },
+                {
+                    "num_overall": "79",
+                    "num_in_season": "7",
+                    "title": "Starship Down",
+                    "link": "https://en.wikipedia.org/wiki/Starship_Down",
+                    "director": "Alexander Singer",
+                    "air_date": "November 6, 1995"
+                },
+                {
+                    "num_overall": "80",
+                    "num_in_season": "8",
+                    "title": "Little Green Men",
+                    "link": "https://en.wikipedia.org/wiki/Little_Green_Men_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "James L. Conway",
+                    "air_date": "November 13, 1995"
+                },
+                {
+                    "num_overall": "81",
+                    "num_in_season": "9",
+                    "title": "The Sword of Kahless",
+                    "link": "https://en.wikipedia.org/wiki/The_Sword_of_Kahless",
+                    "director": "LeVar Burton",
+                    "air_date": "November 20, 1995"
+                },
+                {
+                    "num_overall": "82",
+                    "num_in_season": "10",
+                    "title": "Our Man Bashir",
+                    "link": "https://en.wikipedia.org/wiki/Our_Man_Bashir",
+                    "director": "Winrich Kolbe",
+                    "air_date": "November 27, 1995"
+                },
+                {
+                    "num_overall": "83",
+                    "num_in_season": "11",
+                    "title": "Homefront",
+                    "link": "https://en.wikipedia.org/wiki/Homefront_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Livingston",
+                    "air_date": "January 1, 1996"
+                },
+                {
+                    "num_overall": "84",
+                    "num_in_season": "12",
+                    "title": "Paradise Lost",
+                    "link": "https://en.wikipedia.org/wiki/Paradise_Lost_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Reza Badiyi",
+                    "air_date": "January 8, 1996"
+                },
+                {
+                    "num_overall": "85",
+                    "num_in_season": "13",
+                    "title": "Crossfire",
+                    "link": "https://en.wikipedia.org/wiki/Crossfire_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Les Landau",
+                    "air_date": "January 29, 1996"
+                },
+                {
+                    "num_overall": "86",
+                    "num_in_season": "14",
+                    "title": "Return to Grace",
+                    "link": "https://en.wikipedia.org/wiki/Return_to_Grace",
+                    "director": "Jonathan West",
+                    "air_date": "February 5, 1996"
+                },
+                {
+                    "num_overall": "87",
+                    "num_in_season": "15",
+                    "title": "Sons of Mogh",
+                    "link": "https://en.wikipedia.org/wiki/Sons_of_Mogh",
+                    "director": "David Livingston",
+                    "air_date": "February 12, 1996"
+                },
+                {
+                    "num_overall": "88",
+                    "num_in_season": "16",
+                    "title": "Bar Association",
+                    "link": "https://en.wikipedia.org/wiki/Bar_Association_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "LeVar Burton",
+                    "air_date": "February 19, 1996"
+                },
+                {
+                    "num_overall": "89",
+                    "num_in_season": "17",
+                    "title": "Accession",
+                    "link": "https://en.wikipedia.org/wiki/Accession_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Les Landau",
+                    "air_date": "February 26, 1996"
+                },
+                {
+                    "num_overall": "90",
+                    "num_in_season": "18",
+                    "title": "Rules of Engagement",
+                    "link": "https://en.wikipedia.org/wiki/Rules_of_Engagement_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "LeVar Burton",
+                    "air_date": "April 8, 1996"
+                },
+                {
+                    "num_overall": "91",
+                    "num_in_season": "19",
+                    "title": "Hard Time",
+                    "link": "https://en.wikipedia.org/wiki/Hard_Time_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Alexander Singer",
+                    "air_date": "April 15, 1996"
+                },
+                {
+                    "num_overall": "92",
+                    "num_in_season": "20",
+                    "title": "Shattered Mirror",
+                    "link": "https://en.wikipedia.org/wiki/Shattered_Mirror_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "James L. Conway",
+                    "air_date": "April 22, 1996"
+                },
+                {
+                    "num_overall": "93",
+                    "num_in_season": "21",
+                    "title": "The Muse",
+                    "link": "https://en.wikipedia.org/wiki/The_Muse_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Livingston",
+                    "air_date": "April 29, 1996"
+                },
+                {
+                    "num_overall": "94",
+                    "num_in_season": "22",
+                    "title": "For the Cause",
+                    "link": "https://en.wikipedia.org/wiki/For_the_Cause_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "James L. Conway",
+                    "air_date": "May 6, 1996"
+                },
+                {
+                    "num_overall": "95",
+                    "num_in_season": "23",
+                    "title": "To the Death",
+                    "link": "https://en.wikipedia.org/wiki/To_the_Death_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "LeVar Burton",
+                    "air_date": "May 13, 1996"
+                },
+                {
+                    "num_overall": "96",
+                    "num_in_season": "24",
+                    "title": "The Quickening",
+                    "link": "https://en.wikipedia.org/wiki/The_Quickening_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "René Auberjonois",
+                    "air_date": "May 20, 1996"
+                },
+                {
+                    "num_overall": "97",
+                    "num_in_season": "25",
+                    "title": "Body Parts",
+                    "link": "https://en.wikipedia.org/wiki/Body_Parts_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Avery Brooks",
+                    "air_date": "June 10, 1996"
+                },
+                {
+                    "num_overall": "98",
+                    "num_in_season": "26",
+                    "title": "Broken Link",
+                    "link": "https://en.wikipedia.org/wiki/Broken_Link_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Les Landau",
+                    "air_date": "June 17, 1996"
+                }
+            ]
+        },
+        "5": {
+            "total": "26",
+            "start": "September 30, 1996",
+            "end": "June 16, 1997",
+            "episodes": [
+                {
+                    "num_overall": "99",
+                    "num_in_season": "1",
+                    "title": "Apocalypse Rising",
+                    "link": "https://en.wikipedia.org/wiki/Apocalypse_Rising",
+                    "director": "James L. Conway",
+                    "air_date": "September 30, 1996"
+                },
+                {
+                    "num_overall": "100",
+                    "num_in_season": "2",
+                    "title": "The Ship",
+                    "link": "https://en.wikipedia.org/wiki/The_Ship_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Kim Friedman",
+                    "air_date": "October 7, 1996"
+                },
+                {
+                    "num_overall": "101",
+                    "num_in_season": "3",
+                    "title": "Looking for par'Mach in All the Wrong Places",
+                    "link": "https://en.wikipedia.org/wiki/Looking_for_par%27Mach_in_All_the_Wrong_Places",
+                    "director": "Andrew J. Robinson",
+                    "air_date": "October 14, 1996"
+                },
+                {
+                    "num_overall": "102",
+                    "num_in_season": "4",
+                    "title": "...Nor the Battle to the Strong",
+                    "link": "https://en.wikipedia.org/wiki/...Nor_the_Battle_to_the_Strong",
+                    "director": "Kim Friedman",
+                    "air_date": "October 21, 1996"
+                },
+                {
+                    "num_overall": "103",
+                    "num_in_season": "5",
+                    "title": "The Assignment",
+                    "link": "https://en.wikipedia.org/wiki/The_Assignment_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Allan Kroeker",
+                    "air_date": "October 28, 1996"
+                },
+                {
+                    "num_overall": "104",
+                    "num_in_season": "6",
+                    "title": "Trials and Tribble-ations",
+                    "link": "https://en.wikipedia.org/wiki/Trials_and_Tribble-ations",
+                    "director": "Jonathan West",
+                    "air_date": "November 4, 1996"
+                },
+                {
+                    "num_overall": "105",
+                    "num_in_season": "7",
+                    "title": "Let He Who Is Without Sin...",
+                    "link": "https://en.wikipedia.org/wiki/Let_He_Who_Is_Without_Sin...",
+                    "director": "René Auberjonois",
+                    "air_date": "November 11, 1996"
+                },
+                {
+                    "num_overall": "106",
+                    "num_in_season": "8",
+                    "title": "Things Past",
+                    "link": "https://en.wikipedia.org/wiki/Things_Past_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "LeVar Burton",
+                    "air_date": "November 18, 1996"
+                },
+                {
+                    "num_overall": "107",
+                    "num_in_season": "9",
+                    "title": "The Ascent",
+                    "link": "https://en.wikipedia.org/wiki/The_Ascent_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Allan Kroeker",
+                    "air_date": "November 25, 1996"
+                },
+                {
+                    "num_overall": "108",
+                    "num_in_season": "10",
+                    "title": "Rapture",
+                    "link": "https://en.wikipedia.org/wiki/Rapture_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Jonathan West",
+                    "air_date": "December 30, 1996"
+                },
+                {
+                    "num_overall": "109",
+                    "num_in_season": "11",
+                    "title": "The Darkness and the Light",
+                    "link": "https://en.wikipedia.org/wiki/The_Darkness_and_the_Light_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Mike Vejar",
+                    "air_date": "January 6, 1997"
+                },
+                {
+                    "num_overall": "110",
+                    "num_in_season": "12",
+                    "title": "The Begotten",
+                    "link": "https://en.wikipedia.org/wiki/The_Begotten",
+                    "director": "Jesús Salvador Treviño",
+                    "air_date": "January 27, 1997"
+                },
+                {
+                    "num_overall": "111",
+                    "num_in_season": "13",
+                    "title": "For the Uniform",
+                    "link": "https://en.wikipedia.org/wiki/For_the_Uniform",
+                    "director": "Victor Lobl",
+                    "air_date": "February 3, 1997"
+                },
+                {
+                    "num_overall": "112",
+                    "num_in_season": "14",
+                    "title": "In Purgatory's Shadow",
+                    "link": "https://en.wikipedia.org/wiki/In_Purgatory%27s_Shadow",
+                    "director": "Gabrielle Beaumont",
+                    "air_date": "February 10, 1997"
+                },
+                {
+                    "num_overall": "113",
+                    "num_in_season": "15",
+                    "title": "By Inferno's Light",
+                    "link": "https://en.wikipedia.org/wiki/By_Inferno%27s_Light",
+                    "director": "Les Landau",
+                    "air_date": "February 17, 1997"
+                },
+                {
+                    "num_overall": "114",
+                    "num_in_season": "16",
+                    "title": "Doctor Bashir, I Presume?",
+                    "link": "https://en.wikipedia.org/wiki/Doctor_Bashir,_I_Presume%3F",
+                    "director": "David Livingston",
+                    "air_date": "February 24, 1997"
+                },
+                {
+                    "num_overall": "115",
+                    "num_in_season": "17",
+                    "title": "A Simple Investigation",
+                    "link": "https://en.wikipedia.org/wiki/A_Simple_Investigation",
+                    "director": "John T. Kretchmer",
+                    "air_date": "March 31, 1997"
+                },
+                {
+                    "num_overall": "116",
+                    "num_in_season": "18",
+                    "title": "Business as Usual",
+                    "link": "https://en.wikipedia.org/wiki/Business_as_Usual_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Siddig El Fadil",
+                    "air_date": "April 7, 1997"
+                },
+                {
+                    "num_overall": "117",
+                    "num_in_season": "19",
+                    "title": "Ties of Blood and Water",
+                    "link": "https://en.wikipedia.org/wiki/Ties_of_Blood_and_Water",
+                    "director": "Avery Brooks",
+                    "air_date": "April 14, 1997"
+                },
+                {
+                    "num_overall": "118",
+                    "num_in_season": "20",
+                    "title": "Ferengi Love Songs",
+                    "link": "https://en.wikipedia.org/wiki/Ferengi_Love_Songs",
+                    "director": "René Auberjonois",
+                    "air_date": "April 21, 1997"
+                },
+                {
+                    "num_overall": "119",
+                    "num_in_season": "21",
+                    "title": "Soldiers of the Empire",
+                    "link": "https://en.wikipedia.org/wiki/Soldiers_of_the_Empire",
+                    "director": "LeVar Burton",
+                    "air_date": "April 28, 1997"
+                },
+                {
+                    "num_overall": "120",
+                    "num_in_season": "22",
+                    "title": "Children of Time",
+                    "link": "https://en.wikipedia.org/wiki/Children_of_Time_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Allan Kroeker",
+                    "air_date": "May 5, 1997"
+                },
+                {
+                    "num_overall": "121",
+                    "num_in_season": "23",
+                    "title": "Blaze of Glory",
+                    "link": "https://en.wikipedia.org/wiki/Blaze_of_Glory_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Kim Friedman",
+                    "air_date": "May 12, 1997"
+                },
+                {
+                    "num_overall": "122",
+                    "num_in_season": "24",
+                    "title": "Empok Nor",
+                    "link": "https://en.wikipedia.org/wiki/Empok_Nor",
+                    "director": "Mike Vejar",
+                    "air_date": "May 19, 1997"
+                },
+                {
+                    "num_overall": "123",
+                    "num_in_season": "25",
+                    "title": "In the Cards",
+                    "link": "https://en.wikipedia.org/wiki/In_the_Cards",
+                    "director": "Michael Dorn",
+                    "air_date": "June 9, 1997"
+                },
+                {
+                    "num_overall": "124",
+                    "num_in_season": "26",
+                    "title": "Call to Arms",
+                    "link": "https://en.wikipedia.org/wiki/Call_to_Arms_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Allan Kroeker",
+                    "air_date": "June 16, 1997"
+                }
+            ]
+        },
+        "6": {
+            "total": "26",
+            "start": "September 29, 1997",
+            "end": "June 17, 1998",
+            "episodes": [
+                {
+                    "num_overall": "125",
+                    "num_in_season": "1",
+                    "title": "A Time to Stand",
+                    "link": "https://en.wikipedia.org/wiki/A_Time_to_Stand",
+                    "director": "Allan Kroeker",
+                    "air_date": "September 29, 1997"
+                },
+                {
+                    "num_overall": "126",
+                    "num_in_season": "2",
+                    "title": "Rocks and Shoals",
+                    "link": "https://en.wikipedia.org/wiki/Rocks_and_Shoals_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Mike Vejar",
+                    "air_date": "October 6, 1997"
+                },
+                {
+                    "num_overall": "127",
+                    "num_in_season": "3",
+                    "title": "Sons and Daughters",
+                    "link": "https://en.wikipedia.org/wiki/Sons_and_Daughters_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Jesús Salvador Treviño",
+                    "air_date": "October 13, 1997"
+                },
+                {
+                    "num_overall": "128",
+                    "num_in_season": "4",
+                    "title": "Behind the Lines",
+                    "link": "https://en.wikipedia.org/wiki/Behind_the_Lines_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "LeVar Burton",
+                    "air_date": "October 20, 1997"
+                },
+                {
+                    "num_overall": "129",
+                    "num_in_season": "5",
+                    "title": "Favor the Bold",
+                    "link": "https://en.wikipedia.org/wiki/Favor_the_Bold",
+                    "director": "Winrich Kolbe",
+                    "air_date": "October 27, 1997"
+                },
+                {
+                    "num_overall": "130",
+                    "num_in_season": "6",
+                    "title": "Sacrifice of Angels",
+                    "link": "https://en.wikipedia.org/wiki/Sacrifice_of_Angels",
+                    "director": "Allan Kroeker",
+                    "air_date": "November 3, 1997"
+                },
+                {
+                    "num_overall": "131",
+                    "num_in_season": "7",
+                    "title": "You Are Cordially Invited",
+                    "link": "https://en.wikipedia.org/wiki/You_Are_Cordially_Invited",
+                    "director": "David Livingston",
+                    "air_date": "November 10, 1997"
+                },
+                {
+                    "num_overall": "132",
+                    "num_in_season": "8",
+                    "title": "Resurrection",
+                    "link": "https://en.wikipedia.org/wiki/Resurrection_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "LeVar Burton",
+                    "air_date": "November 17, 1997"
+                },
+                {
+                    "num_overall": "133",
+                    "num_in_season": "9",
+                    "title": "Statistical Probabilities",
+                    "link": "https://en.wikipedia.org/wiki/Statistical_Probabilities",
+                    "director": "Anson Williams",
+                    "air_date": "November 24, 1997"
+                },
+                {
+                    "num_overall": "134",
+                    "num_in_season": "10",
+                    "title": "The Magnificent Ferengi",
+                    "link": "https://en.wikipedia.org/wiki/The_Magnificent_Ferengi",
+                    "director": "Chip Chalmers",
+                    "air_date": "December 29, 1997"
+                },
+                {
+                    "num_overall": "135",
+                    "num_in_season": "11",
+                    "title": "Waltz",
+                    "link": "https://en.wikipedia.org/wiki/Waltz_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "René Auberjonois",
+                    "air_date": "January 5, 1998"
+                },
+                {
+                    "num_overall": "136",
+                    "num_in_season": "12",
+                    "title": "Who Mourns for Morn?",
+                    "link": "https://en.wikipedia.org/wiki/Who_Mourns_for_Morn%3F",
+                    "director": "Victor Lobl",
+                    "air_date": "February 2, 1998"
+                },
+                {
+                    "num_overall": "137",
+                    "num_in_season": "13",
+                    "title": "Far Beyond the Stars",
+                    "link": "https://en.wikipedia.org/wiki/Far_Beyond_the_Stars",
+                    "director": "Avery Brooks",
+                    "air_date": "February 9, 1998"
+                },
+                {
+                    "num_overall": "138",
+                    "num_in_season": "14",
+                    "title": "One Little Ship",
+                    "link": "https://en.wikipedia.org/wiki/One_Little_Ship",
+                    "director": "Allan Kroeker",
+                    "air_date": "February 16, 1998"
+                },
+                {
+                    "num_overall": "139",
+                    "num_in_season": "15",
+                    "title": "Honor Among Thieves",
+                    "link": "https://en.wikipedia.org/wiki/Honor_Among_Thieves_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Allan Eastman",
+                    "air_date": "February 23, 1998"
+                },
+                {
+                    "num_overall": "140",
+                    "num_in_season": "16",
+                    "title": "Change of Heart",
+                    "link": "https://en.wikipedia.org/wiki/Change_of_Heart_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Livingston",
+                    "air_date": "March 2, 1998"
+                },
+                {
+                    "num_overall": "141",
+                    "num_in_season": "17",
+                    "title": "Wrongs Darker Than Death or Night",
+                    "link": "https://en.wikipedia.org/wiki/Wrongs_Darker_Than_Death_or_Night",
+                    "director": "Jonathan West",
+                    "air_date": "March 30, 1998"
+                },
+                {
+                    "num_overall": "142",
+                    "num_in_season": "18",
+                    "title": "Inquisition",
+                    "link": "https://en.wikipedia.org/wiki/Inquisition_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Michael Dorn",
+                    "air_date": "April 6, 1998"
+                },
+                {
+                    "num_overall": "143",
+                    "num_in_season": "19",
+                    "title": "In the Pale Moonlight",
+                    "link": "https://en.wikipedia.org/wiki/In_the_Pale_Moonlight",
+                    "director": "Victor Lobl",
+                    "air_date": "April 13, 1998"
+                },
+                {
+                    "num_overall": "144",
+                    "num_in_season": "20",
+                    "title": "His Way",
+                    "link": "https://en.wikipedia.org/wiki/His_Way",
+                    "director": "Allan Kroeker",
+                    "air_date": "April 20, 1998"
+                },
+                {
+                    "num_overall": "145",
+                    "num_in_season": "21",
+                    "title": "The Reckoning",
+                    "link": "https://en.wikipedia.org/wiki/The_Reckoning_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Jesús Salvador Treviño",
+                    "air_date": "April 27, 1998"
+                },
+                {
+                    "num_overall": "146",
+                    "num_in_season": "22",
+                    "title": "Valiant",
+                    "link": "https://en.wikipedia.org/wiki/Valiant_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Mike Vejar",
+                    "air_date": "May 4, 1998"
+                },
+                {
+                    "num_overall": "147",
+                    "num_in_season": "23",
+                    "title": "Profit and Lace",
+                    "link": "https://en.wikipedia.org/wiki/Profit_and_Lace",
+                    "director": "Siddig El Faddil",
+                    "air_date": "May 11, 1998"
+                },
+                {
+                    "num_overall": "148",
+                    "num_in_season": "24",
+                    "title": "Time's Orphan",
+                    "link": "https://en.wikipedia.org/wiki/Time%27s_Orphan",
+                    "director": "Allan Kroeker",
+                    "air_date": "May 18, 1998"
+                },
+                {
+                    "num_overall": "149",
+                    "num_in_season": "25",
+                    "title": "The Sound of Her Voice",
+                    "link": "https://en.wikipedia.org/wiki/The_Sound_of_Her_Voice",
+                    "director": "Winrich Kolbe",
+                    "air_date": "June 8, 1998"
+                },
+                {
+                    "num_overall": "150",
+                    "num_in_season": "26",
+                    "title": "Tears of the Prophets",
+                    "link": "https://en.wikipedia.org/wiki/Tears_of_the_Prophets",
+                    "director": "Allan Kroeker",
+                    "air_date": "June 15, 1998"
+                }
+            ]
+        },
+        "7": {
+            "total": "26",
+            "start": "September 30, 1998",
+            "end": "June 2, 1999",
+            "episodes": [
+                {
+                    "num_overall": "151",
+                    "num_in_season": "1",
+                    "title": "Image in the Sand",
+                    "link": "https://en.wikipedia.org/wiki/Image_in_the_Sand",
+                    "director": "Les Landau",
+                    "air_date": "September 30, 1998"
+                },
+                {
+                    "num_overall": "152",
+                    "num_in_season": "2",
+                    "title": "Shadows and Symbols",
+                    "link": "https://en.wikipedia.org/wiki/Shadows_and_Symbols",
+                    "director": "Allan Kroeker",
+                    "air_date": "October 7, 1998"
+                },
+                {
+                    "num_overall": "153",
+                    "num_in_season": "3",
+                    "title": "Afterimage",
+                    "link": "https://en.wikipedia.org/wiki/Afterimage_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Les Landau",
+                    "air_date": "October 14, 1998"
+                },
+                {
+                    "num_overall": "154",
+                    "num_in_season": "4",
+                    "title": "Take Me Out to the Holosuite",
+                    "link": "https://en.wikipedia.org/wiki/Take_Me_Out_to_the_Holosuite",
+                    "director": "Chip Chalmers",
+                    "air_date": "October 21, 1998"
+                },
+                {
+                    "num_overall": "155",
+                    "num_in_season": "5",
+                    "title": "Chrysalis",
+                    "link": "https://en.wikipedia.org/wiki/Chrysalis_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Jonathan West",
+                    "air_date": "October 28, 1998"
+                },
+                {
+                    "num_overall": "156",
+                    "num_in_season": "6",
+                    "title": "Treachery, Faith and the Great River",
+                    "link": "https://en.wikipedia.org/wiki/Treachery,_Faith,_and_the_Great_River",
+                    "director": "Steve Posey",
+                    "air_date": "November 4, 1998"
+                },
+                {
+                    "num_overall": "157",
+                    "num_in_season": "7",
+                    "title": "Once More unto the Breach",
+                    "link": "https://en.wikipedia.org/wiki/Once_More_unto_the_Breach_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Allan Kroeker",
+                    "air_date": "November 11, 1998"
+                },
+                {
+                    "num_overall": "158",
+                    "num_in_season": "8",
+                    "title": "The Siege of AR-558",
+                    "link": "https://en.wikipedia.org/wiki/The_Siege_of_AR-558",
+                    "director": "Winrich Kolbe",
+                    "air_date": "November 18, 1998"
+                },
+                {
+                    "num_overall": "159",
+                    "num_in_season": "9",
+                    "title": "Covenant",
+                    "link": "https://en.wikipedia.org/wiki/Covenant_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "John Kretchmer",
+                    "air_date": "November 25, 1998"
+                },
+                {
+                    "num_overall": "160",
+                    "num_in_season": "10",
+                    "title": "It's Only a Paper Moon",
+                    "link": "https://en.wikipedia.org/wiki/It%27s_Only_a_Paper_Moon_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Anson Williams",
+                    "air_date": "December 30, 1998"
+                },
+                {
+                    "num_overall": "161",
+                    "num_in_season": "11",
+                    "title": "Prodigal Daughter",
+                    "link": "https://en.wikipedia.org/wiki/Prodigal_Daughter_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Victor Lobl",
+                    "air_date": "January 6, 1999"
+                },
+                {
+                    "num_overall": "162",
+                    "num_in_season": "12",
+                    "title": "The Emperor's New Cloak",
+                    "link": "https://en.wikipedia.org/wiki/The_Emperor%27s_New_Cloak",
+                    "director": "LeVar Burton",
+                    "air_date": "February 3, 1999"
+                },
+                {
+                    "num_overall": "163",
+                    "num_in_season": "13",
+                    "title": "Field of Fire",
+                    "link": "https://en.wikipedia.org/wiki/Field_of_Fire_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Tony Dow",
+                    "air_date": "February 10, 1999"
+                },
+                {
+                    "num_overall": "164",
+                    "num_in_season": "14",
+                    "title": "Chimera",
+                    "link": "https://en.wikipedia.org/wiki/Chimera_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Steve Posey",
+                    "air_date": "February 17, 1999"
+                },
+                {
+                    "num_overall": "165",
+                    "num_in_season": "15",
+                    "title": "Badda-Bing Badda-Bang",
+                    "link": "https://en.wikipedia.org/wiki/Badda-Bing_Badda-Bang",
+                    "director": "Mike Vejar",
+                    "air_date": "February 24, 1999"
+                },
+                {
+                    "num_overall": "166",
+                    "num_in_season": "16",
+                    "title": "Inter Arma Enim Silent Leges",
+                    "link": "https://en.wikipedia.org/wiki/Inter_Arma_Enim_Silent_Leges_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "David Livingston",
+                    "air_date": "March 3, 1999"
+                },
+                {
+                    "num_overall": "167",
+                    "num_in_season": "17",
+                    "title": "Penumbra",
+                    "link": "https://en.wikipedia.org/wiki/Penumbra_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Steve Posey",
+                    "air_date": "April 7, 1999"
+                },
+                {
+                    "num_overall": "168",
+                    "num_in_season": "18",
+                    "title": "'Til Death Do Us Part",
+                    "link": "https://en.wikipedia.org/wiki/%27Til_Death_Do_Us_Part_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "April 14, 1999"
+                },
+                {
+                    "num_overall": "169",
+                    "num_in_season": "19",
+                    "title": "Strange Bedfellows",
+                    "link": "https://en.wikipedia.org/wiki/Strange_Bedfellows_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "René Auberjonois",
+                    "air_date": "April 21, 1999"
+                },
+                {
+                    "num_overall": "170",
+                    "num_in_season": "20",
+                    "title": "The Changing Face of Evil",
+                    "link": "https://en.wikipedia.org/wiki/The_Changing_Face_of_Evil",
+                    "director": "Mike Vejar",
+                    "air_date": "April 28, 1999"
+                },
+                {
+                    "num_overall": "171",
+                    "num_in_season": "21",
+                    "title": "When It Rains...",
+                    "link": "https://en.wikipedia.org/wiki/When_It_Rains...",
+                    "director": "Michael Dorn",
+                    "air_date": "May 5, 1999"
+                },
+                {
+                    "num_overall": "172",
+                    "num_in_season": "22",
+                    "title": "Tacking Into the Wind",
+                    "link": "https://en.wikipedia.org/wiki/Tacking_Into_the_Wind",
+                    "director": "Mike Vejar",
+                    "air_date": "May 12, 1999"
+                },
+                {
+                    "num_overall": "173",
+                    "num_in_season": "23",
+                    "title": "Extreme Measures",
+                    "link": "https://en.wikipedia.org/wiki/Extreme_Measures_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Steve Posey",
+                    "air_date": "May 19, 1999"
+                },
+                {
+                    "num_overall": "174",
+                    "num_in_season": "24",
+                    "title": "The Dogs of War",
+                    "link": "https://en.wikipedia.org/wiki/The_Dogs_of_War_(Star_Trek:_Deep_Space_Nine)",
+                    "director": "Avery Brooks",
+                    "air_date": "May 26, 1999"
+                },
+                {
+                    "num_overall": "175176",
+                    "num_in_season": "2526",
+                    "title": "What You Leave Behind",
+                    "link": "https://en.wikipedia.org/wiki/What_You_Leave_Behind",
+                    "director": "Allan Kroeker",
+                    "air_date": "June 2, 1999"
+                }
+            ]
+        }
+    }
+}

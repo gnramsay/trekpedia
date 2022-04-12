@@ -1,0 +1,98 @@
+{
+    "seasons": {
+        "1": {
+            "total": "4",
+            "start": "October 4, 2018",
+            "end": "January 3, 2019",
+            "episodes": [
+                {
+                    "num_overall": "1",
+                    "num_in_season": "1",
+                    "title": "Runaway",
+                    "link": "",
+                    "director": "Maja Vrvilo",
+                    "air_date": "October 4, 2018"
+                },
+                {
+                    "num_overall": "2",
+                    "num_in_season": "2",
+                    "title": "Calypso",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "November 8, 2018"
+                },
+                {
+                    "num_overall": "3",
+                    "num_in_season": "3",
+                    "title": "The Brightest Star",
+                    "link": "",
+                    "director": "Douglas Aarniokoski",
+                    "air_date": "December 6, 2018"
+                },
+                {
+                    "num_overall": "4",
+                    "num_in_season": "4",
+                    "title": "The Escape Artist",
+                    "link": "",
+                    "director": "Rainn Wilson",
+                    "air_date": "January 3, 2019"
+                }
+            ]
+        },
+        "2": {
+            "total": "6",
+            "start": "October 5, 2019",
+            "end": "January 9, 2020",
+            "episodes": [
+                {
+                    "num_overall": "5",
+                    "num_in_season": "1",
+                    "title": "Q&A",
+                    "link": "",
+                    "director": "Mark Pellington",
+                    "air_date": "October 5, 2019"
+                },
+                {
+                    "num_overall": "6",
+                    "num_in_season": "2",
+                    "title": "The Trouble with Edward",
+                    "link": "",
+                    "director": "Daniel Gray Longino",
+                    "air_date": "October 10, 2019"
+                },
+                {
+                    "num_overall": "7",
+                    "num_in_season": "3",
+                    "title": "Ask Not",
+                    "link": "",
+                    "director": "Sanji Senaka",
+                    "air_date": "November 14, 2019"
+                },
+                {
+                    "num_overall": "8",
+                    "num_in_season": "4",
+                    "title": "Ephraim and Dot",
+                    "link": "",
+                    "director": "Michael Giacchino",
+                    "air_date": "December 12, 2019"
+                },
+                {
+                    "num_overall": "9",
+                    "num_in_season": "5",
+                    "title": "The Girl Who Made the Stars",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "December 12, 2019"
+                },
+                {
+                    "num_overall": "10",
+                    "num_in_season": "6",
+                    "title": "Children of Mars",
+                    "link": "",
+                    "director": "Mark Pellington",
+                    "air_date": "January 9, 2020"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,194 @@
+{
+    "seasons": {
+        "1": {
+            "total": "16",
+            "start": "September 8, 1973",
+            "end": "January 12, 1974",
+            "episodes": [
+                {
+                    "num_overall": "1",
+                    "num_in_season": "1",
+                    "title": "Beyond the Farthest Star",
+                    "link": "https://en.wikipedia.org/wiki/Beyond_the_Farthest_Star_(Star_Trek:_The_Animated_Series)",
+                    "director": "Hal Sutherland",
+                    "air_date": "September 8, 1973"
+                },
+                {
+                    "num_overall": "2",
+                    "num_in_season": "2",
+                    "title": "Yesteryear",
+                    "link": "https://en.wikipedia.org/wiki/Yesteryear_(Star_Trek:_The_Animated_Series)",
+                    "director": "Hal Sutherland",
+                    "air_date": "September 15, 1973"
+                },
+                {
+                    "num_overall": "3",
+                    "num_in_season": "3",
+                    "title": "One of Our Planets Is Missing",
+                    "link": "https://en.wikipedia.org/wiki/One_of_Our_Planets_Is_Missing",
+                    "director": "Hal Sutherland",
+                    "air_date": "September 22, 1973"
+                },
+                {
+                    "num_overall": "4",
+                    "num_in_season": "4",
+                    "title": "The Lorelei Signal",
+                    "link": "https://en.wikipedia.org/wiki/The_Lorelei_Signal",
+                    "director": "Hal Sutherland",
+                    "air_date": "September 29, 1973"
+                },
+                {
+                    "num_overall": "5",
+                    "num_in_season": "5",
+                    "title": "More Tribbles, More Troubles",
+                    "link": "https://en.wikipedia.org/wiki/More_Tribbles,_More_Troubles",
+                    "director": "Hal Sutherland",
+                    "air_date": "October 6, 1973"
+                },
+                {
+                    "num_overall": "6",
+                    "num_in_season": "6",
+                    "title": "The Survivor",
+                    "link": "https://en.wikipedia.org/wiki/The_Survivor_(Star_Trek:_The_Animated_Series)",
+                    "director": "Hal Sutherland",
+                    "air_date": "October 13, 1973"
+                },
+                {
+                    "num_overall": "7",
+                    "num_in_season": "7",
+                    "title": "The Infinite Vulcan",
+                    "link": "https://en.wikipedia.org/wiki/The_Infinite_Vulcan",
+                    "director": "Hal Sutherland",
+                    "air_date": "October 20, 1973"
+                },
+                {
+                    "num_overall": "8",
+                    "num_in_season": "8",
+                    "title": "The Magicks of Megas-tu",
+                    "link": "https://en.wikipedia.org/wiki/The_Magicks_of_Megas-tu",
+                    "director": "Hal Sutherland",
+                    "air_date": "October 27, 1973"
+                },
+                {
+                    "num_overall": "9",
+                    "num_in_season": "9",
+                    "title": "Once Upon a Planet",
+                    "link": "https://en.wikipedia.org/wiki/Once_Upon_a_Planet",
+                    "director": "Hal Sutherland",
+                    "air_date": "November 3, 1973"
+                },
+                {
+                    "num_overall": "10",
+                    "num_in_season": "10",
+                    "title": "Mudd's Passion",
+                    "link": "https://en.wikipedia.org/wiki/Mudd%27s_Passion",
+                    "director": "Hal Sutherland",
+                    "air_date": "November 10, 1973"
+                },
+                {
+                    "num_overall": "11",
+                    "num_in_season": "11",
+                    "title": "The Terratin Incident",
+                    "link": "https://en.wikipedia.org/wiki/The_Terratin_Incident",
+                    "director": "Hal Sutherland",
+                    "air_date": "November 17, 1973"
+                },
+                {
+                    "num_overall": "12",
+                    "num_in_season": "12",
+                    "title": "The Time Trap",
+                    "link": "https://en.wikipedia.org/wiki/The_Time_Trap",
+                    "director": "Hal Sutherland",
+                    "air_date": "November 24, 1973"
+                },
+                {
+                    "num_overall": "13",
+                    "num_in_season": "13",
+                    "title": "The Ambergris Element",
+                    "link": "https://en.wikipedia.org/wiki/The_Ambergris_Element",
+                    "director": "Hal Sutherland",
+                    "air_date": "December 1, 1973"
+                },
+                {
+                    "num_overall": "14",
+                    "num_in_season": "14",
+                    "title": "The Slaver Weapon",
+                    "link": "https://en.wikipedia.org/wiki/The_Slaver_Weapon",
+                    "director": "Hal Sutherland",
+                    "air_date": "December 8, 1973"
+                },
+                {
+                    "num_overall": "15",
+                    "num_in_season": "15",
+                    "title": "The Eye of the Beholder",
+                    "link": "https://en.wikipedia.org/wiki/The_Eye_of_the_Beholder_(Star_Trek:_The_Animated_Series)",
+                    "director": "Hal Sutherland",
+                    "air_date": "December 15, 1973"
+                },
+                {
+                    "num_overall": "16",
+                    "num_in_season": "16",
+                    "title": "The Jihad",
+                    "link": "https://en.wikipedia.org/wiki/The_Jihad",
+                    "director": "Hal Sutherland",
+                    "air_date": "January 12, 1974"
+                }
+            ]
+        },
+        "2": {
+            "total": "6",
+            "start": "September 7, 1974",
+            "end": "October 12, 1974",
+            "episodes": [
+                {
+                    "num_overall": "17",
+                    "num_in_season": "1",
+                    "title": "The Pirates of Orion",
+                    "link": "https://en.wikipedia.org/wiki/The_Pirates_of_Orion",
+                    "director": "Bill Reed",
+                    "air_date": "September 7, 1974"
+                },
+                {
+                    "num_overall": "18",
+                    "num_in_season": "2",
+                    "title": "Bem",
+                    "link": "https://en.wikipedia.org/wiki/Bem_(Star_Trek:_The_Animated_Series)",
+                    "director": "Bill Reed",
+                    "air_date": "September 14, 1974"
+                },
+                {
+                    "num_overall": "19",
+                    "num_in_season": "3",
+                    "title": "The Practical Joker",
+                    "link": "https://en.wikipedia.org/wiki/The_Practical_Joker",
+                    "director": "Bill Reed",
+                    "air_date": "September 21, 1974"
+                },
+                {
+                    "num_overall": "20",
+                    "num_in_season": "4",
+                    "title": "Albatross",
+                    "link": "https://en.wikipedia.org/wiki/Albatross_(Star_Trek:_The_Animated_Series)",
+                    "director": "Bill Reed",
+                    "air_date": "September 28, 1974"
+                },
+                {
+                    "num_overall": "21",
+                    "num_in_season": "5",
+                    "title": "How Sharper Than a Serpent's Tooth",
+                    "link": "https://en.wikipedia.org/wiki/How_Sharper_Than_a_Serpent%27s_Tooth",
+                    "director": "Bill Reed",
+                    "air_date": "October 5, 1974"
+                },
+                {
+                    "num_overall": "22",
+                    "num_in_season": "6",
+                    "title": "The Counter-Clock Incident",
+                    "link": "https://en.wikipedia.org/wiki/The_Counter-Clock_Incident",
+                    "director": "Bill Reed",
+                    "air_date": "October 12, 1974"
+                }
+            ]
+        }
+    }
+}

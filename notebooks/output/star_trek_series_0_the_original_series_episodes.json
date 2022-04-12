@@ -1,0 +1,657 @@
+{
+    "seasons": {
+        "1": {
+            "total": "29",
+            "start": "September 8, 1966",
+            "end": "April 13, 1967",
+            "episodes": [
+                {
+                    "num_overall": "1",
+                    "num_in_season": "1",
+                    "title": "The Man Trap",
+                    "link": "https://en.wikipedia.org/wiki/The_Man_Trap",
+                    "director": "Marc Daniels",
+                    "air_date": "September 8, 1966"
+                },
+                {
+                    "num_overall": "2",
+                    "num_in_season": "2",
+                    "title": "Charlie X",
+                    "link": "https://en.wikipedia.org/wiki/Charlie_X",
+                    "director": "Lawrence Dobkin",
+                    "air_date": "September 15, 1966"
+                },
+                {
+                    "num_overall": "3",
+                    "num_in_season": "3",
+                    "title": "Where No Man Has Gone Before",
+                    "link": "https://en.wikipedia.org/wiki/Where_No_Man_Has_Gone_Before",
+                    "director": "James Goldstone",
+                    "air_date": "September 22, 1966"
+                },
+                {
+                    "num_overall": "4",
+                    "num_in_season": "4",
+                    "title": "The Naked Time",
+                    "link": "https://en.wikipedia.org/wiki/The_Naked_Time",
+                    "director": "Marc Daniels",
+                    "air_date": "September 29, 1966"
+                },
+                {
+                    "num_overall": "5",
+                    "num_in_season": "5",
+                    "title": "The Enemy Within",
+                    "link": "https://en.wikipedia.org/wiki/The_Enemy_Within_(Star_Trek:_The_Original_Series)",
+                    "director": "Leo Penn",
+                    "air_date": "October 6, 1966"
+                },
+                {
+                    "num_overall": "6",
+                    "num_in_season": "6",
+                    "title": "Mudd's Women",
+                    "link": "https://en.wikipedia.org/wiki/Mudd%27s_Women",
+                    "director": "Harvey Hart",
+                    "air_date": "October 13, 1966"
+                },
+                {
+                    "num_overall": "7",
+                    "num_in_season": "7",
+                    "title": "What Are Little Girls Made Of?",
+                    "link": "https://en.wikipedia.org/wiki/What_Are_Little_Girls_Made_Of%3F",
+                    "director": "James Goldstone",
+                    "air_date": "October 20, 1966"
+                },
+                {
+                    "num_overall": "8",
+                    "num_in_season": "8",
+                    "title": "Miri",
+                    "link": "https://en.wikipedia.org/wiki/Miri_(Star_Trek:_The_Original_Series)",
+                    "director": "Vincent McEveety",
+                    "air_date": "October 27, 1966"
+                },
+                {
+                    "num_overall": "9",
+                    "num_in_season": "9",
+                    "title": "Dagger of the Mind",
+                    "link": "https://en.wikipedia.org/wiki/Dagger_of_the_Mind",
+                    "director": "Vincent McEveety",
+                    "air_date": "November 3, 1966"
+                },
+                {
+                    "num_overall": "10",
+                    "num_in_season": "10",
+                    "title": "The Corbomite Maneuver",
+                    "link": "https://en.wikipedia.org/wiki/The_Corbomite_Maneuver",
+                    "director": "Joseph Sargent",
+                    "air_date": "November 10, 1966"
+                },
+                {
+                    "num_overall": "11",
+                    "num_in_season": "11",
+                    "title": "The Menagerie, Part I",
+                    "link": "https://en.wikipedia.org/wiki/The_Menagerie_(Star_Trek:_The_Original_Series)",
+                    "director": "Marc Daniels",
+                    "air_date": "November 17, 1966"
+                },
+                {
+                    "num_overall": "12",
+                    "num_in_season": "12",
+                    "title": "The Menagerie, Part II",
+                    "link": "https://en.wikipedia.org/wiki/The_Menagerie_(Star_Trek:_The_Original_Series)",
+                    "director": "Robert Butler",
+                    "air_date": "November 24, 1966"
+                },
+                {
+                    "num_overall": "13",
+                    "num_in_season": "13",
+                    "title": "The Conscience of the King",
+                    "link": "https://en.wikipedia.org/wiki/The_Conscience_of_the_King",
+                    "director": "Gerd Oswald",
+                    "air_date": "December 8, 1966"
+                },
+                {
+                    "num_overall": "14",
+                    "num_in_season": "14",
+                    "title": "Balance of Terror",
+                    "link": "https://en.wikipedia.org/wiki/Balance_of_Terror",
+                    "director": "Vincent McEveety",
+                    "air_date": "December 15, 1966"
+                },
+                {
+                    "num_overall": "15",
+                    "num_in_season": "15",
+                    "title": "Shore Leave",
+                    "link": "https://en.wikipedia.org/wiki/Shore_Leave_(Star_Trek:_The_Original_Series)",
+                    "director": "Robert Sparr",
+                    "air_date": "December 29, 1966"
+                },
+                {
+                    "num_overall": "16",
+                    "num_in_season": "16",
+                    "title": "The Galileo Seven",
+                    "link": "https://en.wikipedia.org/wiki/The_Galileo_Seven",
+                    "director": "Robert Gist",
+                    "air_date": "January 5, 1967"
+                },
+                {
+                    "num_overall": "17",
+                    "num_in_season": "17",
+                    "title": "The Squire of Gothos",
+                    "link": "https://en.wikipedia.org/wiki/The_Squire_of_Gothos",
+                    "director": "Don McDougall",
+                    "air_date": "January 12, 1967"
+                },
+                {
+                    "num_overall": "18",
+                    "num_in_season": "18",
+                    "title": "Arena",
+                    "link": "https://en.wikipedia.org/wiki/Arena_(Star_Trek:_The_Original_Series)",
+                    "director": "Joseph Pevney",
+                    "air_date": "January 19, 1967"
+                },
+                {
+                    "num_overall": "19",
+                    "num_in_season": "19",
+                    "title": "Tomorrow Is Yesterday",
+                    "link": "https://en.wikipedia.org/wiki/Tomorrow_Is_Yesterday",
+                    "director": "Michael O'Herlihy",
+                    "air_date": "January 26, 1967"
+                },
+                {
+                    "num_overall": "20",
+                    "num_in_season": "20",
+                    "title": "Court Martial",
+                    "link": "https://en.wikipedia.org/wiki/Court_Martial_(Star_Trek:_The_Original_Series)",
+                    "director": "Marc Daniels",
+                    "air_date": "February 2, 1967"
+                },
+                {
+                    "num_overall": "21",
+                    "num_in_season": "21",
+                    "title": "The Return of the Archons",
+                    "link": "https://en.wikipedia.org/wiki/The_Return_of_the_Archons",
+                    "director": "Joseph Pevney",
+                    "air_date": "February 9, 1967"
+                },
+                {
+                    "num_overall": "22",
+                    "num_in_season": "22",
+                    "title": "Space Seed",
+                    "link": "https://en.wikipedia.org/wiki/Space_Seed",
+                    "director": "Marc Daniels",
+                    "air_date": "February 16, 1967"
+                },
+                {
+                    "num_overall": "23",
+                    "num_in_season": "23",
+                    "title": "A Taste of Armageddon",
+                    "link": "https://en.wikipedia.org/wiki/A_Taste_of_Armageddon",
+                    "director": "Joseph Pevney",
+                    "air_date": "February 23, 1967"
+                },
+                {
+                    "num_overall": "24",
+                    "num_in_season": "24",
+                    "title": "This Side of Paradise",
+                    "link": "https://en.wikipedia.org/wiki/This_Side_of_Paradise_(Star_Trek:_The_Original_Series)",
+                    "director": "Ralph Senensky",
+                    "air_date": "March 2, 1967"
+                },
+                {
+                    "num_overall": "25",
+                    "num_in_season": "25",
+                    "title": "The Devil in the Dark",
+                    "link": "https://en.wikipedia.org/wiki/The_Devil_in_the_Dark",
+                    "director": "Joseph Pevney",
+                    "air_date": "March 9, 1967"
+                },
+                {
+                    "num_overall": "26",
+                    "num_in_season": "26",
+                    "title": "Errand of Mercy",
+                    "link": "https://en.wikipedia.org/wiki/Errand_of_Mercy",
+                    "director": "John Newland",
+                    "air_date": "March 23, 1967"
+                },
+                {
+                    "num_overall": "27",
+                    "num_in_season": "27",
+                    "title": "The Alternative Factor",
+                    "link": "https://en.wikipedia.org/wiki/The_Alternative_Factor",
+                    "director": "Gerd Oswald",
+                    "air_date": "March 30, 1967"
+                },
+                {
+                    "num_overall": "28",
+                    "num_in_season": "28",
+                    "title": "The City on the Edge of Forever",
+                    "link": "https://en.wikipedia.org/wiki/The_City_on_the_Edge_of_Forever",
+                    "director": "Joseph Pevney",
+                    "air_date": "April 6, 1967"
+                },
+                {
+                    "num_overall": "29",
+                    "num_in_season": "29",
+                    "title": "Operation -- Annihilate!",
+                    "link": "https://en.wikipedia.org/wiki/Operation_--_Annihilate!",
+                    "director": "Herschel Daugherty",
+                    "air_date": "April 13, 1967"
+                }
+            ]
+        },
+        "2": {
+            "total": "26",
+            "start": "September 15, 1967",
+            "end": "March 29, 1968",
+            "episodes": [
+                {
+                    "num_overall": "30",
+                    "num_in_season": "1",
+                    "title": "Amok Time",
+                    "link": "https://en.wikipedia.org/wiki/Amok_Time",
+                    "director": "Joseph Pevney",
+                    "air_date": "September 15, 1967"
+                },
+                {
+                    "num_overall": "31",
+                    "num_in_season": "2",
+                    "title": "Who Mourns for Adonais?",
+                    "link": "https://en.wikipedia.org/wiki/Who_Mourns_for_Adonais%3F",
+                    "director": "Marc Daniels",
+                    "air_date": "September 22, 1967"
+                },
+                {
+                    "num_overall": "32",
+                    "num_in_season": "3",
+                    "title": "The Changeling",
+                    "link": "https://en.wikipedia.org/wiki/The_Changeling_(Star_Trek:_The_Original_Series)",
+                    "director": "Marc Daniels",
+                    "air_date": "September 29, 1967"
+                },
+                {
+                    "num_overall": "33",
+                    "num_in_season": "4",
+                    "title": "Mirror, Mirror",
+                    "link": "https://en.wikipedia.org/wiki/Mirror,_Mirror_(Star_Trek:_The_Original_Series)",
+                    "director": "Marc Daniels",
+                    "air_date": "October 6, 1967"
+                },
+                {
+                    "num_overall": "34",
+                    "num_in_season": "5",
+                    "title": "The Apple",
+                    "link": "https://en.wikipedia.org/wiki/The_Apple_(Star_Trek:_The_Original_Series)",
+                    "director": "Joseph Pevney",
+                    "air_date": "October 13, 1967"
+                },
+                {
+                    "num_overall": "35",
+                    "num_in_season": "6",
+                    "title": "The Doomsday Machine",
+                    "link": "https://en.wikipedia.org/wiki/The_Doomsday_Machine_(Star_Trek:_The_Original_Series)",
+                    "director": "Marc Daniels",
+                    "air_date": "October 20, 1967"
+                },
+                {
+                    "num_overall": "36",
+                    "num_in_season": "7",
+                    "title": "Catspaw",
+                    "link": "https://en.wikipedia.org/wiki/Catspaw_(Star_Trek:_The_Original_Series)",
+                    "director": "Joseph Pevney",
+                    "air_date": "October 27, 1967"
+                },
+                {
+                    "num_overall": "37",
+                    "num_in_season": "8",
+                    "title": "I, Mudd",
+                    "link": "https://en.wikipedia.org/wiki/I,_Mudd",
+                    "director": "Marc Daniels",
+                    "air_date": "November 3, 1967"
+                },
+                {
+                    "num_overall": "38",
+                    "num_in_season": "9",
+                    "title": "Metamorphosis",
+                    "link": "https://en.wikipedia.org/wiki/Metamorphosis_(Star_Trek:_The_Original_Series)",
+                    "director": "Ralph Senensky",
+                    "air_date": "November 10, 1967"
+                },
+                {
+                    "num_overall": "39",
+                    "num_in_season": "10",
+                    "title": "Journey to Babel",
+                    "link": "https://en.wikipedia.org/wiki/Journey_to_Babel",
+                    "director": "Joseph Pevney",
+                    "air_date": "November 17, 1967"
+                },
+                {
+                    "num_overall": "40",
+                    "num_in_season": "11",
+                    "title": "Friday's Child",
+                    "link": "https://en.wikipedia.org/wiki/Friday%27s_Child_(Star_Trek:_The_Original_Series)",
+                    "director": "Joseph Pevney",
+                    "air_date": "December 1, 1967"
+                },
+                {
+                    "num_overall": "41",
+                    "num_in_season": "12",
+                    "title": "The Deadly Years",
+                    "link": "https://en.wikipedia.org/wiki/The_Deadly_Years",
+                    "director": "Joseph Pevney",
+                    "air_date": "December 8, 1967"
+                },
+                {
+                    "num_overall": "42",
+                    "num_in_season": "13",
+                    "title": "Obsession",
+                    "link": "https://en.wikipedia.org/wiki/Obsession_(Star_Trek:_The_Original_Series)",
+                    "director": "Ralph Senensky",
+                    "air_date": "December 15, 1967"
+                },
+                {
+                    "num_overall": "43",
+                    "num_in_season": "14",
+                    "title": "Wolf in the Fold",
+                    "link": "https://en.wikipedia.org/wiki/Wolf_in_the_Fold",
+                    "director": "Joseph Pevney",
+                    "air_date": "December 22, 1967"
+                },
+                {
+                    "num_overall": "44",
+                    "num_in_season": "15",
+                    "title": "The Trouble with Tribbles",
+                    "link": "https://en.wikipedia.org/wiki/The_Trouble_with_Tribbles",
+                    "director": "Joseph Pevney",
+                    "air_date": "December 29, 1967"
+                },
+                {
+                    "num_overall": "45",
+                    "num_in_season": "16",
+                    "title": "The Gamesters of Triskelion",
+                    "link": "https://en.wikipedia.org/wiki/The_Gamesters_of_Triskelion",
+                    "director": "Gene Nelson",
+                    "air_date": "January 5, 1968"
+                },
+                {
+                    "num_overall": "46",
+                    "num_in_season": "17",
+                    "title": "A Piece of the Action",
+                    "link": "https://en.wikipedia.org/wiki/A_Piece_of_the_Action_(Star_Trek:_The_Original_Series)",
+                    "director": "James Komack",
+                    "air_date": "January 12, 1968"
+                },
+                {
+                    "num_overall": "47",
+                    "num_in_season": "18",
+                    "title": "The Immunity Syndrome",
+                    "link": "https://en.wikipedia.org/wiki/The_Immunity_Syndrome_(Star_Trek:_The_Original_Series)",
+                    "director": "Joseph Pevney",
+                    "air_date": "January 19, 1968"
+                },
+                {
+                    "num_overall": "48",
+                    "num_in_season": "19",
+                    "title": "A Private Little War",
+                    "link": "https://en.wikipedia.org/wiki/A_Private_Little_War",
+                    "director": "Marc Daniels",
+                    "air_date": "February 2, 1968"
+                },
+                {
+                    "num_overall": "49",
+                    "num_in_season": "20",
+                    "title": "Return to Tomorrow",
+                    "link": "https://en.wikipedia.org/wiki/Return_to_Tomorrow",
+                    "director": "Ralph Senensky",
+                    "air_date": "February 9, 1968"
+                },
+                {
+                    "num_overall": "50",
+                    "num_in_season": "21",
+                    "title": "Patterns of Force",
+                    "link": "https://en.wikipedia.org/wiki/Patterns_of_Force_(Star_Trek:_The_Original_Series)",
+                    "director": "Vincent McEveety",
+                    "air_date": "February 16, 1968"
+                },
+                {
+                    "num_overall": "51",
+                    "num_in_season": "22",
+                    "title": "By Any Other Name",
+                    "link": "https://en.wikipedia.org/wiki/By_Any_Other_Name",
+                    "director": "Marc Daniels",
+                    "air_date": "February 23, 1968"
+                },
+                {
+                    "num_overall": "52",
+                    "num_in_season": "23",
+                    "title": "The Omega Glory",
+                    "link": "https://en.wikipedia.org/wiki/The_Omega_Glory",
+                    "director": "Vincent McEveety",
+                    "air_date": "March 1, 1968"
+                },
+                {
+                    "num_overall": "53",
+                    "num_in_season": "24",
+                    "title": "The Ultimate Computer",
+                    "link": "https://en.wikipedia.org/wiki/The_Ultimate_Computer",
+                    "director": "John Meredyth Lucas",
+                    "air_date": "March 8, 1968"
+                },
+                {
+                    "num_overall": "54",
+                    "num_in_season": "25",
+                    "title": "Bread and Circuses",
+                    "link": "https://en.wikipedia.org/wiki/Bread_and_Circuses_(Star_Trek:_The_Original_Series)",
+                    "director": "Ralph Senensky",
+                    "air_date": "March 15, 1968"
+                },
+                {
+                    "num_overall": "55",
+                    "num_in_season": "26",
+                    "title": "Assignment: Earth",
+                    "link": "https://en.wikipedia.org/wiki/Assignment:_Earth",
+                    "director": "Marc Daniels",
+                    "air_date": "March 29, 1968"
+                }
+            ]
+        },
+        "3": {
+            "total": "24",
+            "start": "September 20, 1968",
+            "end": "June 3, 1969",
+            "episodes": [
+                {
+                    "num_overall": "56",
+                    "num_in_season": "1",
+                    "title": "Spock's Brain",
+                    "link": "https://en.wikipedia.org/wiki/Spock%27s_Brain",
+                    "director": "Marc Daniels",
+                    "air_date": "September 20, 1968"
+                },
+                {
+                    "num_overall": "57",
+                    "num_in_season": "2",
+                    "title": "The Enterprise Incident",
+                    "link": "https://en.wikipedia.org/wiki/The_Enterprise_Incident",
+                    "director": "John Meredyth Lucas",
+                    "air_date": "September 27, 1968"
+                },
+                {
+                    "num_overall": "58",
+                    "num_in_season": "3",
+                    "title": "The Paradise Syndrome",
+                    "link": "https://en.wikipedia.org/wiki/The_Paradise_Syndrome",
+                    "director": "Jud Taylor",
+                    "air_date": "October 4, 1968"
+                },
+                {
+                    "num_overall": "59",
+                    "num_in_season": "4",
+                    "title": "And the Children Shall Lead",
+                    "link": "https://en.wikipedia.org/wiki/And_the_Children_Shall_Lead",
+                    "director": "Marvin Chomsky",
+                    "air_date": "October 11, 1968"
+                },
+                {
+                    "num_overall": "60",
+                    "num_in_season": "5",
+                    "title": "Is There in Truth No Beauty?",
+                    "link": "https://en.wikipedia.org/wiki/Is_There_in_Truth_No_Beauty%3F",
+                    "director": "Ralph Senensky",
+                    "air_date": "October 18, 1968"
+                },
+                {
+                    "num_overall": "61",
+                    "num_in_season": "6",
+                    "title": "Spectre of the Gun",
+                    "link": "https://en.wikipedia.org/wiki/Spectre_of_the_Gun",
+                    "director": "Vincent McEveety",
+                    "air_date": "October 25, 1968"
+                },
+                {
+                    "num_overall": "62",
+                    "num_in_season": "7",
+                    "title": "Day of the Dove",
+                    "link": "https://en.wikipedia.org/wiki/Day_of_the_Dove",
+                    "director": "Marvin Chomsky",
+                    "air_date": "November 1, 1968"
+                },
+                {
+                    "num_overall": "63",
+                    "num_in_season": "8",
+                    "title": "For the World Is Hollow and I Have Touched the Sky",
+                    "link": "https://en.wikipedia.org/wiki/For_the_World_Is_Hollow_and_I_Have_Touched_the_Sky",
+                    "director": "Tony Leader",
+                    "air_date": "November 8, 1968"
+                },
+                {
+                    "num_overall": "64",
+                    "num_in_season": "9",
+                    "title": "The Tholian Web",
+                    "link": "https://en.wikipedia.org/wiki/The_Tholian_Web",
+                    "director": "Herb Wallerstein",
+                    "air_date": "November 15, 1968"
+                },
+                {
+                    "num_overall": "65",
+                    "num_in_season": "10",
+                    "title": "Plato's Stepchildren",
+                    "link": "https://en.wikipedia.org/wiki/Plato%27s_Stepchildren",
+                    "director": "David Alexander",
+                    "air_date": "November 22, 1968"
+                },
+                {
+                    "num_overall": "66",
+                    "num_in_season": "11",
+                    "title": "Wink of an Eye",
+                    "link": "https://en.wikipedia.org/wiki/Wink_of_an_Eye",
+                    "director": "Jud Taylor",
+                    "air_date": "November 29, 1968"
+                },
+                {
+                    "num_overall": "67",
+                    "num_in_season": "12",
+                    "title": "The Empath",
+                    "link": "https://en.wikipedia.org/wiki/The_Empath",
+                    "director": "John Erman",
+                    "air_date": "December 6, 1968"
+                },
+                {
+                    "num_overall": "68",
+                    "num_in_season": "13",
+                    "title": "Elaan of Troyius",
+                    "link": "https://en.wikipedia.org/wiki/Elaan_of_Troyius",
+                    "director": "John Meredyth Lucas",
+                    "air_date": "December 20, 1968"
+                },
+                {
+                    "num_overall": "69",
+                    "num_in_season": "14",
+                    "title": "Whom Gods Destroy",
+                    "link": "https://en.wikipedia.org/wiki/Whom_Gods_Destroy_(Star_Trek:_The_Original_Series)",
+                    "director": "Herb Wallerstein",
+                    "air_date": "January 3, 1969"
+                },
+                {
+                    "num_overall": "70",
+                    "num_in_season": "15",
+                    "title": "Let That Be Your Last Battlefield",
+                    "link": "https://en.wikipedia.org/wiki/Let_That_Be_Your_Last_Battlefield",
+                    "director": "Jud Taylor",
+                    "air_date": "January 10, 1969"
+                },
+                {
+                    "num_overall": "71",
+                    "num_in_season": "16",
+                    "title": "The Mark of Gideon",
+                    "link": "https://en.wikipedia.org/wiki/The_Mark_of_Gideon",
+                    "director": "Jud Taylor",
+                    "air_date": "January 17, 1969"
+                },
+                {
+                    "num_overall": "72",
+                    "num_in_season": "17",
+                    "title": "That Which Survives",
+                    "link": "https://en.wikipedia.org/wiki/That_Which_Survives",
+                    "director": "Herb Wallerstein",
+                    "air_date": "January 24, 1969"
+                },
+                {
+                    "num_overall": "73",
+                    "num_in_season": "18",
+                    "title": "The Lights of Zetar",
+                    "link": "https://en.wikipedia.org/wiki/The_Lights_of_Zetar",
+                    "director": "Herb Kenwith",
+                    "air_date": "January 31, 1969"
+                },
+                {
+                    "num_overall": "74",
+                    "num_in_season": "19",
+                    "title": "Requiem for Methuselah",
+                    "link": "https://en.wikipedia.org/wiki/Requiem_for_Methuselah",
+                    "director": "Murray Golden",
+                    "air_date": "February 14, 1969"
+                },
+                {
+                    "num_overall": "75",
+                    "num_in_season": "20",
+                    "title": "The Way to Eden",
+                    "link": "https://en.wikipedia.org/wiki/The_Way_to_Eden",
+                    "director": "David Alexander",
+                    "air_date": "February 21, 1969"
+                },
+                {
+                    "num_overall": "76",
+                    "num_in_season": "21",
+                    "title": "The Cloud Minders",
+                    "link": "https://en.wikipedia.org/wiki/The_Cloud_Minders",
+                    "director": "Jud Taylor",
+                    "air_date": "February 28, 1969"
+                },
+                {
+                    "num_overall": "77",
+                    "num_in_season": "22",
+                    "title": "The Savage Curtain",
+                    "link": "https://en.wikipedia.org/wiki/The_Savage_Curtain",
+                    "director": "Herschel Daugherty",
+                    "air_date": "March 7, 1969"
+                },
+                {
+                    "num_overall": "78",
+                    "num_in_season": "23",
+                    "title": "All Our Yesterdays",
+                    "link": "https://en.wikipedia.org/wiki/All_Our_Yesterdays_(Star_Trek:_The_Original_Series)",
+                    "director": "Marvin Chomsky",
+                    "air_date": "March 14, 1969"
+                },
+                {
+                    "num_overall": "79",
+                    "num_in_season": "24",
+                    "title": "Turnabout Intruder",
+                    "link": "https://en.wikipedia.org/wiki/Turnabout_Intruder",
+                    "director": "Herb Wallerstein",
+                    "air_date": "June 3, 1969"
+                }
+            ]
+        }
+    }
+}

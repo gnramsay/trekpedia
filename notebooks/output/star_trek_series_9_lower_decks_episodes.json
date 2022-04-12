@@ -1,0 +1,178 @@
+{
+    "seasons": {
+        "1": {
+            "total": "10",
+            "start": "August 6, 2020",
+            "end": "October 8, 2020",
+            "episodes": [
+                {
+                    "num_overall": "1",
+                    "num_in_season": "1",
+                    "title": "Second Contact",
+                    "link": "https://en.wikipedia.org/wiki/Second_Contact",
+                    "director": "Barry J. Kelly",
+                    "air_date": "August 6, 2020"
+                },
+                {
+                    "num_overall": "2",
+                    "num_in_season": "2",
+                    "title": "Envoys",
+                    "link": "",
+                    "director": "Kim Arndt",
+                    "air_date": "August 13, 2020"
+                },
+                {
+                    "num_overall": "3",
+                    "num_in_season": "3",
+                    "title": "Temporal Edict",
+                    "link": "",
+                    "director": "Bob Suarez",
+                    "air_date": "August 20, 2020"
+                },
+                {
+                    "num_overall": "4",
+                    "num_in_season": "4",
+                    "title": "Moist Vessel",
+                    "link": "",
+                    "director": "Barry J. Kelly",
+                    "air_date": "August 27, 2020"
+                },
+                {
+                    "num_overall": "5",
+                    "num_in_season": "5",
+                    "title": "Cupid's Errant Arrow",
+                    "link": "",
+                    "director": "Kim Arndt",
+                    "air_date": "September 3, 2020"
+                },
+                {
+                    "num_overall": "6",
+                    "num_in_season": "6",
+                    "title": "Terminal Provocations",
+                    "link": "",
+                    "director": "Bob Suarez",
+                    "air_date": "September 10, 2020"
+                },
+                {
+                    "num_overall": "7",
+                    "num_in_season": "7",
+                    "title": "Much Ado About Boimler",
+                    "link": "",
+                    "director": "Barry J. Kelly",
+                    "air_date": "September 17, 2020"
+                },
+                {
+                    "num_overall": "8",
+                    "num_in_season": "8",
+                    "title": "Veritas",
+                    "link": "",
+                    "director": "Kim Arndt",
+                    "air_date": "September 24, 2020"
+                },
+                {
+                    "num_overall": "9",
+                    "num_in_season": "9",
+                    "title": "Crisis Point",
+                    "link": "",
+                    "director": "Bob Suarez",
+                    "air_date": "October 1, 2020"
+                },
+                {
+                    "num_overall": "10",
+                    "num_in_season": "10",
+                    "title": "No Small Parts",
+                    "link": "",
+                    "director": "Barry J. Kelly",
+                    "air_date": "October 8, 2020"
+                }
+            ]
+        },
+        "2": {
+            "total": "10",
+            "start": "August 12, 2021",
+            "end": "October 14, 2021",
+            "episodes": [
+                {
+                    "num_overall": "11",
+                    "num_in_season": "1",
+                    "title": "Strange Energies",
+                    "link": "",
+                    "director": "Jason Zurek",
+                    "air_date": "August 12, 2021"
+                },
+                {
+                    "num_overall": "12",
+                    "num_in_season": "2",
+                    "title": "Kayshon, His Eyes Open",
+                    "link": "",
+                    "director": "Kim Arndt",
+                    "air_date": "August 19, 2021"
+                },
+                {
+                    "num_overall": "13",
+                    "num_in_season": "3",
+                    "title": "We'll Always Have Tom Paris",
+                    "link": "",
+                    "director": "Bob Suarez",
+                    "air_date": "August 26, 2021"
+                },
+                {
+                    "num_overall": "14",
+                    "num_in_season": "4",
+                    "title": "Mugato, Gumato",
+                    "link": "",
+                    "director": "Jason Zurek",
+                    "air_date": "September 2, 2021"
+                },
+                {
+                    "num_overall": "15",
+                    "num_in_season": "5",
+                    "title": "An Embarrassment of Dooplers",
+                    "link": "",
+                    "director": "Kim Arndt",
+                    "air_date": "September 9, 2021"
+                },
+                {
+                    "num_overall": "16",
+                    "num_in_season": "6",
+                    "title": "The Spy Humongous",
+                    "link": "",
+                    "director": "Bob Suarez",
+                    "air_date": "September 16, 2021"
+                },
+                {
+                    "num_overall": "17",
+                    "num_in_season": "7",
+                    "title": "Where Pleasant Fountains Lie",
+                    "link": "",
+                    "director": "Jason Zurek",
+                    "air_date": "September 23, 2021"
+                },
+                {
+                    "num_overall": "18",
+                    "num_in_season": "8",
+                    "title": "I, Excretus",
+                    "link": "",
+                    "director": "Kim Arndt",
+                    "air_date": "September 30, 2021"
+                },
+                {
+                    "num_overall": "19",
+                    "num_in_season": "9",
+                    "title": "wej Duj",
+                    "link": "",
+                    "director": "Bob Suarez",
+                    "air_date": "October 7, 2021"
+                },
+                {
+                    "num_overall": "20",
+                    "num_in_season": "10",
+                    "title": "First First Contact",
+                    "link": "",
+                    "director": "Jason Zurek",
+                    "air_date": "October 14, 2021"
+                }
+            ]
+        }
+    }
+}
