@@ -1,12 +1,18 @@
-# Trekpedia
+# Trekpedia JSON
 
-Star Trek TV/Film episode database scraped from web sources in JSOn format for
-imclusion in a later API. This is a work in progress which will follow
-the path `Scraper` -> `Backend` -> `Frontend`.
+Star Trek TV/Film episode database scraped from web sources and provided in JSON
+format.
 
-All copyright to the 'Star Trek' name belongs to [ViacomCBS][viacomcbs]. All
-data in this project has been mined from the [Wikipedia Star Trek page][wst] and
-associated subpages under the [Fair Use][fup] principal.
+Currently really just a geek project for me to get familiar with Python
+web-scraping, and provide data for API development.
+
+All copyright to the 'Star Trek' name and data belongs to
+[ViacomCBS][viacomcbs].
+
+All data in this project has been mined from the [Wikipedia Star Trek page][wst]
+and associated subpages under the [Fair Use][fup] principal.
+
+The license below only applies to the **SOURCE CODE**.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -31,6 +37,8 @@ iterations.
 
 * Take the JSON file created in the previous step, and dump the episode names
   for each series to a separate json file, with some Series metadata
+  * Discovery and Prodigy need special treatment as their markup seems to follow
+    no logic know to man, God or Vulcan.
 
 ## Installation
 
