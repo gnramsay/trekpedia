@@ -86,20 +86,12 @@
                     "air_date": "November 10, 1966"
                 },
                 {
-                    "num_overall": "11",
-                    "num_in_season": "11",
-                    "title": "The Menagerie, Part I",
+                    "num_overall": "1112",
+                    "num_in_season": "1112",
+                    "title": "The Menagerie",
                     "link": "https://en.wikipedia.org/wiki/The_Menagerie_(Star_Trek:_The_Original_Series)",
-                    "director": "Marc Daniels",
-                    "air_date": "November 17, 1966"
-                },
-                {
-                    "num_overall": "12",
-                    "num_in_season": "12",
-                    "title": "The Menagerie, Part II",
-                    "link": "https://en.wikipedia.org/wiki/The_Menagerie_(Star_Trek:_The_Original_Series)",
-                    "director": "Robert Butler",
-                    "air_date": "November 24, 1966"
+                    "director": "Marc DanielsRobert Butler",
+                    "air_date": "November 17, 1966 November 24, 1966"
                 },
                 {
                     "num_overall": "13",
