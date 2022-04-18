@@ -40,14 +40,18 @@ iterations.
   * Discovery and Prodigy need special treatment as their markup seems to follow
     no logic know to man, God or Vulcan.
 
+#### `trekpedia.py [IN PROGRESS]`
+
+* First work towards moving from Jupyter notebooks to a standard Python script
+
 ## Produced Files
 
 A work-in-progress version of the derived data is available in the
-[output](notebooks/output) directory.
+[output](output) directory.
 
 This contains:
 
-* [star_trek_series_info.json](notebooks/output/star_trek_series_info.json)
+* [star_trek_series_info.json](output/star_trek_series_info.json)
   which lists info and links for each series only, and is used as the basis for
   getting the individual series data.
 * One individual JSON file for each Star Trek incarnation (Currently 10 as we
