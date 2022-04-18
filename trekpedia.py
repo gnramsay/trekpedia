@@ -80,7 +80,7 @@ series_rows = trek_table.find_all("tr")[1:]
 # create a list, containing dictionary for each season.
 # also add an ID so we can link it to the series data later.
 series_all = {}
-for index, series in enumerate(series_rows):
+for index, series in enumerate(series_rows, 1):
     series_dict = {}
     series_dict["name"] = series.th.a.text
     series_dict["url"] = f'https://en.wikipedia.org{series.th.a["href"]}'
