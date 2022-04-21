@@ -2,8 +2,8 @@
     "seasons": {
         "1": {
             "total": "26",
-            "start": "September 28, 1987",
-            "end": "May 16, 1988",
+            "season_start": "September 28, 1987",
+            "season_end": "May 16, 1988",
             "episodes": [
                 {
                     "num_overall": "12",
@@ -209,8 +209,8 @@
         },
         "2": {
             "total": "22",
-            "start": "November 21, 1988",
-            "end": "July 17, 1989",
+            "season_start": "November 21, 1988",
+            "season_end": "July 17, 1989",
             "episodes": [
                 {
                     "num_overall": "27",
@@ -392,8 +392,8 @@
         },
         "3": {
             "total": "26",
-            "start": "September 25, 1989",
-            "end": "June 18, 1990",
+            "season_start": "September 25, 1989",
+            "season_end": "June 18, 1990",
             "episodes": [
                 {
                     "num_overall": "50",
@@ -607,8 +607,8 @@
         },
         "4": {
             "total": "26",
-            "start": "September 24, 1990",
-            "end": "June 17, 1991",
+            "season_start": "September 24, 1990",
+            "season_end": "June 17, 1991",
             "episodes": [
                 {
                     "num_overall": "75",
@@ -822,8 +822,8 @@
         },
         "5": {
             "total": "26",
-            "start": "September 23, 1991",
-            "end": "June 15, 1992",
+            "season_start": "September 23, 1991",
+            "season_end": "June 15, 1992",
             "episodes": [
                 {
                     "num_overall": "101",
@@ -1037,8 +1037,8 @@
         },
         "6": {
             "total": "26",
-            "start": "September 21, 1992",
-            "end": "June 21, 1993",
+            "season_start": "September 21, 1992",
+            "season_end": "June 21, 1993",
             "episodes": [
                 {
                     "num_overall": "127",
@@ -1252,8 +1252,8 @@
         },
         "7": {
             "total": "26",
-            "start": "September 20, 1993",
-            "end": "May 23, 1994",
+            "season_start": "September 20, 1993",
+            "season_end": "May 23, 1994",
             "episodes": [
                 {
                     "num_overall": "153",

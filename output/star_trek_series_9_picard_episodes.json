@@ -2,8 +2,8 @@
     "seasons": {
         "1": {
             "total": "10",
-            "start": "January 23, 2020",
-            "end": "March 26, 2020",
+            "season_start": "January 23, 2020",
+            "season_end": "March 26, 2020",
             "episodes": [
                 {
                     "num_overall": "1",
@@ -81,8 +81,8 @@
         },
         "2": {
             "total": "10",
-            "start": "March 3, 2022",
-            "end": "May 5, 2022",
+            "season_start": "March 3, 2022",
+            "season_end": "May 5, 2022",
             "episodes": [
                 {
                     "num_overall": "11",

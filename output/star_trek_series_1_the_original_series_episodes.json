@@ -2,8 +2,8 @@
     "seasons": {
         "1": {
             "total": "29",
-            "start": "September 8, 1966",
-            "end": "April 13, 1967",
+            "season_start": "September 8, 1966",
+            "season_end": "April 13, 1967",
             "episodes": [
                 {
                     "num_overall": "1",
@@ -233,8 +233,8 @@
         },
         "2": {
             "total": "26",
-            "start": "September 15, 1967",
-            "end": "March 29, 1968",
+            "season_start": "September 15, 1967",
+            "season_end": "March 29, 1968",
             "episodes": [
                 {
                     "num_overall": "30",
@@ -448,8 +448,8 @@
         },
         "3": {
             "total": "24",
-            "start": "September 20, 1968",
-            "end": "June 3, 1969",
+            "season_start": "September 20, 1968",
+            "season_end": "June 3, 1969",
             "episodes": [
                 {
                     "num_overall": "56",

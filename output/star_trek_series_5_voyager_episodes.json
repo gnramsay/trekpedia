@@ -2,8 +2,8 @@
     "seasons": {
         "1": {
             "total": "16",
-            "start": "January 16, 1995",
-            "end": "May 22, 1995",
+            "season_start": "January 16, 1995",
+            "season_end": "May 22, 1995",
             "episodes": [
                 {
                     "num_overall": "12",
@@ -129,8 +129,8 @@
         },
         "2": {
             "total": "26",
-            "start": "August 28, 1995",
-            "end": "May 20, 1996",
+            "season_start": "August 28, 1995",
+            "season_end": "May 20, 1996",
             "episodes": [
                 {
                     "num_overall": "17",
@@ -344,8 +344,8 @@
         },
         "3": {
             "total": "26",
-            "start": "September 4, 1996",
-            "end": "May 21, 1997",
+            "season_start": "September 4, 1996",
+            "season_end": "May 21, 1997",
             "episodes": [
                 {
                     "num_overall": "43",
@@ -559,8 +559,8 @@
         },
         "4": {
             "total": "26",
-            "start": "September 3, 1997",
-            "end": "May 20, 1998",
+            "season_start": "September 3, 1997",
+            "season_end": "May 20, 1998",
             "episodes": [
                 {
                     "num_overall": "69",
@@ -766,8 +766,8 @@
         },
         "5": {
             "total": "26",
-            "start": "October 14, 1998",
-            "end": "May 26, 1999",
+            "season_start": "October 14, 1998",
+            "season_end": "May 26, 1999",
             "episodes": [
                 {
                     "num_overall": "95",
@@ -973,8 +973,8 @@
         },
         "6": {
             "total": "26",
-            "start": "September 22, 1999",
-            "end": "May 24, 2000",
+            "season_start": "September 22, 1999",
+            "season_end": "May 24, 2000",
             "episodes": [
                 {
                     "num_overall": "121",
@@ -1188,8 +1188,8 @@
         },
         "7": {
             "total": "26",
-            "start": "October 4, 2000",
-            "end": "May 23, 2001",
+            "season_start": "October 4, 2000",
+            "season_end": "May 23, 2001",
             "episodes": [
                 {
                     "num_overall": "147",

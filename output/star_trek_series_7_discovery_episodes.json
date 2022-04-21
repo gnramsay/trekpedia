@@ -2,8 +2,8 @@
     "seasons": {
         "1": {
             "total": "15",
-            "start": "9",
-            "end": "September 24, 2017",
+            "season_start": "9",
+            "season_end": "September 24, 2017",
             "episodes": [
                 {
                     "num_overall": "1",
@@ -129,8 +129,8 @@
         },
         "2": {
             "total": "14",
-            "start": "January 17, 2019",
-            "end": "April 18, 2019",
+            "season_start": "January 17, 2019",
+            "season_end": "April 18, 2019",
             "episodes": [
                 {
                     "num_overall": "16",
@@ -240,8 +240,8 @@
         },
         "3": {
             "total": "13",
-            "start": "October 15, 2020",
-            "end": "January 7, 2021",
+            "season_start": "October 15, 2020",
+            "season_end": "January 7, 2021",
             "episodes": [
                 {
                     "num_overall": "30",
@@ -343,8 +343,8 @@
         },
         "4": {
             "total": "13",
-            "start": "November 18, 2021",
-            "end": "March 17, 2022",
+            "season_start": "November 18, 2021",
+            "season_end": "March 17, 2022",
             "episodes": [
                 {
                     "num_overall": "43",

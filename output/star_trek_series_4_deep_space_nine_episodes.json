@@ -2,8 +2,8 @@
     "seasons": {
         "1": {
             "total": "20",
-            "start": "January 3, 1993",
-            "end": "June 20, 1993",
+            "season_start": "January 3, 1993",
+            "season_end": "June 20, 1993",
             "episodes": [
                 {
                     "num_overall": "12",
@@ -161,8 +161,8 @@
         },
         "2": {
             "total": "26",
-            "start": "September 26, 1993",
-            "end": "June 12, 1994",
+            "season_start": "September 26, 1993",
+            "season_end": "June 12, 1994",
             "episodes": [
                 {
                     "num_overall": "21",
@@ -376,8 +376,8 @@
         },
         "3": {
             "total": "26",
-            "start": "September 26, 1994",
-            "end": "June 19, 1995",
+            "season_start": "September 26, 1994",
+            "season_end": "June 19, 1995",
             "episodes": [
                 {
                     "num_overall": "47",
@@ -591,8 +591,8 @@
         },
         "4": {
             "total": "26",
-            "start": "October 2, 1995",
-            "end": "June 17, 1996",
+            "season_start": "October 2, 1995",
+            "season_end": "June 17, 1996",
             "episodes": [
                 {
                     "num_overall": "7374",
@@ -798,8 +798,8 @@
         },
         "5": {
             "total": "26",
-            "start": "September 30, 1996",
-            "end": "June 16, 1997",
+            "season_start": "September 30, 1996",
+            "season_end": "June 16, 1997",
             "episodes": [
                 {
                     "num_overall": "99",
@@ -1013,8 +1013,8 @@
         },
         "6": {
             "total": "26",
-            "start": "September 29, 1997",
-            "end": "June 17, 1998",
+            "season_start": "September 29, 1997",
+            "season_end": "June 17, 1998",
             "episodes": [
                 {
                     "num_overall": "125",
@@ -1228,8 +1228,8 @@
         },
         "7": {
             "total": "26",
-            "start": "September 30, 1998",
-            "end": "June 2, 1999",
+            "season_start": "September 30, 1998",
+            "season_end": "June 2, 1999",
             "episodes": [
                 {
                     "num_overall": "151",
