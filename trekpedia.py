@@ -29,10 +29,15 @@ class TrekPedia:
         self.series_data = {}
         self.version = "0.0.1"
 
-    def parse_url(self):
-        """Get the url and parse with BeautifulSoup."""
-        result = requests.get(self.main_url)
-        self.series_summary_bs = BeautifulSoup(result.text, "lxml")
+    def parse_url(self, url):
+        """Get the specified url and parse with BeautifulSoup."""
+        result = requests.get(url)
+        # self.series_summary_bs = BeautifulSoup(result.text, "lxml")
+        return BeautifulSoup(result.text, "lxml")
+
+    def get_summary_data(self):
+        """Get and parse the summary data."""
+        self.series_summary_bs = self.parse_url(self.main_url)
 
     def get_season_links(self, url):
         """Return a list of season links for the specified series."""
@@ -86,7 +91,7 @@ class TrekPedia:
 
     def get_series_info(self):
         """Start the process to get and save the series info."""
-        self.parse_url()
+        self.get_summary_data()
 
         # get all rows of the 'TV' table so we can parse it.
         tv_section = self.series_summary_bs.find(id="Television").parent
