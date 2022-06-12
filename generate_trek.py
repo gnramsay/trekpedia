@@ -5,7 +5,7 @@ Produce JSON dumps of Star Trek data suitable for adding to an API.
 import sys
 
 import colorama
-from termcolor import colored, cprint
+from blessings import Terminal
 
 from trekpedia import Trekpedia
 
@@ -21,12 +21,14 @@ def main(_args):
     trekpedia = Trekpedia(MAIN_URL, JSON_TEMPLATE)
 
     colorama.init()
+    t = Terminal()  # pylint: disable=invalid-name
 
     print(
-        "Trekpedia : Parse 'Star Trek' data from the Web and save as JSON.\n"
-        "(C)2022 Grant Ramsay (grant@gnramsay.com)\n"
-        f"Version {trekpedia.version}\n"
+        f"Trekpedia : Parse '{t.cyan}Star Trek{t.normal}' "
+        "data from the Web and save as JSON.\n"
     )
+    print("(C)2022 Grant Ramsay (grant@gnramsay.com)\n")
+    print(f"Version {trekpedia.version}\n")
 
     # ------ get the series info and save to a JSON file for later use. ------ #
     print("Getting Series Data...", end="")

@@ -3,8 +3,8 @@ import json
 import re
 
 import requests
+from blessings import Terminal
 from bs4 import BeautifulSoup
-from termcolor import colored, cprint
 
 
 class Trekpedia:
@@ -124,16 +124,14 @@ class Trekpedia:
         """Take the supplied dictionary and parses the Series."""
         index, series = series_dict
 
-        # skip series with markup that is too screwed up for now...
-        if series["name"].lower() in ["prodigy"]:
-            return
+        t = Terminal()  # pylint: disable=invalid-name
 
-        print(f'Processing : {series["name"]}')
+        print(f'Processing : {t.cyan}{t.underline}{series["name"]}{t.normal}')
         filename = self.json_template.format(
             index, series["name"].replace(" ", "_").lower()
         )
-        print(f"  -> Using URL : {series['episodes_url']}")
-        print(f"  -> Storing episodes to '{filename}'")
+        print(f"  -> Using URL : {t.green}{series['episodes_url']}{t.normal}")
+        print(f"  -> Storing episodes to {t.green}'{filename}'{t.normal}")
 
         season_final = {}
         season_all = {}
@@ -272,8 +270,9 @@ class Trekpedia:
                 season_final["seasons"] = season_all
         except AttributeError as err:
             print(
-                f"  => ERROR, need to investigate! "
-                f"({err}) at line number: {err.__traceback__.tb_lineno}"
+                f"{t.red}  => ERROR, need to investigate! "
+                f"({err}) at line number: "
+                f"{err.__traceback__.tb_lineno}{t.normal}"
             )
             return
         self.save_json(filename, season_final)
