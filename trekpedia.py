@@ -26,12 +26,6 @@ class Trekpedia:
         self.series_data = {}
         self.version = "0.0.3"
 
-    def parse_url(self, url):
-        """Get the specified url and parse with BeautifulSoup."""
-        result = requests.get(url)
-        # self.series_summary_bs = BeautifulSoup(result.text, "lxml")
-        return BeautifulSoup(result.text, "lxml")
-
     def get_summary_data(self):
         """Get and parse the summary data."""
         self.series_markup = self.parse_url(self.main_url)
@@ -126,7 +120,7 @@ class Trekpedia:
         """Take the supplied dictionary and parses the Series."""
         index, series = series_dict
 
-        t = Terminal()  # pylint: disable=invalid-name
+        t = Terminal()  # pylint: disable=invalid-name, redefined-outer-name
 
         print(f'Processing : {t.cyan}{t.underline}{series["name"]}{t.normal}')
         filename = self.json_template.format(
@@ -305,6 +299,12 @@ class Trekpedia:
         if lowercase:
             dirty_string = dirty_string.lower()
         return " ".join(dirty_string.split())
+
+    @staticmethod
+    def parse_url(url):
+        """Get the specified url and parse with BeautifulSoup."""
+        result = requests.get(url)
+        return BeautifulSoup(result.text, "lxml")
 
 
 if __name__ == "__main__":
