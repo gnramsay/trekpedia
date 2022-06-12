@@ -1,27 +1,19 @@
-"""Trekpedia JSON.
-
-Produce JSON dumps of Star Trek data suitable for adding to an API.
-"""
+"""Define the Trekpedia class."""
 import json
 import re
-import sys
 
 import requests
 from bs4 import BeautifulSoup
-
-MAIN_URL = "https://en.wikipedia.org/wiki/Star_Trek"
-JSON_TEMPLATE = "output/star_trek_series_{}_{}_episodes.json"
+from termcolor import colored, cprint
 
 
-# ---------------------------------------------------------------------------- #
-#                          Define the Trekpedia Class                         #
-# ---------------------------------------------------------------------------- #
 class Trekpedia:
     """Overall class to get and Parse the Wikipedia data."""
 
-    def __init__(self):
+    def __init__(self, main_url, json_template):
         """Initialize the class."""
-        self.main_url = MAIN_URL
+        self.main_url = main_url
+        self.json_template = json_template
         self.series_markup = BeautifulSoup()
         self.exceptions = [
             "Animated",
@@ -137,7 +129,7 @@ class Trekpedia:
             return
 
         print(f'Processing : {series["name"]}')
-        filename = JSON_TEMPLATE.format(
+        filename = self.json_template.format(
             index, series["name"].replace(" ", "_").lower()
         )
         print(f"  -> Using URL : {series['episodes_url']}")
@@ -308,47 +300,3 @@ class Trekpedia:
         if lowercase:
             dirty_string = dirty_string.lower()
         return " ".join(dirty_string.split())
-
-
-# ---------------------------------------------------------------------------- #
-#                                   Main Code                                  #
-# ---------------------------------------------------------------------------- #
-def main(_args):
-    """Run the main program, parse and save data from Wikipedia."""
-    trekpedia = Trekpedia()
-
-    print(
-        "Trekpedia : Parse 'Star Trek' data from the Web and save as JSON.\n"
-        "(C)2022 Grant Ramsay (grant@gnramsay.com)\n"
-        f"Version {trekpedia.version}\n"
-    )
-
-    # ------ get the series info and save to a JSON file for later use. ------ #
-    print("Getting Series Data...", end="")
-    trekpedia.get_series_info()
-    trekpedia.save_json(
-        "output/star_trek_series_info.json", trekpedia.series_data
-    )
-    print(" Done!\n")
-
-    # ------------- loop through each series and parse then save ------------- #
-    for series_data in trekpedia.series_data.items():
-        trekpedia.parse_series(series_data)
-
-
-# ---------------------------------------------------------------------------- #
-#                         Wrapper to run the main code                         #
-# ---------------------------------------------------------------------------- #
-def run():
-    """Call :func:`main` passing any CLI arguments."""
-    try:
-        main(sys.argv[1:])
-    except KeyboardInterrupt:
-        pass
-
-
-# ---------------------------------------------------------------------------- #
-#              Actually run our code, unless we have been imported             #
-# ---------------------------------------------------------------------------- #
-if __name__ == "__main__":
-    run()
