@@ -305,3 +305,14 @@ class Trekpedia:
         if lowercase:
             dirty_string = dirty_string.lower()
         return " ".join(dirty_string.split())
+
+
+if __name__ == "__main__":
+    t = Terminal()  # pylint: disable=invalid-name
+    print(
+        f"\nThis library is {t.red}not meant to be run directly{t.normal}, "
+        "aborting."
+    )
+    print(
+        f"Please run the {t.cyan}'generate_trek.py'{t.normal} file instead!\n"
+    )
