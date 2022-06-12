@@ -24,7 +24,7 @@ class Trekpedia:
             "Strange_New_Worlds",
         ]
         self.series_data = {}
-        self.version = "0.0.2"
+        self.version = "0.0.3"
 
     def parse_url(self, url):
         """Get the specified url and parse with BeautifulSoup."""
