@@ -84,11 +84,6 @@ class TrekPedia:
         logo_url = f"https:{logo}"
         return logo_url
 
-    def save_json(self, filename, data):
-        """Save the specified data as a JSON file to the specified location."""
-        with open(filename, "w", encoding="utf-8") as file:
-            json.dump(data, file, ensure_ascii=False, indent=4)
-
     def get_series_info(self):
         """Start the process to get and save the series info."""
         self.get_summary_data()
@@ -128,13 +123,19 @@ class TrekPedia:
                 series_all[series]["episodes_url"] = links
         self.series_data = series_all
 
+    @staticmethod
+    def save_json(filename, data):
+        """Save the specified data as a JSON file to the specified location."""
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump(data, file, ensure_ascii=False, indent=4)
+
 
 # --------------------------------- Main Code -------------------------------- #
 trekpedia = TrekPedia()
 
 print(
     "Trekpedia : Parse 'Star Trek' data from the Web and save as JSON.\n"
-    "(c)2022 Grant Ramsay (grant@gnramsay.com)\n"
+    "(C)2022 Grant Ramsay (grant@gnramsay.com)\n"
     f"Version {trekpedia.version}\n"
 )
 
