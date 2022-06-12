@@ -13,9 +13,9 @@ JSON_TEMPLATE = "output/star_trek_series_{}_{}_episodes.json"
 
 
 # ---------------------------------------------------------------------------- #
-#                          Define the TrekPredia Class                         #
+#                          Define the Trekpedia Class                         #
 # ---------------------------------------------------------------------------- #
-class TrekPedia:
+class Trekpedia:
     """Overall class to get and Parse the Wikipedia data."""
 
     def __init__(self):
@@ -312,7 +312,7 @@ class TrekPedia:
 # ---------------------------------------------------------------------------- #
 #                                   Main Code                                  #
 # ---------------------------------------------------------------------------- #
-trekpedia = TrekPedia()
+trekpedia = Trekpedia()
 
 print(
     "Trekpedia : Parse 'Star Trek' data from the Web and save as JSON.\n"
@@ -326,7 +326,6 @@ trekpedia.get_series_info()
 trekpedia.save_json("output/star_trek_series_info.json", trekpedia.series_data)
 print(" Done!\n")
 
-# -------------------- loop through each series and parse -------------------- #
+# --------------- loop through each series and parse then save --------------- #
 for series_data in trekpedia.series_data.items():
-
     trekpedia.parse_series(series_data)
