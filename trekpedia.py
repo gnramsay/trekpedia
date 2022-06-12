@@ -81,6 +81,27 @@ class Trekpedia:
         logo_url = f"https:{logo}"
         return logo_url
 
+    def get_series_details(self, series):
+        """Get explicit details for each series."""
+        series_dict = {}
+        series_dict["name"] = series.th.a.text
+        series_dict["url"] = f'https://en.wikipedia.org{series.th.a["href"]}'
+        series_dict["season_count"] = series.find_all("td")[0].text
+        series_dict["episode_count"] = series.find_all("td")[1].text
+        series_dict["episodes_url"] = ""
+        dates = (
+            series.find_all("td")[2]
+            .text.split("(")[0]
+            .strip()
+            .replace("\u2013", "-")
+        )
+        # get the unicode stuff out of the string...
+        dates = " ".join(dates.split())
+        series_dict["dates"] = dates
+        series_dict["logo"] = self.get_logo(series_dict["name"])
+
+        return series_dict
+
     def get_series_info(self):
         """Start the process to get and save the series info."""
         self.get_summary_data()
@@ -92,26 +113,7 @@ class Trekpedia:
 
         series_all = {}
         for index, series in enumerate(series_rows, 1):
-            series_dict = {}
-            series_dict["name"] = series.th.a.text
-            series_dict[
-                "url"
-            ] = f'https://en.wikipedia.org{series.th.a["href"]}'
-            series_dict["season_count"] = series.find_all("td")[0].text
-            series_dict["episode_count"] = series.find_all("td")[1].text
-            series_dict["episodes_url"] = ""
-            dates = (
-                series.find_all("td")[2]
-                .text.split("(")[0]
-                .strip()
-                .replace("\u2013", "-")
-            )
-            # get the unicode stuff out of the string...
-            dates = " ".join(dates.split())
-            series_dict["dates"] = dates
-            series_dict["logo"] = self.get_logo(series_dict["name"])
-
-            series_all[index] = series_dict
+            series_all[index] = self.get_series_details(series)
 
         keys = series_all.keys()
         for series in keys:
@@ -146,7 +148,11 @@ class Trekpedia:
             )
 
             if not summary_table:
-                print("   x No Summary Table found, skipping this Series ...")
+                print(
+                    f"{t.red}"
+                    "   x No Summary Table found, skipping this Series ..."
+                    f"{t.normal}"
+                )
                 return
 
             summary_rows = summary_table.find("tbody").find_all("tr")[2:]
