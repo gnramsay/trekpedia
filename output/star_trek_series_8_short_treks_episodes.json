@@ -2,8 +2,8 @@
     "seasons": {
         "1": {
             "total": "4",
-            "start": "October 4, 2018",
-            "end": "January 3, 2019",
+            "season_start": "October 4, 2018",
+            "season_end": "January 3, 2019",
             "episodes": [
                 {
                     "num_overall": "1",
@@ -41,8 +41,8 @@
         },
         "2": {
             "total": "6",
-            "start": "October 5, 2019",
-            "end": "January 9, 2020",
+            "season_start": "October 5, 2019",
+            "season_end": "January 9, 2020",
             "episodes": [
                 {
                     "num_overall": "5",

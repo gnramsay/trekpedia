@@ -2,8 +2,8 @@
     "seasons": {
         "1": {
             "total": "10",
-            "start": "August 6, 2020",
-            "end": "October 8, 2020",
+            "season_start": "August 6, 2020",
+            "season_end": "October 8, 2020",
             "episodes": [
                 {
                     "num_overall": "1",
@@ -89,8 +89,8 @@
         },
         "2": {
             "total": "10",
-            "start": "August 12, 2021",
-            "end": "October 14, 2021",
+            "season_start": "August 12, 2021",
+            "season_end": "October 14, 2021",
             "episodes": [
                 {
                     "num_overall": "11",

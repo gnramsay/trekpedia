@@ -1,5 +1,5 @@
 {
-    "0": {
+    "1": {
         "name": "The Original Series",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series",
         "season_count": "3",
@@ -8,7 +8,7 @@
         "dates": "September 8, 1966 - June 3, 1969",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Star_Trek_TOS_logo.svg/220px-Star_Trek_TOS_logo.svg.png"
     },
-    "1": {
+    "2": {
         "name": "The Animated Series",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Animated_Series",
         "season_count": "2",
@@ -17,7 +17,7 @@
         "dates": "September 8, 1973 - October 12, 1974",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Star_Trek_TAS_logo.svg/220px-Star_Trek_TAS_logo.svg.png"
     },
-    "2": {
+    "3": {
         "name": "The Next Generation",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation",
         "season_count": "7",
@@ -26,7 +26,7 @@
         "dates": "September 28, 1987 - May 23, 1994",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Star_Trek_The_Next_Generation_Logo.svg/220px-Star_Trek_The_Next_Generation_Logo.svg.png"
     },
-    "3": {
+    "4": {
         "name": "Deep Space Nine",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_Deep_Space_Nine",
         "season_count": "7",
@@ -35,7 +35,7 @@
         "dates": "January 4, 1993 - May 31, 1999",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Star_Trek_DS9_logo.svg/220px-Star_Trek_DS9_logo.svg.png"
     },
-    "4": {
+    "5": {
         "name": "Voyager",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_Voyager",
         "season_count": "7",
@@ -44,7 +44,7 @@
         "dates": "January 16, 1995 - May 23, 2001",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Star_Trek_VOY_logo.svg/220px-Star_Trek_VOY_logo.svg.png"
     },
-    "5": {
+    "6": {
         "name": "Enterprise",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_Enterprise",
         "season_count": "4",
@@ -53,7 +53,7 @@
         "dates": "September 26, 2001 - May 13, 2005",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Star_Trek_ENT_logo.svg/220px-Star_Trek_ENT_logo.svg.png"
     },
-    "6": {
+    "7": {
         "name": "Discovery",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery",
         "season_count": "4",
@@ -62,7 +62,7 @@
         "dates": "September 24, 2017 - present",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Star_Trek_Discovery_logo.svg/220px-Star_Trek_Discovery_logo.svg.png"
     },
-    "7": {
+    "8": {
         "name": "Short Treks",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
         "season_count": "2",
@@ -71,16 +71,16 @@
         "dates": "October 4, 2018 - January 9, 2020",
         "logo": ""
     },
-    "8": {
+    "9": {
         "name": "Picard",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard",
         "season_count": "2",
-        "episode_count": "16",
+        "episode_count": "20",
         "episodes_url": "https://en.wikipedia.org/wiki/Star_Trek:_Picard",
         "dates": "January 23, 2020 - present",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Star_Trek_Picard_logo.svg/220px-Star_Trek_Picard_logo.svg.png"
     },
-    "9": {
+    "10": {
         "name": "Lower Decks",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks",
         "season_count": "2",
@@ -89,7 +89,7 @@
         "dates": "August 6, 2020 - present",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Star_Trek_LD_logo.svg/220px-Star_Trek_LD_logo.svg.png"
     },
-    "10": {
+    "11": {
         "name": "Prodigy",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy",
         "season_count": "1",
@@ -97,5 +97,14 @@
         "episodes_url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy",
         "dates": "October 28, 2021 - present",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Star_Trek_Prod_logo.svg/220px-Star_Trek_Prod_logo.svg.png"
+    },
+    "12": {
+        "name": "Strange New Worlds",
+        "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds",
+        "season_count": "1",
+        "episode_count": "6",
+        "episodes_url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds",
+        "dates": "May 5, 2022 - present",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Star_Trek_SNW_logo.svg/220px-Star_Trek_SNW_logo.svg.png"
     }
 }

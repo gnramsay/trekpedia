@@ -2,8 +2,8 @@
     "seasons": {
         "1": {
             "total": "16",
-            "start": "September 8, 1973",
-            "end": "January 12, 1974",
+            "season_start": "September 8, 1973",
+            "season_end": "January 12, 1974",
             "episodes": [
                 {
                     "num_overall": "1",
@@ -137,8 +137,8 @@
         },
         "2": {
             "total": "6",
-            "start": "September 7, 1974",
-            "end": "October 12, 1974",
+            "season_start": "September 7, 1974",
+            "season_end": "October 12, 1974",
             "episodes": [
                 {
                     "num_overall": "17",

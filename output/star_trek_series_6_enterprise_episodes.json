@@ -2,8 +2,8 @@
     "seasons": {
         "1": {
             "total": "26",
-            "start": "September 26, 2001",
-            "end": "May 22, 2002",
+            "season_start": "September 26, 2001",
+            "season_end": "May 22, 2002",
             "episodes": [
                 {
                     "num_overall": "12",
@@ -209,8 +209,8 @@
         },
         "2": {
             "total": "26",
-            "start": "September 18, 2002",
-            "end": "May 21, 2003",
+            "season_start": "September 18, 2002",
+            "season_end": "May 21, 2003",
             "episodes": [
                 {
                     "num_overall": "27",
@@ -424,8 +424,8 @@
         },
         "3": {
             "total": "24",
-            "start": "September 10, 2003",
-            "end": "May 26, 2004",
+            "season_start": "September 10, 2003",
+            "season_end": "May 26, 2004",
             "episodes": [
                 {
                     "num_overall": "53",
@@ -623,8 +623,8 @@
         },
         "4": {
             "total": "22",
-            "start": "October 8, 2004",
-            "end": "May 13, 2005",
+            "season_start": "October 8, 2004",
+            "season_end": "May 13, 2005",
             "episodes": [
                 {
                     "num_overall": "77",

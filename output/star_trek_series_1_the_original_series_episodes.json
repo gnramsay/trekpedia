@@ -2,8 +2,8 @@
     "seasons": {
         "1": {
             "total": "29",
-            "start": "September 8, 1966",
-            "end": "April 13, 1967",
+            "season_start": "September 8, 1966",
+            "season_end": "April 13, 1967",
             "episodes": [
                 {
                     "num_overall": "1",
@@ -86,20 +86,12 @@
                     "air_date": "November 10, 1966"
                 },
                 {
-                    "num_overall": "11",
-                    "num_in_season": "11",
-                    "title": "The Menagerie, Part I",
+                    "num_overall": "1112",
+                    "num_in_season": "1112",
+                    "title": "The Menagerie",
                     "link": "https://en.wikipedia.org/wiki/The_Menagerie_(Star_Trek:_The_Original_Series)",
-                    "director": "Marc Daniels",
-                    "air_date": "November 17, 1966"
-                },
-                {
-                    "num_overall": "12",
-                    "num_in_season": "12",
-                    "title": "The Menagerie, Part II",
-                    "link": "https://en.wikipedia.org/wiki/The_Menagerie_(Star_Trek:_The_Original_Series)",
-                    "director": "Robert Butler",
-                    "air_date": "November 24, 1966"
+                    "director": "Marc DanielsRobert Butler",
+                    "air_date": "November 17, 1966 November 24, 1966"
                 },
                 {
                     "num_overall": "13",
@@ -241,8 +233,8 @@
         },
         "2": {
             "total": "26",
-            "start": "September 15, 1967",
-            "end": "March 29, 1968",
+            "season_start": "September 15, 1967",
+            "season_end": "March 29, 1968",
             "episodes": [
                 {
                     "num_overall": "30",
@@ -456,8 +448,8 @@
         },
         "3": {
             "total": "24",
-            "start": "September 20, 1968",
-            "end": "June 3, 1969",
+            "season_start": "September 20, 1968",
+            "season_end": "June 3, 1969",
             "episodes": [
                 {
                     "num_overall": "56",
