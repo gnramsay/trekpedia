@@ -116,6 +116,58 @@ class Trekpedia:
                 series_all[series]["episodes_url"] = links
         self.series_data = series_all
 
+    def get_episode_data(self, episode, headers):
+        """episode."""
+        episode_data = {}
+        # protect the next operation - if the th is not found (ie
+        # tas, ds9, voy) just skip over this one as it is a
+        # summary...
+        try:
+            episode_data["num_overall"] = self.clean_string(
+                episode.find("th").text, brackets=True
+            )
+        except AttributeError:
+            return None
+        cells = episode.find_all("td")
+        episode_data["num_in_season"] = cells[headers.index("no_inseason")].text
+
+        # need to do some tweaking, sometimes the first episode is
+        # in 2 parts need to detect this and split them. Alternative
+        # is to have a hard-coded list, as it happens very rarely.
+
+        # get the required data using the header indexes, otherwise
+        # will mess up on ds9-s4 and later since they add new
+        # columns to the table.
+        episode_data["title"] = self.clean_string(
+            cells[headers.index("title")].text.replace('"', ""),
+            brackets=True,
+        )
+        try:
+            link_url = cells[headers.index("title")].a["href"]
+            if "cite_note" in link_url:
+                raise TypeError()
+            episode_data["link"] = f"https://en.wikipedia.org{link_url}"
+        except TypeError:
+            # set the link url to an empty string...
+            episode_data["link"] = ""
+
+        episode_data["director"] = self.clean_string(
+            cells[headers.index("directed_by")].text, brackets=True
+        )
+
+        # air date needs fixed as is listed differently in later
+        # series...
+        airdate_idx = [
+            i
+            for i, item in enumerate(headers)
+            if re.search("^original.*date$", item)
+        ][0]
+        episode_data["air_date"] = self.clean_string(
+            cells[airdate_idx].text, brackets=True
+        )
+
+        return episode_data
+
     def parse_series(self, series_dict):
         """Take the supplied dictionary and parses the Series."""
         index, series = series_dict
@@ -171,7 +223,7 @@ class Trekpedia:
                     f"  -> Processing season: {season_number} "
                     f"of {series['season_count']}"
                 )
-                season_id = link.a["href"][1:]
+                # season_id = link.a["href"][1:]
                 season_data["total"] = self.clean_string(
                     cells[0].text, brackets=True
                 )
@@ -184,18 +236,17 @@ class Trekpedia:
                 season_data["episodes"] = []
 
                 # now get the episodes for each season
-                section = episode_markup.find("span", id=season_id)
+                section = episode_markup.find("span", id=link.a["href"][1:])
                 table = section.findNext("table").find("tbody").find_all("tr")
 
                 # split the headers out into a list, as they change between
                 # series and even seasons! at this time we also remove any
                 # unicode stuff
-                hdr_list = table[0].find_all("th")
                 headers = [
                     self.clean_string(
                         x.text, underscores=True, brackets=True, lowercase=True
                     )
-                    for x in hdr_list
+                    for x in table[0].find_all("th")
                 ]
                 # remove the overall count as this is a TH not a TD and will
                 # skew the indexing later...
@@ -204,65 +255,14 @@ class Trekpedia:
                 # 'episodes' will consist of one row for each episode, except
                 # ds9 and voy who also put summary after each one and confuse
                 # things!
-                episodes = table[1:]
 
                 episode_list = []
 
                 # loop over each episode. We may grab more info in the future.
-                for episode in episodes:
-                    episode_data = {}
-                    # protect the next operation - if the th is not found (ie
-                    # tas, ds9, voy) just skip over this one as it is a
-                    # summary...
-                    try:
-                        episode_data["num_overall"] = self.clean_string(
-                            episode.find("th").text, brackets=True
-                        )
-                    except AttributeError:
-                        continue
-                    cells = episode.find_all("td")
-                    episode_data["num_in_season"] = cells[
-                        headers.index("no_inseason")
-                    ].text
-
-                    # need to do some tweaking, sometimes the first episode is
-                    # in 2 parts need to detect this and split them. Alternative
-                    # is to have a hard-coded list, as it happens very rarely.
-
-                    # get the required data using the header indexes, otherwise
-                    # will mess up on ds9-s4 and later since they add new
-                    # columns to the table.
-                    episode_data["title"] = self.clean_string(
-                        cells[headers.index("title")].text.replace('"', ""),
-                        brackets=True,
-                    )
-                    try:
-                        link_url = cells[headers.index("title")].a["href"]
-                        if "cite_note" in link_url:
-                            raise TypeError()
-                        episode_data[
-                            "link"
-                        ] = f"https://en.wikipedia.org{link_url}"
-                    except TypeError:
-                        # set the link url to an empty string...
-                        episode_data["link"] = ""
-
-                    episode_data["director"] = self.clean_string(
-                        cells[headers.index("directed_by")].text, brackets=True
-                    )
-
-                    # air date needs fixed as is listed differently in later
-                    # series...
-                    airdate_idx = [
-                        i
-                        for i, item in enumerate(headers)
-                        if re.search("^original.*date$", item)
-                    ][0]
-                    episode_data["air_date"] = self.clean_string(
-                        cells[airdate_idx].text, brackets=True
-                    )
-
-                    episode_list.append(episode_data)
+                for episode in table[1:]:
+                    episode_data = self.get_episode_data(episode, headers)
+                    if episode_data:
+                        episode_list.append(episode_data)
 
                 # consolidate into a format suitable for writing to JSON
                 season_data["episodes"] = episode_list
