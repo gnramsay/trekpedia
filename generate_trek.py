@@ -51,7 +51,9 @@ def run():
     try:
         main(sys.argv[1:])
     except KeyboardInterrupt:
-        pass
+        t = Terminal()  # pylint: disable=invalid-name
+        print("\r", " " * 80)
+        print(f"{t.red}{t.bold}Escape Pressed, processing ABORTED.{t.normal}\n")
 
 
 # ---------------------------------------------------------------------------- #
