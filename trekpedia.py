@@ -10,9 +10,9 @@ from bs4 import BeautifulSoup
 class Trekpedia:
     """Overall class to get and Parse the Wikipedia data."""
 
-    def __init__(self, main_url, json_template):
+    def __init__(self, summary_url, json_template):
         """Initialize the class."""
-        self.main_url = main_url
+        self.main_url = summary_url
         self.json_template = json_template
         self.series_markup = BeautifulSoup()
         self.exceptions = [

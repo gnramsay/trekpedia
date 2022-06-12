@@ -18,7 +18,7 @@ JSON_TEMPLATE = "output/star_trek_series_{}_{}_episodes.json"
 # ---------------------------------------------------------------------------- #
 def main(_args):
     """Run the main program, parse and save data from Wikipedia."""
-    trekpedia = Trekpedia(MAIN_URL, JSON_TEMPLATE)
+    trekpedia = Trekpedia(summary_url=MAIN_URL, json_template=JSON_TEMPLATE)
 
     colorama.init()
     t = Terminal()  # pylint: disable=invalid-name
