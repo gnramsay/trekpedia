@@ -32,7 +32,7 @@ there.
 For the moment, I am only scraping the TV series data, leaving film data until
 later iterations.
 
-#### `trekpedia.py [WORKING]`
+#### `generate_trek.py [WORKING]`
 
 * First work towards moving from Jupyter notebooks to a standard Python script.
   This now has exaclty the same functionality as the original Jupyter notebooks,
@@ -73,7 +73,7 @@ Clone or download the repository, then run the main script from the root of the
 created folder.
 
 ```python
-python trekpedia.py
+python generate_trek.py
 ```
 
 The updated files will be created in the output folder, overwriting any existing
