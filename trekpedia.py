@@ -107,7 +107,7 @@ class Trekpedia:
         return series_rows
 
     def get_series_info(self):
-        """Start the process to get and save the series info."""
+        """Stage 1: process main page to get and save the series info."""
         self.get_summary_data()
 
         # get all rows of the 'TV' table so we can parse it.
@@ -125,10 +125,11 @@ class Trekpedia:
         self.series_data = series_all
 
     def get_episode_data(self, episode, headers):
-        """episode."""
+        """We may grab more info in the future."""
         episode_data = {}
+
         # protect the next operation - if the th is not found (ie
-        # tas, ds9, voy) just skip over this one as it is a
+        # tas, ds9, voy etc) just skip over this one as it is a
         # summary...
         try:
             episode_data["num_overall"] = self.clean_string(
@@ -136,12 +137,17 @@ class Trekpedia:
             )
         except AttributeError:
             return None
-        cells = episode.find_all("td")
-        episode_data["num_in_season"] = cells[headers.index("no_inseason")].text
 
-        # TODO: need to do some tweaking : sometimes the first episode is in 2
-        # parts need to detect this and split them. Alternative is to have a
-        # hard-coded list, as it happens very rarely.
+        cells = episode.find_all("td")
+        if len(cells) != len(headers):
+            cells = episode.find_all(["th", "td"])
+
+        try:
+            episode_data["num_in_season"] = cells[
+                headers.index("no_inseason")
+            ].text
+        except ValueError:
+            episode_data["num_in_season"] = "n/a"
 
         # get the required data using the header indexes, otherwise
         # will mess up on ds9-s4 and later since they add new
@@ -176,20 +182,51 @@ class Trekpedia:
 
         return episode_data
 
-    def get_episode_table(self, row_header):
+    def get_episode_table(self, table_id):
         """Return the HTML of the episode table."""
-        table_id = row_header.a["href"][1:]
         section = self.episode_markup.find("span", id=table_id)
         return section.findNext("table").find("tbody").find_all("tr")
+
+    def parse_episodes(self, series, season_number, table):
+        """Parse the episodes for this Season."""
+        print(
+            f"  -> Processing season: {season_number} "
+            f"of {series['season_count']}"
+        )
+
+        # split the headers out into a list, as they change between
+        # series and even seasons! at this time we also remove any
+        # unicode stuff
+        headers = [
+            self.clean_string(
+                x.text, underscores=True, brackets=True, lowercase=True
+            )
+            for x in table[0].find_all("th")
+        ]
+        # remove the overall count if it exists as this is a TH not a TD and
+        # will skew the indexing later...
+        try:
+            headers.remove("no_overall")
+        except ValueError:
+            pass
+
+        episode_list = []
+
+        # loop over each episode. We may grab more info in the future.
+        for episode in table[1:]:
+            episode_data = self.get_episode_data(episode, headers)
+            if episode_data:
+                episode_list.append(episode_data)
+
+        return episode_list
 
     def parse_series(self, series_dict):
         """Take the supplied dictionary and parses the Series."""
         index, series = series_dict
 
-        print(f'Processing : {t.cyan}{t.underline}{series["name"]}{t.normal}')
         filename = self.get_json_filename(index, series)
-        print(f"  -> Using URL : {t.green}{series['episodes_url']}{t.normal}")
-        print(f"  -> Storing episodes to {t.green}'{filename}'{t.normal}")
+
+        self.print_season_header(series, filename)
 
         season_all = {}
 
@@ -201,78 +238,58 @@ class Trekpedia:
             )
 
             if not overview_table:
-                print(
-                    f"{t.red}"
-                    "   x No Overview table found, skipping this Series ..."
-                    f"{t.normal}"
-                )
-                return
-
-            for season in self.get_overview_rows(overview_table):
-                overview_row_header = season.find("th")
-                overview_row_data = season.find_all("td")
-
-                try:
-                    season_number = int(overview_row_header.text)
-                except AttributeError:
-                    continue
-
-                # exit the loop if we have processed the actual number of
-                # seasons. Usually this is not needed, however it is for the
-                # new series that are still in progress.
-                if season_number > int(series["season_count"]):
-                    break
-
-                print(
-                    f"  -> Processing season: {season_number} "
-                    f"of {series['season_count']}"
-                )
-
-                table = self.get_episode_table(overview_row_header)
-
-                # split the headers out into a list, as they change between
-                # series and even seasons! at this time we also remove any
-                # unicode stuff
-                headers = [
-                    self.clean_string(
-                        x.text, underscores=True, brackets=True, lowercase=True
-                    )
-                    for x in table[0].find_all("th")
-                ]
-                # remove the overall count as this is a TH not a TD and will
-                # skew the indexing later...
-                headers.remove("no_overall")
-
-                # 'episodes' will consist of one row for each episode, except
-                # ds9 and voy who also put summary after each one and confuse
-                # things!
-
-                episode_list = []
-
-                # loop over each episode. We may grab more info in the future.
-                for episode in table[1:]:
-                    episode_data = self.get_episode_data(episode, headers)
-                    if episode_data:
-                        episode_list.append(episode_data)
-
-                # consolidate into a format suitable for writing to JSON
-                season_all[season_number] = {
-                    "total": self.clean_string(
-                        overview_row_data[0].text, brackets=True
-                    ),
-                    "season_start": self.clean_string(
-                        " ".join(overview_row_data[1].text.split()),
-                        brackets=True,
-                    ),
-                    "season_end": self.clean_string(
-                        " ".join(overview_row_data[2].text.split()),
-                        brackets=True,
-                    ),
-                    "episodes": episode_list,
+                # if no overview table, its a single-season for now
+                table = self.get_episode_table("Episodes")
+                episodes = self.parse_episodes(series, 1, table)
+                # we can get the required metadata from the series_data.
+                this_series = self.series_data[index]
+                # now create the season object
+                season_all[1] = {
+                    "total": this_series["episode_count"],
+                    "season_start": this_series["dates"].split("-")[0].strip(),
+                    "season_end": this_series["dates"].split("-")[1].strip(),
+                    "episodes": episodes,
                 }
+            else:
+                # its a standard Series with multiple seasons
+                for season in self.get_overview_rows(overview_table):
+                    overview_row_header = season.find("th")
+                    overview_row_data = season.find_all("td")
+                    table_id = overview_row_header.a["href"][1:]
+                    table = self.get_episode_table(table_id)
+
+                    try:
+                        season_number = int(overview_row_header.text)
+                    except AttributeError:
+                        continue
+
+                    # exit the loop if we have processed the actual number of
+                    # seasons. Usually this is not needed, however it is for the
+                    # new series that are still in progress.
+                    if season_number > int(series["season_count"]):
+                        break
+
+                    # get the episodes
+                    episodes = self.parse_episodes(series, season_number, table)
+
+                    # Get the results into a dictionary ready for JSON
+                    season_all[season_number] = {
+                        "total": self.clean_string(
+                            overview_row_data[0].text, brackets=True
+                        ),
+                        "season_start": self.clean_string(
+                            " ".join(overview_row_data[1].text.split()),
+                            brackets=True,
+                        ),
+                        "season_end": self.clean_string(
+                            " ".join(overview_row_data[2].text.split()),
+                            brackets=True,
+                        ),
+                        "episodes": episodes,
+                    }
         except AttributeError as err:
             print(
-                f"{t.red}  => ERROR, need to investigate! "
+                f"{t.red}  => AttributeError, need to investigate! "
                 f"({err}) at line number: "
                 f"{err.__traceback__.tb_lineno}{t.normal}"
             )
@@ -286,6 +303,13 @@ class Trekpedia:
         )
 
         return filename
+
+    @staticmethod
+    def print_season_header(series, filename):
+        """Display the header for each series as it is processed."""
+        print(f'Processing : {t.cyan}{t.underline}{series["name"]}{t.normal}')
+        print(f"  -> Using URL : {t.green}{series['episodes_url']}{t.normal}")
+        print(f"  -> Storing episodes to {t.green}'{filename}'{t.normal}")
 
     @staticmethod
     def get_overview_rows(summary_table):
