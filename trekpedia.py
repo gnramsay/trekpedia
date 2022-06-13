@@ -274,20 +274,9 @@ class Trekpedia:
                     episodes = self.parse_episodes(series, season_number, table)
 
                     # Get the results into a dictionary ready for JSON
-                    season_all[season_number] = {
-                        "total": self.clean_string(
-                            overview_row_data[0].text, brackets=True
-                        ),
-                        "season_start": self.clean_string(
-                            " ".join(overview_row_data[1].text.split()),
-                            brackets=True,
-                        ),
-                        "season_end": self.clean_string(
-                            " ".join(overview_row_data[2].text.split()),
-                            brackets=True,
-                        ),
-                        "episodes": episodes,
-                    }
+                    season_all[season_number] = self.consolidate(
+                        series, season_number, episodes, overview_row_data
+                    )
         except AttributeError as err:
             print(
                 f"{t.red}  => AttributeError, need to investigate! "
@@ -296,6 +285,37 @@ class Trekpedia:
             )
             return
         self.save_json(filename, {"seasons": season_all})
+
+    def consolidate(self, series, season_number, episodes, overview_row_data):
+        """Consolidate the season data into a dict ready for JSON."""
+        # some hoop-jumping to get around the Discovery Overview table layout
+        try:
+            _ = int(overview_row_data[1].text)
+            offset = 1
+        except ValueError:
+            offset = 0
+
+        season_start = self.clean_string(
+            " ".join(overview_row_data[1 + offset].text.split()),
+            brackets=True,
+        )
+        season_end = self.clean_string(
+            " ".join(overview_row_data[2 + offset].text.split()),
+            brackets=True,
+        )
+        # shameless hack to fix the Discovery season END date. Will look at
+        # other options to get this right later but it does work and the value
+        # will not change.
+        if series["name"].lower() == "discovery" and season_number == 1:
+            season_end = "February 11, 2018"
+        return {
+            "total": self.clean_string(
+                overview_row_data[0].text, brackets=True
+            ),
+            "season_start": season_start,
+            "season_end": season_end,
+            "episodes": episodes,
+        }
 
     def get_json_filename(self, index, series):
         """Generate and return a JSON filename from the template."""
