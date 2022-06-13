@@ -253,17 +253,15 @@ class Trekpedia:
             else:
                 # its a standard Series with multiple seasons.
                 for season in self.get_overview_rows(overview_table):
-                    overview_row_header = season.find("th")
-                    if overview_row_header is None:
-                        # this stops the AttributeError on Discovery season 2.
-                        continue
-                    overview_row_data = season.find_all("td")
-                    table_id = overview_row_header.a["href"][1:]
-                    table = self.get_episode_table(table_id)
-
                     try:
+                        overview_row_header = season.find("th")
+                        overview_row_data = season.find_all("td")
+                        table_id = overview_row_header.a["href"][1:]
+                        table = self.get_episode_table(table_id)
+
                         season_number = int(overview_row_header.text)
                     except AttributeError:
+                        # fixes crash on Discovery season 2
                         continue
 
                     # exit the loop if we have processed the actual number of
