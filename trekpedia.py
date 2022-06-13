@@ -181,14 +181,11 @@ class Trekpedia:
         print(f"  -> Using URL : {t.green}{series['episodes_url']}{t.normal}")
         print(f"  -> Storing episodes to {t.green}'{filename}'{t.normal}")
 
-        season_final = {}
         season_all = {}
 
         episode_markup = self.parse_url(series["episodes_url"])
 
         try:
-            # find the episode summary table, will be the first table with the
-            # below classes in the document
             summary_table = episode_markup.find(
                 "table", attrs={"class": "wikitable plainrowheaders"}
             )
@@ -204,7 +201,6 @@ class Trekpedia:
             summary_rows = summary_table.find("tbody").find_all("tr")[2:]
 
             for season in summary_rows:
-                season_data = {}
                 link = season.find("th")
                 cells = season.find_all("td")
 
@@ -223,19 +219,8 @@ class Trekpedia:
                     f"  -> Processing season: {season_number} "
                     f"of {series['season_count']}"
                 )
-                # season_id = link.a["href"][1:]
-                season_data["total"] = self.clean_string(
-                    cells[0].text, brackets=True
-                )
-                season_data["season_start"] = self.clean_string(
-                    " ".join(cells[1].text.split()), brackets=True
-                )
-                season_data["season_end"] = self.clean_string(
-                    " ".join(cells[2].text.split()), brackets=True
-                )
-                season_data["episodes"] = []
 
-                # now get the episodes for each season
+                # now get the episodes for each season using the HTML ID
                 section = episode_markup.find("span", id=link.a["href"][1:])
                 table = section.findNext("table").find("tbody").find_all("tr")
 
@@ -265,9 +250,16 @@ class Trekpedia:
                         episode_list.append(episode_data)
 
                 # consolidate into a format suitable for writing to JSON
-                season_data["episodes"] = episode_list
-                season_all[season_number] = season_data
-                season_final["seasons"] = season_all
+                season_all[season_number] = {
+                    "total": self.clean_string(cells[0].text, brackets=True),
+                    "season_start": self.clean_string(
+                        " ".join(cells[1].text.split()), brackets=True
+                    ),
+                    "season_end": self.clean_string(
+                        " ".join(cells[2].text.split()), brackets=True
+                    ),
+                    "episodes": episode_list,
+                }
         except AttributeError as err:
             print(
                 f"{t.red}  => ERROR, need to investigate! "
@@ -275,7 +267,7 @@ class Trekpedia:
                 f"{err.__traceback__.tb_lineno}{t.normal}"
             )
             return
-        self.save_json(filename, season_final)
+        self.save_json(filename, {"seasons": season_all})
 
     @staticmethod
     def save_json(filename, data):
