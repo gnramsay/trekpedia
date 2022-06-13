@@ -6,6 +6,8 @@ import requests
 from blessings import Terminal
 from bs4 import BeautifulSoup
 
+t = Terminal()  # pylint: disable=invalid-name
+
 
 class Trekpedia:
     """Overall class to get and Parse the Wikipedia data."""
@@ -15,6 +17,7 @@ class Trekpedia:
         self.main_url = summary_url
         self.json_template = json_template
         self.series_markup = BeautifulSoup()
+        self.episode_markup = BeautifulSoup()
         self.exceptions = [
             "Animated",
             "Short_Treks",
@@ -30,8 +33,8 @@ class Trekpedia:
         """Get and parse the summary data."""
         self.series_markup = self.parse_url(self.main_url)
 
-    def get_season_links(self, url):
-        """Return a list of season links for the specified series."""
+    def get_series_detail_link(self, url):
+        """Return the link to the detail page for the specified series."""
         series_page = requests.get(url)
         bss = BeautifulSoup(series_page.text, "lxml")
         # get all the Heading rows depending on season. Wikipedia is not
@@ -96,14 +99,19 @@ class Trekpedia:
 
         return series_dict
 
+    def get_series_rows(self):
+        """Return all the summary rows for the current Series."""
+        tv_section = self.series_markup.find(id="Television").parent
+        trek_table = tv_section.findNext("table").find("tbody")
+        series_rows = trek_table.find_all("tr")[1:]
+        return series_rows
+
     def get_series_info(self):
         """Start the process to get and save the series info."""
         self.get_summary_data()
 
         # get all rows of the 'TV' table so we can parse it.
-        tv_section = self.series_markup.find(id="Television").parent
-        trek_table = tv_section.findNext("table").find("tbody")
-        series_rows = trek_table.find_all("tr")[1:]
+        series_rows = self.get_series_rows()
 
         series_all = {}
         for index, series in enumerate(series_rows, 1):
@@ -111,7 +119,7 @@ class Trekpedia:
 
         keys = series_all.keys()
         for series in keys:
-            links = self.get_season_links(series_all[series]["url"])
+            links = self.get_series_detail_link(series_all[series]["url"])
             if not links == "":
                 series_all[series]["episodes_url"] = links
         self.series_data = series_all
@@ -131,9 +139,9 @@ class Trekpedia:
         cells = episode.find_all("td")
         episode_data["num_in_season"] = cells[headers.index("no_inseason")].text
 
-        # need to do some tweaking, sometimes the first episode is
-        # in 2 parts need to detect this and split them. Alternative
-        # is to have a hard-coded list, as it happens very rarely.
+        # TODO: need to do some tweaking : sometimes the first episode is in 2
+        # parts need to detect this and split them. Alternative is to have a
+        # hard-coded list, as it happens very rarely.
 
         # get the required data using the header indexes, otherwise
         # will mess up on ds9-s4 and later since they add new
@@ -168,44 +176,44 @@ class Trekpedia:
 
         return episode_data
 
+    def get_episode_table(self, row_header):
+        """Return the HTML of the episode table."""
+        table_id = row_header.a["href"][1:]
+        section = self.episode_markup.find("span", id=table_id)
+        return section.findNext("table").find("tbody").find_all("tr")
+
     def parse_series(self, series_dict):
         """Take the supplied dictionary and parses the Series."""
         index, series = series_dict
 
-        t = Terminal()  # pylint: disable=invalid-name, redefined-outer-name
-
         print(f'Processing : {t.cyan}{t.underline}{series["name"]}{t.normal}')
-        filename = self.json_template.format(
-            index, series["name"].replace(" ", "_").lower()
-        )
+        filename = self.get_json_filename(index, series)
         print(f"  -> Using URL : {t.green}{series['episodes_url']}{t.normal}")
         print(f"  -> Storing episodes to {t.green}'{filename}'{t.normal}")
 
         season_all = {}
 
-        episode_markup = self.parse_url(series["episodes_url"])
+        self.episode_markup = self.parse_url(series["episodes_url"])
 
         try:
-            summary_table = episode_markup.find(
+            overview_table = self.episode_markup.find(
                 "table", attrs={"class": "wikitable plainrowheaders"}
             )
 
-            if not summary_table:
+            if not overview_table:
                 print(
                     f"{t.red}"
-                    "   x No Summary Table found, skipping this Series ..."
+                    "   x No Overview table found, skipping this Series ..."
                     f"{t.normal}"
                 )
                 return
 
-            summary_rows = summary_table.find("tbody").find_all("tr")[2:]
-
-            for season in summary_rows:
-                link = season.find("th")
-                cells = season.find_all("td")
+            for season in self.get_overview_rows(overview_table):
+                overview_row_header = season.find("th")
+                overview_row_data = season.find_all("td")
 
                 try:
-                    season_number = int(link.text)
+                    season_number = int(overview_row_header.text)
                 except AttributeError:
                     continue
 
@@ -220,9 +228,7 @@ class Trekpedia:
                     f"of {series['season_count']}"
                 )
 
-                # now get the episodes for each season using the HTML ID
-                section = episode_markup.find("span", id=link.a["href"][1:])
-                table = section.findNext("table").find("tbody").find_all("tr")
+                table = self.get_episode_table(overview_row_header)
 
                 # split the headers out into a list, as they change between
                 # series and even seasons! at this time we also remove any
@@ -251,12 +257,16 @@ class Trekpedia:
 
                 # consolidate into a format suitable for writing to JSON
                 season_all[season_number] = {
-                    "total": self.clean_string(cells[0].text, brackets=True),
+                    "total": self.clean_string(
+                        overview_row_data[0].text, brackets=True
+                    ),
                     "season_start": self.clean_string(
-                        " ".join(cells[1].text.split()), brackets=True
+                        " ".join(overview_row_data[1].text.split()),
+                        brackets=True,
                     ),
                     "season_end": self.clean_string(
-                        " ".join(cells[2].text.split()), brackets=True
+                        " ".join(overview_row_data[2].text.split()),
+                        brackets=True,
                     ),
                     "episodes": episode_list,
                 }
@@ -268,6 +278,20 @@ class Trekpedia:
             )
             return
         self.save_json(filename, {"seasons": season_all})
+
+    def get_json_filename(self, index, series):
+        """Generate and return a JSON filename from the template."""
+        filename = self.json_template.format(
+            index, series["name"].replace(" ", "_").lower()
+        )
+
+        return filename
+
+    @staticmethod
+    def get_overview_rows(summary_table):
+        """Return markup for the rows in the series overview table."""
+        summary_rows = summary_table.find("tbody").find_all("tr")[2:]
+        return summary_rows
 
     @staticmethod
     def save_json(filename, data):
@@ -300,7 +324,6 @@ class Trekpedia:
 
 
 if __name__ == "__main__":
-    t = Terminal()  # pylint: disable=invalid-name
     print(
         f"\nThis library is {t.red}not meant to be run directly{t.normal}, "
         "aborting."
