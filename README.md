@@ -66,8 +66,7 @@ This directory contains the following GENERATED files:
   the Stage 2 notebook but not needed for the current scripts. However,
   it does contain Series metadata that is useful when generating an API, for
   example.
-- Separate JSON files for each Star Trek series though we are skipping `Prodigy`
-  and `Strange New Worlds` for now).
+- A Separate JSON file for each Star Trek series, 12 to date.
 
 A tarball is included in the [releases](releases) folder and attached to each
 GitHub release.
@@ -86,8 +85,11 @@ ones.
 
 ## Current known BUGS
 
-- Single-season Series currently won't be decoded; [issue #7][i7] is open for
-  this.
+- ~~Single-season Series currently won't be decoded; [issue #7][i7] is open for
+  this.~~
+- There is no detection of two-part episodes **written as a single entry**, so
+  the numbering is a little wrong when we parse them. I will look at fixing this
+  when the main functionality is bug-free.
 
 ## Further Enhancements planned
 

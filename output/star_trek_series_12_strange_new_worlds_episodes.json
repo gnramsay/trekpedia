@@ -1,0 +1,91 @@
+{
+    "seasons": {
+        "1": {
+            "total": "6",
+            "season_start": "May 5, 2022",
+            "season_end": "present",
+            "episodes": [
+                {
+                    "num_overall": "1",
+                    "num_in_season": "n/a",
+                    "title": "Strange New Worlds",
+                    "link": "",
+                    "director": "Akiva Goldsman",
+                    "air_date": "May 5, 2022"
+                },
+                {
+                    "num_overall": "2",
+                    "num_in_season": "n/a",
+                    "title": "Children of the Comet",
+                    "link": "",
+                    "director": "Maja Vrvilo",
+                    "air_date": "May 12, 2022"
+                },
+                {
+                    "num_overall": "3",
+                    "num_in_season": "n/a",
+                    "title": "Ghosts of Illyria",
+                    "link": "",
+                    "director": "Leslie Hope",
+                    "air_date": "May 19, 2022"
+                },
+                {
+                    "num_overall": "4",
+                    "num_in_season": "n/a",
+                    "title": "Memento Mori",
+                    "link": "",
+                    "director": "Dan Liu",
+                    "air_date": "May 26, 2022"
+                },
+                {
+                    "num_overall": "5",
+                    "num_in_season": "n/a",
+                    "title": "Spock Amok",
+                    "link": "",
+                    "director": "Rachel Leiterman",
+                    "air_date": "June 2, 2022"
+                },
+                {
+                    "num_overall": "6",
+                    "num_in_season": "n/a",
+                    "title": "Lift Us Where Suffering Cannot Reach",
+                    "link": "",
+                    "director": "Andi Armaganian",
+                    "air_date": "June 9, 2022"
+                },
+                {
+                    "num_overall": "7",
+                    "num_in_season": "n/a",
+                    "title": "The Serene Squall",
+                    "link": "",
+                    "director": "Sydney Freeland",
+                    "air_date": "June 16, 2022"
+                },
+                {
+                    "num_overall": "8",
+                    "num_in_season": "n/a",
+                    "title": "TBA",
+                    "link": "",
+                    "director": "Amanda Row",
+                    "air_date": "June 23, 2022"
+                },
+                {
+                    "num_overall": "9",
+                    "num_in_season": "n/a",
+                    "title": "TBA",
+                    "link": "",
+                    "director": "TBA",
+                    "air_date": "June 30, 2022"
+                },
+                {
+                    "num_overall": "10",
+                    "num_in_season": "n/a",
+                    "title": "TBA",
+                    "link": "",
+                    "director": "Chris Fisher",
+                    "air_date": "July 7, 2022"
+                }
+            ]
+        }
+    }
+}
