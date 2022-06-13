@@ -1,5 +1,15 @@
 # Trekpedia JSON
 
+<!-- TOC start -->
+- [Trekpedia JSON](#trekpedia-json)
+  - [Development](#development)
+    - [Current progress](#current-progress)
+  - [Produced Files](#produced-files)
+  - [Operation](#operation)
+  - [Current known BUGS](#current-known-bugs)
+  - [Further Enhancements planned](#further-enhancements-planned)
+<!-- TOC end -->
+
 Star Trek TV/Film episode database scraped from web sources and provided in JSON
 format.
 
@@ -32,24 +42,20 @@ there.
 For the moment, I am only scraping the TV series data, leaving film data until
 later iterations.
 
-#### `generate_trek.py [WORKING]`
-
-* First work towards moving from Jupyter notebooks to a standard Python script.
-  This now has exaclty the same functionality as the original Jupyter notebooks,
-  so they have been retired. The are kept in the [notebooks](notebooks/) folder
-  for posterity.
+- The original Jupyter Notebooks are no longer used or up to date, and are kept
+  in the [notebooks](notebooks/) folder for posterity.
 
 There are currently 2 stages of operation:
 
-* Scrape the main Wikipedia Star Trek page and create a JSON file containing
+- Scrape the main Wikipedia Star Trek page and create a JSON file containing
   Series names and metadata (number of seasons, number of episodes etc.) This
   metadata will probably include series summary and other data in future
   iterations (not necessarily from Wikipedia)
 
-* Take the JSON file created in the previous step, and dump the episode names
+- Take the JSON file created in the previous step, and dump the episode names
   for each series to a separate json file, with some Series metadata
-  * Discovery and Prodigy need special treatment as their markup seems to follow
-    no logic know to man, God or Vulcan.
+  - There is a bug where a series with only one season will not be parsed due to
+    lack of a summary table.
 
 ## Produced Files
 
@@ -58,10 +64,10 @@ directory, valid as of June 2022.
 
 This contains:
 
-* [star_trek_series_info.json](output/star_trek_series_info.json)
+- [star_trek_series_info.json](output/star_trek_series_info.json)
   which lists info and links for each series only, and is used as the basis for
   getting the individual series data.
-* One individual JSON file for each Star Trek incarnation (Currently 10 as we
+- One individual JSON file for each Star Trek incarnation (Currently 10 as we
   are skipping `Prodigy` and `Strange New Worlds` for now).
 
 A tarball is included in the [releases](releases) folder and attached to each
@@ -79,8 +85,22 @@ python generate_trek.py
 The updated files will be created in the output folder, overwriting any existing
 ones.
 
+## Current known BUGS
+
+- Single-season Series currently wont be decoded, [issue #7][i7] is open for
+  this.
+
+## Further Enhancements planned
+
+- There is a list of Start Trek characters [here][st-char] that can also be parsed
+and linked to the relevant series/season/episode data.
+- Add a brief series and episode summary.
+
 [viacomcbs]:https://www.viacomcbs.com
 [wst]: https://en.wikipedia.org/wiki/Star_Trek
+[st-char]: https://en.wikipedia.org/wiki/List_of_Star_Trek_characters
 [fup]: https://en.wikipedia.org/wiki/Fair_use#Text_and_data_mining
 [jupyter]: https://jupyter.org/
 [rails-api]: https://github.com/gnramsay/trekpedia-api-rails
+
+[i7]: https://github.com/gnramsay/trekpedia/issues/7
