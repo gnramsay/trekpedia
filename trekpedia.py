@@ -147,7 +147,7 @@ class Trekpedia:
                 headers.index("no_inseason")
             ].text
         except ValueError:
-            episode_data["num_in_season"] = "n/a"
+            episode_data["num_in_season"] = episode_data["num_overall"]
 
         # get the required data using the header indexes, otherwise
         # will mess up on ds9-s4 and later since they add new
