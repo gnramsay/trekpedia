@@ -27,7 +27,7 @@ class Trekpedia:
             "Strange_New_Worlds",
         ]
         self.series_data = {}
-        self.version = "0.0.3"
+        self.version = "0.0.4"
 
     def get_summary_data(self):
         """Get and parse the summary data."""
