@@ -120,7 +120,7 @@ class Trekpedia:
         keys = series_all.keys()
         for series in keys:
             links = self.get_series_detail_link(series_all[series]["url"])
-            if not links == "":
+            if links != "":
                 series_all[series]["episodes_url"] = links
         self.series_data = series_all
 
@@ -171,15 +171,17 @@ class Trekpedia:
 
         # air date needs fixed as is listed differently in later
         # series...
-        airdate_idx = [
-            i
-            for i, item in enumerate(headers)
-            if re.search("^original.*date$", item)
-        ][0]
-        episode_data["air_date"] = self.clean_string(
-            cells[airdate_idx].text, brackets=True
-        )
-
+        try:
+            airdate_idx = [
+                i
+                for i, item in enumerate(headers)
+                if re.search("^original.*date$|release date$", item)
+            ][0]
+            episode_data["air_date"] = self.clean_string(
+                cells[airdate_idx].text, brackets=True
+            )
+        except IndexError:
+            episode_data["air_date"] = "n/a"
         return episode_data
 
     def get_episode_table(self, table_id):
