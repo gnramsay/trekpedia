@@ -84,6 +84,14 @@ class Trekpedia:
         series_dict["name"] = series.th.a.text
         series_dict["url"] = f'https://en.wikipedia.org{series.th.a["href"]}'
         series_dict["season_count"] = series.find_all("td")[0].text
+
+        # hack to fix the Wikipedia summary page having wrong episode count for
+        # 'Lower Decks'
+        if (
+            series_dict["name"] == "Lower Decks"
+            and series_dict["season_count"] == "2"
+        ):
+            series_dict["season_count"] = "3"
         series_dict["episode_count"] = series.find_all("td")[1].text
         series_dict["episodes_url"] = ""
         dates = (
