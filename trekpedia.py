@@ -84,6 +84,14 @@ class Trekpedia:
         series_dict["name"] = series.th.a.text
         series_dict["url"] = f'https://en.wikipedia.org{series.th.a["href"]}'
         series_dict["season_count"] = series.find_all("td")[0].text
+
+        # hack to fix the Wikipedia summary page having wrong episode count for
+        # 'Lower Decks'
+        if (
+            series_dict["name"] == "Lower Decks"
+            and series_dict["season_count"] == "2"
+        ):
+            series_dict["season_count"] = "3"
         series_dict["episode_count"] = series.find_all("td")[1].text
         series_dict["episodes_url"] = ""
         dates = (
@@ -120,7 +128,7 @@ class Trekpedia:
         keys = series_all.keys()
         for series in keys:
             links = self.get_series_detail_link(series_all[series]["url"])
-            if not links == "":
+            if links != "":
                 series_all[series]["episodes_url"] = links
         self.series_data = series_all
 
@@ -175,6 +183,7 @@ class Trekpedia:
             i
             for i, item in enumerate(headers)
             if re.search("^original.*date$", item)
+            or re.search("^paramount.*date$", item)
         ][0]
         episode_data["air_date"] = self.clean_string(
             cells[airdate_idx].text, brackets=True
@@ -259,7 +268,14 @@ class Trekpedia:
                         table_id = overview_row_header.a["href"][1:]
                         table = self.get_episode_table(table_id)
 
-                        season_number = int(overview_row_header.text)
+                        season_number = int(
+                            "".join(
+                                re.split(r"[\[\]]", overview_row_header.text)[
+                                    ::2
+                                ]
+                            )
+                        )
+
                     except AttributeError:
                         # fixes crash on Discovery season 2
                         continue
