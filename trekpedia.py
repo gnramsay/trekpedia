@@ -171,17 +171,16 @@ class Trekpedia:
 
         # air date needs fixed as is listed differently in later
         # series...
-        try:
-            airdate_idx = [
-                i
-                for i, item in enumerate(headers)
-                if re.search("^original.*date$|release date$", item)
-            ][0]
-            episode_data["air_date"] = self.clean_string(
-                cells[airdate_idx].text, brackets=True
-            )
-        except IndexError:
-            episode_data["air_date"] = "n/a"
+        airdate_idx = [
+            i
+            for i, item in enumerate(headers)
+            if re.search("^original.*date$", item)
+            or re.search("^paramount.*date$", item)
+        ][0]
+        episode_data["air_date"] = self.clean_string(
+            cells[airdate_idx].text, brackets=True
+        )
+
         return episode_data
 
     def get_episode_table(self, table_id):
