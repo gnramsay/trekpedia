@@ -259,7 +259,14 @@ class Trekpedia:
                         table_id = overview_row_header.a["href"][1:]
                         table = self.get_episode_table(table_id)
 
-                        season_number = int(overview_row_header.text)
+                        season_number = int(
+                            "".join(
+                                re.split(r"[\[\]]", overview_row_header.text)[
+                                    ::2
+                                ]
+                            )
+                        )
+
                     except AttributeError:
                         # fixes crash on Discovery season 2
                         continue
