@@ -1,9 +1,9 @@
 {
     "seasons": {
         "1": {
-            "total": "7",
+            "total": "10",
             "season_start": "May 5, 2022",
-            "season_end": "present",
+            "season_end": "July 7, 2022",
             "episodes": [
                 {
                     "num_overall": "1",
@@ -72,15 +72,15 @@
                 {
                     "num_overall": "9",
                     "num_in_season": "9",
-                    "title": "TBA",
+                    "title": "All Those Who Wander",
                     "link": "",
-                    "director": "TBA",
+                    "director": "Christopher J. Byrne",
                     "air_date": "June 30, 2022"
                 },
                 {
                     "num_overall": "10",
                     "num_in_season": "10",
-                    "title": "TBA",
+                    "title": "A Quality of Mercy",
                     "link": "",
                     "director": "Chris Fisher",
                     "air_date": "July 7, 2022"

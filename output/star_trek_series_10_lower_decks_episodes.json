@@ -173,6 +173,37 @@
                     "air_date": "October 14, 2021"
                 }
             ]
+        },
+        "3": {
+            "total": "10",
+            "season_start": "August 25, 2022",
+            "season_end": "October 27, 2022",
+            "episodes": [
+                {
+                    "num_overall": "21",
+                    "num_in_season": "1",
+                    "title": "Grounded",
+                    "link": "",
+                    "director": "Jason Zurek",
+                    "air_date": "August 25, 2022"
+                },
+                {
+                    "num_overall": "22",
+                    "num_in_season": "2",
+                    "title": "The Least Dangerous Game",
+                    "link": "",
+                    "director": "Michael Mullen",
+                    "air_date": "September 1, 2022"
+                },
+                {
+                    "num_overall": "23",
+                    "num_in_season": "3",
+                    "title": "Mining the Mind's Mines",
+                    "link": "",
+                    "director": "Fill Marc Sagadraca",
+                    "air_date": "September 8, 2022"
+                }
+            ]
         }
     }
 }

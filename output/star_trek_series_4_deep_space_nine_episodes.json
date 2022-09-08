@@ -57,7 +57,7 @@
                     "num_overall": "8",
                     "num_in_season": "8",
                     "title": "Dax",
-                    "link": "https://en.wikipedia.org/wiki/Dax_(Star_Trek:_Deep_Space_Nine)",
+                    "link": "https://en.wikipedia.org/wiki/Dax_(Star_Trek:_Deep_Space_Nine_episode)",
                     "director": "David Carson",
                     "air_date": "February 14, 1993"
                 },
@@ -1402,8 +1402,8 @@
                 {
                     "num_overall": "172",
                     "num_in_season": "22",
-                    "title": "Tacking Into the Wind",
-                    "link": "https://en.wikipedia.org/wiki/Tacking_Into_the_Wind",
+                    "title": "Tacking into the Wind",
+                    "link": "https://en.wikipedia.org/wiki/Tacking_into_the_Wind",
                     "director": "Mike Vejar",
                     "air_date": "May 12, 1999"
                 },
