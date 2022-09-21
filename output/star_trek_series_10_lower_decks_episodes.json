@@ -202,6 +202,46 @@
                     "link": "",
                     "director": "Fill Marc Sagadraca",
                     "air_date": "September 8, 2022"
+                },
+                {
+                    "num_overall": "24",
+                    "num_in_season": "4",
+                    "title": "Room for Growth",
+                    "link": "",
+                    "director": "Jason Zurek",
+                    "air_date": "September 15, 2022"
+                },
+                {
+                    "num_overall": "25",
+                    "num_in_season": "5",
+                    "title": "Reflections",
+                    "link": "",
+                    "director": "Michael Mullen",
+                    "air_date": "September 22, 2022"
+                },
+                {
+                    "num_overall": "26",
+                    "num_in_season": "6",
+                    "title": "TBA",
+                    "link": "",
+                    "director": "TBA",
+                    "air_date": "September 29, 2022"
+                },
+                {
+                    "num_overall": "27",
+                    "num_in_season": "7",
+                    "title": "TBA",
+                    "link": "",
+                    "director": "TBA",
+                    "air_date": "October 6, 2022"
+                },
+                {
+                    "num_overall": "28",
+                    "num_in_season": "8",
+                    "title": "Crisis Point 2: Paradoxus",
+                    "link": "",
+                    "director": "TBA",
+                    "air_date": "October 13, 2022"
                 }
             ]
         }
