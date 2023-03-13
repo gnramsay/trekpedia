@@ -27,7 +27,7 @@ def main(_args):
         f"Trekpedia : Parse '{t.cyan}Star Trek{t.normal}' "
         "data from the Web and save as JSON.\n"
     )
-    print("(C)2022 Grant Ramsay (grant@gnramsay.com)\n")
+    print("(C)2023 Grant Ramsay <grant@gnramsay.com>\n")
     print(f"Version {trekpedia.version}\n")
 
     # ------ get the series info and save to a JSON file for later use. ------ #
@@ -40,7 +40,8 @@ def main(_args):
 
     # ------------- loop through each series and parse then save ------------- #
     for series_data in trekpedia.series_data.items():
-        trekpedia.parse_series(series_data)
+        if series_data[0] not in [11]:
+            trekpedia.parse_series(series_data)
 
 
 # ---------------------------------------------------------------------------- #
