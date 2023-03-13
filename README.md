@@ -6,6 +6,8 @@
     - [Current progress](#current-progress)
   - [Produced Files](#produced-files)
   - [Operation](#operation)
+    - [Install Dependencies](#install-dependencies)
+    - [Run the program](#run-the-program)
   - [Current known BUGS](#current-known-bugs)
   - [Further Enhancements planned](#further-enhancements-planned)
 <!-- TOC end -->
@@ -73,10 +75,39 @@ GitHub release.
 
 ## Operation
 
-Clone or download the repository, then run the main script from the root of the
-created folder.
+Clone or download the repository, install dependencies, then run the main script
+from the root of the created folder.
 
-```python
+### Install Dependencies
+
+The project has been set up using [Poetry](https://python-poetry.org/) to
+organize and install dependencies. If you have Poetry installed, simply run the
+following to install all that is needed.
+
+```console
+poetry install
+```
+
+If you do not (or cannot) have Poetry installed, I have provided an
+auto-generated `requirements.txt` in the project root which you can use as
+normal:
+
+```console
+pip install -r requirements.txt
+```
+
+I definately recommend using Poetry if you can though, it makes dealing with
+updates and conflicts very easy.
+
+If using poetry you now need to activate the VirtualEnv:
+
+```console
+poetry shell
+```
+
+### Run the program
+
+```console
 python generate_trek.py
 ```
 
