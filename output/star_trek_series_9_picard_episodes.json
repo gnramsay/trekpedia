@@ -70,12 +70,20 @@
                     "air_date": "March 12, 2020"
                 },
                 {
-                    "num_overall": "9–10",
-                    "num_in_season": "9–10",
+                    "num_overall": "9",
+                    "num_in_season": "9",
                     "title": "Et in Arcadia Ego",
                     "link": "",
                     "director": "Akiva Goldsman",
                     "air_date": "March 19, 2020"
+                },
+                {
+                    "num_overall": "10",
+                    "num_in_season": "10",
+                    "title": "Teleplay by : Michael ChabonStory by : Michael Chabon & Akiva Goldsman",
+                    "link": "",
+                    "director": "March 26, 2020",
+                    "air_date": "March 26, 2020"
                 }
             ]
         },
@@ -163,6 +171,93 @@
                     "link": "",
                     "director": "Michael Weaver",
                     "air_date": "May 5, 2022"
+                }
+            ]
+        },
+        "3": {
+            "total": "10",
+            "season_start": "February 16, 2023",
+            "season_end": "April 20, 2023",
+            "episodes": [
+                {
+                    "num_overall": "21",
+                    "num_in_season": "1",
+                    "title": "The Next Generation",
+                    "link": "",
+                    "director": "Doug Aarniokoski",
+                    "air_date": "February 16, 2023"
+                },
+                {
+                    "num_overall": "22",
+                    "num_in_season": "2",
+                    "title": "Disengage",
+                    "link": "",
+                    "director": "Doug Aarniokoski",
+                    "air_date": "February 23, 2023"
+                },
+                {
+                    "num_overall": "23",
+                    "num_in_season": "3",
+                    "title": "Seventeen Seconds",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "March 2, 2023"
+                },
+                {
+                    "num_overall": "24",
+                    "num_in_season": "4",
+                    "title": "No Win Scenario",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "March 9, 2023"
+                },
+                {
+                    "num_overall": "25",
+                    "num_in_season": "5",
+                    "title": "Imposter",
+                    "link": "",
+                    "director": "Dan Liu",
+                    "air_date": "March 16, 2023"
+                },
+                {
+                    "num_overall": "26",
+                    "num_in_season": "6",
+                    "title": "Bounty",
+                    "link": "",
+                    "director": "Dan Liu",
+                    "air_date": "March 23, 2023"
+                },
+                {
+                    "num_overall": "27",
+                    "num_in_season": "7",
+                    "title": "TBA",
+                    "link": "",
+                    "director": "Deborah Kampmeier",
+                    "air_date": "March 30, 2023"
+                },
+                {
+                    "num_overall": "28",
+                    "num_in_season": "8",
+                    "title": "TBA",
+                    "link": "",
+                    "director": "Deborah Kampmeier",
+                    "air_date": "April 6, 2023"
+                },
+                {
+                    "num_overall": "29",
+                    "num_in_season": "9",
+                    "title": "TBA",
+                    "link": "",
+                    "director": "Terry Matalas",
+                    "air_date": "April 13, 2023"
+                },
+                {
+                    "num_overall": "30",
+                    "num_in_season": "10",
+                    "title": "TBA",
+                    "link": "",
+                    "director": "Terry Matalas",
+                    "air_date": "April 20, 2023"
                 }
             ]
         }
