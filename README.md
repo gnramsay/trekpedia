@@ -121,6 +121,8 @@ ones.
 - There is no detection of two-part episodes **written as a single entry**, so
   the numbering is a little wrong when we parse them. I will look at fixing this
   when the main functionality is bug-free.
+- Star Trek:Prodigy data is quite different and crashes again so has temporarily
+  been disabled and will not be generated until I fix that.
 
 ## Further Enhancements planned
 
