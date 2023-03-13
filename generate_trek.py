@@ -7,7 +7,7 @@ import sys
 import colorama
 from blessings import Terminal
 
-from trekpedia import Trekpedia
+from lib.trekpedia import Trekpedia
 
 MAIN_URL = "https://en.wikipedia.org/wiki/Star_Trek"
 JSON_TEMPLATE = "output/star_trek_series_{}_{}_episodes.json"
@@ -27,7 +27,7 @@ def main(_args):
         f"Trekpedia : Parse '{t.cyan}Star Trek{t.normal}' "
         "data from the Web and save as JSON.\n"
     )
-    print("(C)2023 Grant Ramsay <grant@gnramsay.com>\n")
+    print("\u00a9 2023 Grant Ramsay <grant@gnramsay.com>\n")
     print(f"Version {trekpedia.version}\n")
 
     # ------ get the series info and save to a JSON file for later use. ------ #
