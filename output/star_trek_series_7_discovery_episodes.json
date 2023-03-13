@@ -229,12 +229,20 @@
                     "air_date": "April 4, 2019"
                 },
                 {
-                    "num_overall": "28–29",
-                    "num_in_season": "13–14",
+                    "num_overall": "28",
+                    "num_in_season": "13",
                     "title": "Such Sweet Sorrow",
                     "link": "",
                     "director": "Olatunde Osunsanmi",
                     "air_date": "April 11, 2019"
+                },
+                {
+                    "num_overall": "29",
+                    "num_in_season": "14",
+                    "title": "Such Sweet Sorrow",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "April 18, 2019"
                 }
             ]
         },
@@ -308,12 +316,20 @@
                     "air_date": "December 3, 2020"
                 },
                 {
-                    "num_overall": "38–39",
-                    "num_in_season": "9–10",
+                    "num_overall": "38",
+                    "num_in_season": "9",
                     "title": "Terra Firma",
                     "link": "https://en.wikipedia.org/wiki/Terra_Firma_(Star_Trek:_Discovery)",
                     "director": "Omar Madha",
                     "air_date": "December 10, 2020"
+                },
+                {
+                    "num_overall": "39",
+                    "num_in_season": "10",
+                    "title": "Terra Firma",
+                    "link": "",
+                    "director": "Chloe Domont",
+                    "air_date": "December 17, 2020"
                 },
                 {
                     "num_overall": "40",

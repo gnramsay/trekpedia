@@ -132,7 +132,7 @@ class Trekpedia:
                 series_all[series]["episodes_url"] = links
         self.series_data = series_all
 
-    def get_episode_data(self, episode, headers):
+    def get_episode_data(self, episode, headers, last_episode):
         """We may grab more info in the future."""
         episode_data = {}
 
@@ -148,7 +148,27 @@ class Trekpedia:
 
         cells = episode.find_all("td")
         if len(cells) != len(headers):
-            cells = episode.find_all(["th", "td"])
+            # this area is where we need to fix errors caused by the way they
+            # are now handling double-episodes in some Series (Discovery/
+            # Picard).
+            # cells = episode.find_all(["th", "td"])
+            if len(cells) == 2:
+                # we only have no_in_season and original_release_date
+                cells.insert(
+                    1,
+                    BeautifulSoup(f"<td>{last_episode['title']}</td>", "lxml"),
+                )
+                cells.insert(
+                    2,
+                    BeautifulSoup(
+                        f"<td>{last_episode['director']}</td>", "lxml"
+                    ),
+                )
+            elif len(cells) == 4:
+                cells.insert(
+                    1,
+                    BeautifulSoup(f"<td>{last_episode['title']}</td>", "lxml"),
+                )
 
         try:
             episode_data["num_in_season"] = cells[
@@ -185,9 +205,14 @@ class Trekpedia:
             if re.search("^original.*date$", item)
             or re.search("^paramount.*date$", item)
         ][0]
-        episode_data["air_date"] = self.clean_string(
-            cells[airdate_idx].text, brackets=True
-        )
+        try:
+            episode_data["air_date"] = self.clean_string(
+                cells[airdate_idx].text, brackets=True
+            )
+        except IndexError:
+            episode_data["air_date"] = self.clean_string(
+                cells[-1].text, brackets=True
+            )
 
         return episode_data
 
@@ -222,8 +247,12 @@ class Trekpedia:
         episode_list = []
 
         # loop over each episode. We may grab more info in the future.
+        # we send the previous episode back to it to handle the way some
+        # split-episodes are markedup
         for episode in table[1:]:
-            episode_data = self.get_episode_data(episode, headers)
+            episode_data = self.get_episode_data(
+                episode, headers, episode_list[-1] if episode_list else []
+            )
             if episode_data:
                 episode_list.append(episode_data)
 
