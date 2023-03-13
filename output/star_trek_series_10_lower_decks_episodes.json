@@ -222,17 +222,17 @@
                 {
                     "num_overall": "26",
                     "num_in_season": "6",
-                    "title": "TBA",
+                    "title": "Hear All, Trust Nothing",
                     "link": "",
-                    "director": "TBA",
+                    "director": "Fill Marc Sagadraca",
                     "air_date": "September 29, 2022"
                 },
                 {
                     "num_overall": "27",
                     "num_in_season": "7",
-                    "title": "TBA",
+                    "title": "A Mathematically Perfect Redemption",
                     "link": "",
-                    "director": "TBA",
+                    "director": "Jason Zurek",
                     "air_date": "October 6, 2022"
                 },
                 {
@@ -240,8 +240,24 @@
                     "num_in_season": "8",
                     "title": "Crisis Point 2: Paradoxus",
                     "link": "",
-                    "director": "TBA",
+                    "director": "Michael Mullen",
                     "air_date": "October 13, 2022"
+                },
+                {
+                    "num_overall": "29",
+                    "num_in_season": "9",
+                    "title": "Trusted Sources",
+                    "link": "",
+                    "director": "Fill Marc Sagadraca",
+                    "air_date": "October 20, 2022"
+                },
+                {
+                    "num_overall": "30",
+                    "num_in_season": "10",
+                    "title": "The Stars at Night",
+                    "link": "",
+                    "director": "Jason Zurek",
+                    "air_date": "October 27, 2022"
                 }
             ]
         }

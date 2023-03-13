@@ -247,8 +247,8 @@
                 {
                     "num_overall": "31",
                     "num_in_season": "5",
-                    "title": "A Night In Sickbay",
-                    "link": "https://en.wikipedia.org/wiki/A_Night_In_Sickbay",
+                    "title": "A Night in Sickbay",
+                    "link": "https://en.wikipedia.org/wiki/A_Night_in_Sickbay",
                     "director": "David Straiton",
                     "air_date": "October 16, 2002"
                 },
@@ -416,7 +416,7 @@
                     "num_overall": "52",
                     "num_in_season": "26",
                     "title": "The Expanse",
-                    "link": "https://en.wikipedia.org/wiki/The_Expanse_(Star_Trek_episode)",
+                    "link": "https://en.wikipedia.org/wiki/The_Expanse_(Star_Trek:_Enterprise_episode)",
                     "director": "Allan Kroeker",
                     "air_date": "May 21, 2003"
                 }
@@ -710,7 +710,7 @@
                     "num_overall": "87",
                     "num_in_season": "11",
                     "title": "Observer Effect",
-                    "link": "https://en.wikipedia.org/wiki/Observer_Effect",
+                    "link": "https://en.wikipedia.org/wiki/Observer_Effect_(Star_Trek:_Enterprise)",
                     "director": "Mike Vejar",
                     "air_date": "January 21, 2005"
                 },
