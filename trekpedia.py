@@ -185,9 +185,14 @@ class Trekpedia:
             if re.search("^original.*date$", item)
             or re.search("^paramount.*date$", item)
         ][0]
-        episode_data["air_date"] = self.clean_string(
-            cells[airdate_idx].text, brackets=True
-        )
+        try:
+            episode_data["air_date"] = self.clean_string(
+                cells[airdate_idx].text, brackets=True
+            )
+        except IndexError:
+            episode_data["air_date"] = self.clean_string(
+                cells[-1].text, brackets=True
+            )
 
         return episode_data
 
