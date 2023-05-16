@@ -35,7 +35,7 @@ class Trekpedia:
 
     def get_series_detail_link(self, url):
         """Return the link to the detail page for the specified series."""
-        series_page = requests.get(url)
+        series_page = requests.get(url, timeout=10)
         bss = BeautifulSoup(series_page.text, "lxml")
         # get all the Heading rows depending on season. Wikipedia is not
         # consistent...
@@ -409,7 +409,7 @@ class Trekpedia:
     @staticmethod
     def parse_url(url):
         """Get the specified url and parse with BeautifulSoup."""
-        result = requests.get(url)
+        result = requests.get(url, timeout=10)
         return BeautifulSoup(result.text, "lxml")
 
 

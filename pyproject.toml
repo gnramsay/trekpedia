@@ -14,13 +14,36 @@ lxml = ">=4.6.3,<4.10.0"
 colorama = ">=0.4.4,<0.5.0"
 blessings = ">=1.7.0,<1.8.0"
 
-
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
 pylint = "^2.17.4"
 pydocstyle = "^6.3.0"
 black = "^23.3.0"
+pep8-naming = "^0.13.3"
+pre-commit = "^3.2.2"
+flake8-pyproject = "^1.2.3"
+poethepoet = "^0.20.0"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks]
+pre = "pre-commit run --all-files"
+
+[tool.flake8]
+exclude = ['__init__.py', '.git', 'migrations/versions/*']
+max-line-length = 80
+docstring-convention = "google"
+
+[tool.bandit]
+exclude_dirs = ['config/settings.py', 'schemas/examples.py']
+
+[tool.bandit.assert_used]
+skips = ['*_test.py', '*/test_*.py']
+
+[tool.pytest.ini_options]
+filterwarnings = ["ignore:'crypt' is deprecated:DeprecationWarning"]
+
+[tool.pydocstyle]
+# add-ignore = ["D104"]

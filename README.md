@@ -1,6 +1,5 @@
 # Trekpedia JSON
 
-<!-- TOC start -->
 - [Trekpedia JSON](#trekpedia-json)
   - [Development](#development)
     - [Current progress](#current-progress)
@@ -10,7 +9,6 @@
     - [Run the program](#run-the-program)
   - [Current known BUGS](#current-known-bugs)
   - [Further Enhancements planned](#further-enhancements-planned)
-<!-- TOC end -->
 
 Star Trek TV/Film episode database scraped from web sources and provided in JSON
 format.
