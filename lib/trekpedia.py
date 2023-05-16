@@ -401,7 +401,7 @@ class Trekpedia:
                 .replace("__", "_")
             )
         if brackets:
-            dirty_string = "".join(re.split(r"\(|\)|\[|\]", dirty_string)[::2])
+            dirty_string = "".join(re.split(r"[\(\)\[\]]", dirty_string)[::2])
         if lowercase:
             dirty_string = dirty_string.lower()
         return " ".join(dirty_string.split())
