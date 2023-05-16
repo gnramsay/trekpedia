@@ -51,8 +51,6 @@ There are currently two stages of operation:
 
 - Take the JSON file created in the previous step, and dump the episode names
   for each series to a separate JSON file, with some Series metadata
-  - There is a bug where the script will not parse any series with only one
-    season due to the lack of a summary table.
 
 ## Produced Files
 
