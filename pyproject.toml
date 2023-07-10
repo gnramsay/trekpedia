@@ -22,7 +22,7 @@ black = "^23.3.0"
 pep8-naming = "^0.13.3"
 pre-commit = "^3.2.2"
 flake8-pyproject = "^1.2.3"
-poethepoet = "^0.20.0"
+poethepoet = "^0.21.0"
 
 [build-system]
 requires = ["poetry-core"]
