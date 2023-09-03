@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "trekpedia"
-version = "0.0.6"
+version = "0.0.7"
 description = "Get Star Trek episode data from Wikipedia"
 authors = ["Grant Ramsay <grant@gnramsay.com>"]
 license = "MIT"
