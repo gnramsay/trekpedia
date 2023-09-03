@@ -182,6 +182,16 @@ class Trekpedia:
                         f"<td>{last_episode['director']}</td>", "lxml"
                     ),
                 )
+            elif len(cells) == 3:
+                # we are missing title and stardate in this case
+                cells.insert(
+                    1,
+                    BeautifulSoup(f"<td>{last_episode['title']}</td>", "lxml"),
+                )
+                cells.insert(
+                    2,
+                    BeautifulSoup("<td></td>", "lxml"),
+                )
             elif len(cells) == 4:
                 # we have everything except the title
                 cells.insert(
