@@ -1,22 +1,28 @@
 """Define the Trekpedia class."""
+from __future__ import annotations
+
 import json
 import re
+from typing import TYPE_CHECKING, Dict, List, Tuple
 
 import requests
 from bs4 import BeautifulSoup
 from rich import print  # pylint: disable=redefined-builtin
 
+if TYPE_CHECKING:
+    from requests import Response
+
 
 class Trekpedia:
     """Overall class to get and Parse the Wikipedia data."""
 
-    def __init__(self, summary_url, json_template):
+    def __init__(self, summary_url: str, json_template: str) -> None:
         """Initialize the class."""
-        self.main_url = summary_url
-        self.json_template = json_template
-        self.series_markup = BeautifulSoup()
-        self.episode_markup = BeautifulSoup()
-        self.exceptions = [
+        self.main_url: str = summary_url
+        self.json_template: str = json_template
+        self.series_markup: BeautifulSoup = BeautifulSoup()
+        self.episode_markup: BeautifulSoup = BeautifulSoup()
+        self.exceptions: List[str] = [
             "Animated",
             "Short_Treks",
             "Picard",
@@ -24,17 +30,17 @@ class Trekpedia:
             "Prodigy",
             "Strange_New_Worlds",
         ]
-        self.series_data = {}
-        self.version = "0.0.7"
+        self.series_data: Dict = {}
+        self.version: str = "0.0.7"
 
-    def get_summary_data(self):
+    def get_summary_data(self) -> None:
         """Get and parse the summary data."""
-        self.series_markup = self.parse_url(self.main_url)
+        self.series_markup: BeautifulSoup = self.parse_url(self.main_url)
 
-    def get_series_detail_link(self, url):
+    def get_series_detail_link(self, url: str) -> str:
         """Return the link to the detail page for the specified series."""
-        series_page = requests.get(url, timeout=10)
-        bss = BeautifulSoup(series_page.text, "lxml")
+        series_page: Response = requests.get(url, timeout=10)
+        bss: BeautifulSoup = BeautifulSoup(series_page.text, "lxml")
         # get all the Heading rows depending on season. Wikipedia is not
         # consistent...
         if "Enterprise" in url:
@@ -45,6 +51,7 @@ class Trekpedia:
             return url
         else:
             headings = bss.find_all("h2")
+
         for heading in headings:
             headline = heading.find(
                 "span", attrs={"class": "mw-headline"}, id=re.compile("pisode")
@@ -58,7 +65,7 @@ class Trekpedia:
                     episodes = ""
         return f"https://en.wikipedia.org{episodes}"
 
-    def get_logo(self, series):
+    def get_logo(self, series: str) -> str:
         """Return the logo for the specified series.
 
         We do this from the main page because the logo is not in the episode
@@ -72,9 +79,13 @@ class Trekpedia:
             attrs={"class": "mw-headline"},
             id=re.compile(rf"{series.replace(' ', '_')}_\("),
         )
-        logo = span.findNext("img", attrs={"class": "mw-file-element"})["src"]
-        logo_url = f"https:{logo}"
-        return logo_url
+        if span:
+            logo = span.findNext("img", attrs={"class": "mw-file-element"})[
+                "src"
+            ]
+            logo_url = f"https:{logo}"
+            return logo_url
+        return ""
 
     def get_series_details(self, series):
         """Get explicit details for each series."""
@@ -83,13 +94,6 @@ class Trekpedia:
         series_dict["url"] = f'https://en.wikipedia.org{series.th.a["href"]}'
         series_dict["season_count"] = series.find_all("td")[0].text
 
-        # hack to fix the Wikipedia summary page having wrong episode count for
-        # 'Lower Decks'
-        if (
-            series_dict["name"] == "Lower Decks"
-            and series_dict["season_count"] == "2"
-        ):
-            series_dict["season_count"] = "3"
         series_dict["episode_count"] = series.find_all("td")[1].text
         series_dict["episodes_url"] = ""
         dates = (
@@ -112,7 +116,7 @@ class Trekpedia:
         series_rows = trek_table.find_all("tr")[1:]
         return series_rows
 
-    def get_series_info(self):
+    def get_series_info(self) -> None:
         """Stage 1: process main page to get and save the series info."""
         self.get_summary_data()
 
@@ -280,7 +284,7 @@ class Trekpedia:
 
         return episode_list
 
-    def parse_series(self, series_dict):
+    def parse_series(self, series_dict: Tuple[int, Dict]) -> None:
         """Take the supplied dictionary and parses the Series."""
         index, series = series_dict
 
@@ -383,7 +387,7 @@ class Trekpedia:
             "episodes": episodes,
         }
 
-    def get_json_filename(self, index, series):
+    def get_json_filename(self, index: int, series: Dict[str, str]) -> str:
         """Generate and return a JSON filename from the template."""
         filename = self.json_template.format(
             index, series["name"].replace(" ", "_").lower()
@@ -392,7 +396,7 @@ class Trekpedia:
         return filename
 
     @staticmethod
-    def print_season_header(series, filename):
+    def print_season_header(series, filename) -> None:
         """Display the header for each series as it is processed."""
         print(f'Processing : [bold][underline]{series["name"]}')
         print(f"  -> Using URL : [green]{series['episodes_url']}")
@@ -412,8 +416,8 @@ class Trekpedia:
 
     @staticmethod
     def clean_string(
-        dirty_string, underscores=False, brackets=False, lowercase=False
-    ):
+        dirty_string: str, underscores=False, brackets=False, lowercase=False
+    ) -> str:
         """Take a string and remove underscores, spaces etc as required."""
         if underscores:
             dirty_string = (
@@ -428,9 +432,9 @@ class Trekpedia:
         return " ".join(dirty_string.split())
 
     @staticmethod
-    def parse_url(url):
+    def parse_url(url) -> BeautifulSoup:
         """Get the specified url and parse with BeautifulSoup."""
-        result = requests.get(url, timeout=10)
+        result: Response = requests.get(url, timeout=10)
         return BeautifulSoup(result.text, "lxml")
 
 
