@@ -6,8 +6,16 @@
             "season_end": "May 22, 1995",
             "episodes": [
                 {
-                    "num_overall": "12",
-                    "num_in_season": "12",
+                    "num_overall": "1",
+                    "num_in_season": "1",
+                    "title": "Caretaker",
+                    "link": "https://en.wikipedia.org/wiki/Caretaker_(Star_Trek:_Voyager)",
+                    "director": "Winrich Kolbe",
+                    "air_date": "January 16, 1995"
+                },
+                {
+                    "num_overall": "2",
+                    "num_in_season": "2",
                     "title": "Caretaker",
                     "link": "https://en.wikipedia.org/wiki/Caretaker_(Star_Trek:_Voyager)",
                     "director": "Winrich Kolbe",
@@ -699,8 +707,16 @@
                     "air_date": "February 25, 1998"
                 },
                 {
-                    "num_overall": "8687",
-                    "num_in_season": "1819",
+                    "num_overall": "86",
+                    "num_in_season": "18",
+                    "title": "The Killing Game",
+                    "link": "https://en.wikipedia.org/wiki/The_Killing_Game_(Star_Trek:_Voyager)",
+                    "director": "David Livingston",
+                    "air_date": "March 4, 1998"
+                },
+                {
+                    "num_overall": "87",
+                    "num_in_season": "19",
                     "title": "The Killing Game",
                     "link": "https://en.wikipedia.org/wiki/The_Killing_Game_(Star_Trek:_Voyager)",
                     "director": "David Livingston",
@@ -882,12 +898,20 @@
                     "air_date": "February 10, 1999"
                 },
                 {
-                    "num_overall": "109110",
-                    "num_in_season": "1516",
+                    "num_overall": "109",
+                    "num_in_season": "15",
                     "title": "Dark Frontier",
                     "link": "https://en.wikipedia.org/wiki/Dark_Frontier",
-                    "director": "Cliff BoleTerry Windell",
+                    "director": "Cliff Bole",
                     "air_date": "February 17, 1999"
+                },
+                {
+                    "num_overall": "110",
+                    "num_in_season": "16",
+                    "title": "Dark Frontier",
+                    "link": "https://en.wikipedia.org/wiki/Dark_Frontier",
+                    "director": "Terry Windell",
+                    "air_date": "Terry Windell"
                 },
                 {
                     "num_overall": "111",
@@ -1256,12 +1280,20 @@
                     "air_date": "November 22, 2000"
                 },
                 {
-                    "num_overall": "155156",
-                    "num_in_season": "910",
+                    "num_overall": "155",
+                    "num_in_season": "9",
                     "title": "Flesh and Blood",
                     "link": "https://en.wikipedia.org/wiki/Flesh_and_Blood_(Star_Trek:_Voyager)",
-                    "director": "Mike VejarDavid Livingston",
+                    "director": "Mike Vejar",
                     "air_date": "November 29, 2000"
+                },
+                {
+                    "num_overall": "156",
+                    "num_in_season": "10",
+                    "title": "Flesh and Blood",
+                    "link": "https://en.wikipedia.org/wiki/Flesh_and_Blood_(Star_Trek:_Voyager)",
+                    "director": "David Livingston",
+                    "air_date": "Story by : Bryan Fuller and Raf GreenTeleplay by : Raf Green and Kenneth Biller"
                 },
                 {
                     "num_overall": "157",
@@ -1376,8 +1408,16 @@
                     "air_date": "May 16, 2001"
                 },
                 {
-                    "num_overall": "171172",
-                    "num_in_season": "2526",
+                    "num_overall": "171",
+                    "num_in_season": "25",
+                    "title": "Endgame",
+                    "link": "https://en.wikipedia.org/wiki/Endgame_(Star_Trek:_Voyager)",
+                    "director": "Allan Kroeker",
+                    "air_date": "May 23, 2001"
+                },
+                {
+                    "num_overall": "172",
+                    "num_in_season": "26",
                     "title": "Endgame",
                     "link": "https://en.wikipedia.org/wiki/Endgame_(Star_Trek:_Voyager)",
                     "director": "Allan Kroeker",

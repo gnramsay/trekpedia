@@ -219,8 +219,13 @@ class Trekpedia:
                 raise TypeError()
             episode_data["link"] = f"https://en.wikipedia.org{link_url}"
         except TypeError:
-            # set the link url to an empty string...
-            episode_data["link"] = ""
+            if last_episode and episode_data["title"] == last_episode["title"]:
+                # for multi-part episodes, the link is only on the first so we
+                # need to copy it over to the second.
+                episode_data["link"] = last_episode["link"]
+            else:
+                # set the link url to an empty string...
+                episode_data["link"] = ""
 
         episode_data["director"] = self.clean_string(
             cells[headers.index("directed_by")].text, brackets=True

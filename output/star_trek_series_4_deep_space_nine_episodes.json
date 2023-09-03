@@ -17,7 +17,7 @@
                     "num_overall": "2",
                     "num_in_season": "2",
                     "title": "Emissary",
-                    "link": "",
+                    "link": "https://en.wikipedia.org/wiki/Emissary_(Star_Trek:_Deep_Space_Nine)",
                     "director": "Emissary",
                     "air_date": "January 3, 1993"
                 },
@@ -614,7 +614,7 @@
                     "num_overall": "74",
                     "num_in_season": "2",
                     "title": "The Way of the Warrior",
-                    "link": "",
+                    "link": "https://en.wikipedia.org/wiki/The_Way_of_the_Warrior_(Star_Trek:_Deep_Space_Nine)",
                     "director": "James L. Conway",
                     "air_date": "September 30, 1995"
                 },
@@ -1451,7 +1451,7 @@
                     "num_overall": "176",
                     "num_in_season": "26",
                     "title": "What You Leave Behind",
-                    "link": "",
+                    "link": "https://en.wikipedia.org/wiki/What_You_Leave_Behind",
                     "director": "Allan Kroeker",
                     "air_date": "June 2, 1999"
                 }
