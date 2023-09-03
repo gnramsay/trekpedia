@@ -1,4 +1,4 @@
-from .trekpedia import Trekpedia
+from trekpedia.trekpedia import Trekpedia
 
 MAIN_URL = "https://en.wikipedia.org/wiki/Star_Trek"
 JSON_TEMPLATE = "output/star_trek_series_{}_{}_episodes.json"
