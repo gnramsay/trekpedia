@@ -74,7 +74,7 @@ class Trekpedia:
             attrs={"class": "mw-headline"},
             id=re.compile(rf"{series.replace(' ', '_')}_\("),
         )
-        logo = span.findNext("img", attrs={"class": "thumbimage"})["src"]
+        logo = span.findNext("img", attrs={"class": "mw-file-element"})["src"]
         logo_url = f"https:{logo}"
         return logo_url
 
