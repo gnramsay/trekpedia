@@ -3,10 +3,8 @@ import json
 import re
 
 import requests
-from blessings import Terminal
 from bs4 import BeautifulSoup
-
-t = Terminal()  # pylint: disable=invalid-name
+from rich import print  # pylint: disable=redefined-builtin
 
 
 class Trekpedia:
@@ -348,9 +346,8 @@ class Trekpedia:
                     )
         except AttributeError as err:
             print(
-                f"{t.red}  => AttributeError, need to investigate! "
-                f"({err}) at line number: "
-                f"{err.__traceback__.tb_lineno}{t.normal}"
+                "[red]  => AttributeError, need to investigate! "
+                f"({err}) at line number: {err.__traceback__.tb_lineno}"
             )
             return
         self.save_json(filename, {"seasons": season_all})
@@ -397,9 +394,9 @@ class Trekpedia:
     @staticmethod
     def print_season_header(series, filename):
         """Display the header for each series as it is processed."""
-        print(f'Processing : {t.cyan}{t.underline}{series["name"]}{t.normal}')
-        print(f"  -> Using URL : {t.green}{series['episodes_url']}{t.normal}")
-        print(f"  -> Storing episodes to {t.green}'{filename}'{t.normal}")
+        print(f'Processing : [bold][underline]{series["name"]}')
+        print(f"  -> Using URL : [green]{series['episodes_url']}")
+        print(f"  -> Storing episodes to [green]'{filename}'")
 
     @staticmethod
     def get_overview_rows(summary_table):
@@ -439,9 +436,7 @@ class Trekpedia:
 
 if __name__ == "__main__":
     print(
-        f"\nThis library is {t.red}not meant to be run directly{t.normal}, "
+        "\nThis library is [red]not meant to be run directly[/red], "
         "aborting."
     )
-    print(
-        f"Please run the {t.cyan}'generate_trek.py'{t.normal} file instead!\n"
-    )
+    print("Please run the [cyan]'generate_trek.py'[/cyan] file instead!\n")
