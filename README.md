@@ -1,23 +1,20 @@
-# Trekpedia JSON
+# Trekpedia JSON <!-- omit in toc -->
 
-- [Trekpedia JSON](#trekpedia-json)
-  - [Development](#development)
-    - [Current progress](#current-progress)
-  - [Produced Files](#produced-files)
-  - [Operation](#operation)
-    - [Install Dependencies](#install-dependencies)
-    - [Run the program](#run-the-program)
-  - [Current known BUGS](#current-known-bugs)
-  - [Further Enhancements planned](#further-enhancements-planned)
+- [Compatibility](#compatibility)
+- [Development](#development)
+  - [Current progress](#current-progress)
+- [Produced Files](#produced-files)
+- [Operation](#operation)
+  - [Install Dependencies](#install-dependencies)
+  - [Run the program](#run-the-program)
+- [Current known BUGS](#current-known-bugs)
+- [Further Enhancements planned](#further-enhancements-planned)
 
-Star Trek TV/Film episode database scraped from web sources and provided in JSON
-format.
+Star Trek TV episode database scraped from web sources and provided in JSON
+format. Films will be added at a later date.
 
 This geek project is just for me to get familiar with Python web-scraping and
 provide data for API development.
-
-For an API specifically written to use this data, see
-[trekpedia-api-rails][trekpedia-api-rails] (work in progress)
 
 All copyright to the 'Star Trek' name and data belongs to
 [ViacomCBS][viacomcbs].
@@ -29,10 +26,22 @@ The license below only applies to the **SOURCE CODE**.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Compatibility
+
+This data is mined from Wikipedia and is therefore only as accurate as the
+source. It is also only as up-to-date as the last time I ran the scraper.
+
+Note also that the site formatting changes (annoyingly) frequently and
+inconsistently, so the script may fail to run properly if the site has changed
+since the last update. I aim to keep the script up-to-date with any changes, but
+I can't guarantee doing this immediately. There are a few 'hacks' in the code to
+get around some of the formatting issues and I will be refactoring these shortly
+into better code.
+
 ## Development
 
 Initially, I carried out the development of the scraper using [Jupyter
-Notebooks][jupyter]. These are depreciated and archived in the `notebooks`
+Notebooks][jupyter]. These are deprecated and archived in the `notebooks`
 folder.
 
 I have migrated this base work into pure Python, where all further development
@@ -55,7 +64,7 @@ There are currently two stages of operation:
 ## Produced Files
 
 A current version of the derived data is available in the [output](output)
-directory, valid as of June 2022.
+directory, valid as of 3rd September 2023.
 
 This directory contains the following GENERATED files:
 
@@ -112,12 +121,7 @@ ones.
 
 ## Current known BUGS
 
-- ~~Single-season Series currently won't be decoded; [issue #7][i7] is open for
-  this.~~
-- There is no detection of two-part episodes **written as a single entry**, so
-  the numbering is a little wrong when we parse them. I will look at fixing this
-  when the main functionality is bug-free.
-- Star Trek:Prodigy data is quite different and crashes again so has temporarily
+- `Star Trek: Prodigy` data is quite different and crashes again so has temporarily
   been disabled and will not be generated until I fix that.
 
 ## Further Enhancements planned
@@ -131,6 +135,3 @@ to the relevant series/season/episode data.
 [st-char]: https://en.wikipedia.org/wiki/List_of_Star_Trek_characters
 [fup]: https://en.wikipedia.org/wiki/Fair_use#Text_and_data_mining
 [jupyter]: https://jupyter.org/
-[trekpedia-api-rails]: https://github.com/gnramsay/trekpedia-api-rails
-
-[i7]: https://github.com/gnramsay/trekpedia/issues/7
