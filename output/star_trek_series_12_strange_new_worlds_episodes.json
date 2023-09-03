@@ -9,7 +9,7 @@
                     "num_overall": "1",
                     "num_in_season": "1",
                     "title": "Strange New Worlds",
-                    "link": "",
+                    "link": "https://en.wikipedia.org/wiki/Strange_New_Worlds_(Star_Trek:_Strange_New_Worlds)",
                     "director": "Akiva Goldsman",
                     "air_date": "May 5, 2022"
                 },
@@ -17,7 +17,7 @@
                     "num_overall": "2",
                     "num_in_season": "2",
                     "title": "Children of the Comet",
-                    "link": "",
+                    "link": "https://en.wikipedia.org/wiki/Children_of_the_Comet",
                     "director": "Maja Vrvilo",
                     "air_date": "May 12, 2022"
                 },
@@ -84,6 +84,93 @@
                     "link": "",
                     "director": "Chris Fisher",
                     "air_date": "July 7, 2022"
+                }
+            ]
+        },
+        "2": {
+            "total": "10",
+            "season_start": "June 15, 2023",
+            "season_end": "August 10, 2023",
+            "episodes": [
+                {
+                    "num_overall": "11",
+                    "num_in_season": "1",
+                    "title": "The Broken Circle",
+                    "link": "",
+                    "director": "Chris Fisher",
+                    "air_date": "June 15, 2023"
+                },
+                {
+                    "num_overall": "12",
+                    "num_in_season": "2",
+                    "title": "Ad Astra per Aspera",
+                    "link": "",
+                    "director": "Valerie Weiss",
+                    "air_date": "June 22, 2023"
+                },
+                {
+                    "num_overall": "13",
+                    "num_in_season": "3",
+                    "title": "Tomorrow and Tomorrow and Tomorrow",
+                    "link": "",
+                    "director": "Amanda Row",
+                    "air_date": "June 29, 2023"
+                },
+                {
+                    "num_overall": "14",
+                    "num_in_season": "4",
+                    "title": "Among the Lotus Eaters",
+                    "link": "",
+                    "director": "Eduardo Sánchez",
+                    "air_date": "July 6, 2023"
+                },
+                {
+                    "num_overall": "15",
+                    "num_in_season": "5",
+                    "title": "Charades",
+                    "link": "",
+                    "director": "Jordan Canning",
+                    "air_date": "July 13, 2023"
+                },
+                {
+                    "num_overall": "16",
+                    "num_in_season": "6",
+                    "title": "Lost in Translation",
+                    "link": "",
+                    "director": "Dan Liu",
+                    "air_date": "July 20, 2023"
+                },
+                {
+                    "num_overall": "17",
+                    "num_in_season": "7",
+                    "title": "Those Old Scientists",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "July 22, 2023"
+                },
+                {
+                    "num_overall": "18",
+                    "num_in_season": "8",
+                    "title": "Under the Cloak of War",
+                    "link": "",
+                    "director": "Jeff W. Byrd",
+                    "air_date": "July 27, 2023"
+                },
+                {
+                    "num_overall": "19",
+                    "num_in_season": "9",
+                    "title": "Subspace Rhapsody",
+                    "link": "",
+                    "director": "Dermott Downs",
+                    "air_date": "August 3, 2023"
+                },
+                {
+                    "num_overall": "20",
+                    "num_in_season": "10",
+                    "title": "Hegemony",
+                    "link": "",
+                    "director": "Maja Vrvilo",
+                    "air_date": "August 10, 2023"
                 }
             ]
         }
