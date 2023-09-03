@@ -7,10 +7,7 @@ import sys
 import colorama
 from rich import print  # pylint: disable=redefined-builtin
 
-from lib.trekpedia import Trekpedia
-
-MAIN_URL = "https://en.wikipedia.org/wiki/Star_Trek"
-JSON_TEMPLATE = "output/star_trek_series_{}_{}_episodes.json"
+from trekpedia import JSON_TEMPLATE, MAIN_URL, Trekpedia
 
 
 # ---------------------------------------------------------------------------- #
