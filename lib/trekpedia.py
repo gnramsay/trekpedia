@@ -151,7 +151,25 @@ class Trekpedia:
             # this area is where we need to fix errors caused by the way they
             # are now handling double-episodes in some Series (Discovery/
             # Picard).
-            # cells = episode.find_all(["th", "td"])
+            # This is a hack to fix the issue, and will be cleaned up very soon!
+            if len(cells) == 1:
+                # we only have no_in_season
+                cells.insert(
+                    1,
+                    BeautifulSoup(f"<td>{last_episode['title']}</td>", "lxml"),
+                )
+                cells.insert(
+                    2,
+                    BeautifulSoup(
+                        f"<td>{last_episode['director']}</td>", "lxml"
+                    ),
+                )
+                cells.insert(
+                    3,
+                    BeautifulSoup(
+                        f"<td>{last_episode['air_date']}</td>", "lxml"
+                    ),
+                )
             if len(cells) == 2:
                 # we only have no_in_season and original_release_date
                 cells.insert(
@@ -165,6 +183,7 @@ class Trekpedia:
                     ),
                 )
             elif len(cells) == 4:
+                # we have everything except the title
                 cells.insert(
                     1,
                     BeautifulSoup(f"<td>{last_episode['title']}</td>", "lxml"),
