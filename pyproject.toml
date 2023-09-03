@@ -11,8 +11,7 @@ python = "^3.10"
 requests = ">=2.26.0,<2.32.0"
 beautifulsoup4 = ">=4.9.3,<4.13.0"
 lxml = ">=4.6.3,<4.10.0"
-colorama = ">=0.4.4,<0.5.0"
-blessings = ">=1.7.0,<1.8.0"
+rich = "^13.5.2"
 
 [tool.poetry.group.dev.dependencies]
 # linting, type-checking and security checks
