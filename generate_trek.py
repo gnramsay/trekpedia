@@ -2,6 +2,7 @@
 
 Produce JSON dumps of Star Trek data suitable for adding to an API.
 """
+
 import sys
 
 import colorama
