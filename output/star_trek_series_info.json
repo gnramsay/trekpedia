@@ -42,7 +42,7 @@
         "episode_count": "172",
         "episodes_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Voyager_episodes",
         "dates": "January 16, 1995 - May 23, 2001",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Star_Trek_VOY_logo.svg/220px-Star_Trek_VOY_logo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Star_Trek_Voyager_Logo.svg/220px-Star_Trek_Voyager_Logo.svg.png"
     },
     "6": {
         "name": "Enterprise",
@@ -56,10 +56,10 @@
     "7": {
         "name": "Discovery",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_Discovery",
-        "season_count": "4",
-        "episode_count": "55",
+        "season_count": "5",
+        "episode_count": "65",
         "episodes_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek:_Discovery_episodes",
-        "dates": "September 24, 2017 - present",
+        "dates": "September 24, 2017 - May 30, 2024",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Star_Trek_Discovery_logo.svg/220px-Star_Trek_Discovery_logo.svg.png"
     },
     "8": {
@@ -69,7 +69,7 @@
         "episode_count": "10",
         "episodes_url": "https://en.wikipedia.org/wiki/Star_Trek:_Short_Treks",
         "dates": "October 4, 2018 - January 9, 2020",
-        "logo": ""
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/StarTrekShortTreks.png/220px-StarTrekShortTreks.png"
     },
     "9": {
         "name": "Picard",
@@ -83,8 +83,8 @@
     "10": {
         "name": "Lower Decks",
         "url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks",
-        "season_count": "3",
-        "episode_count": "30",
+        "season_count": "4",
+        "episode_count": "40",
         "episodes_url": "https://en.wikipedia.org/wiki/Star_Trek:_Lower_Decks",
         "dates": "August 6, 2020 - present",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Star_Trek_LD_logo.svg/220px-Star_Trek_LD_logo.svg.png"
@@ -96,7 +96,7 @@
         "episode_count": "20",
         "episodes_url": "https://en.wikipedia.org/wiki/Star_Trek:_Prodigy",
         "dates": "October 28, 2021 - present",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Star_Trek_Prod_logo.svg/220px-Star_Trek_Prod_logo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Star_Trek_Prodigy_Logo.png/220px-Star_Trek_Prodigy_Logo.png"
     },
     "12": {
         "name": "Strange New Worlds",

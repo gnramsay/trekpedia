@@ -9,7 +9,7 @@
                     "num_overall": "1",
                     "num_in_season": "1",
                     "title": "Strange New Worlds",
-                    "link": "https://en.wikipedia.org/wiki/Strange_New_Worlds_(Star_Trek:_Strange_New_Worlds)",
+                    "link": "",
                     "director": "Akiva Goldsman",
                     "air_date": "May 5, 2022"
                 },
@@ -17,7 +17,7 @@
                     "num_overall": "2",
                     "num_in_season": "2",
                     "title": "Children of the Comet",
-                    "link": "https://en.wikipedia.org/wiki/Children_of_the_Comet",
+                    "link": "",
                     "director": "Maja Vrvilo",
                     "air_date": "May 12, 2022"
                 },
@@ -144,7 +144,7 @@
                     "num_overall": "17",
                     "num_in_season": "7",
                     "title": "Those Old Scientists",
-                    "link": "",
+                    "link": "https://en.wikipedia.org/wiki/Those_Old_Scientists",
                     "director": "Jonathan Frakes",
                     "air_date": "July 22, 2023"
                 },
@@ -160,7 +160,7 @@
                     "num_overall": "19",
                     "num_in_season": "9",
                     "title": "Subspace Rhapsody",
-                    "link": "",
+                    "link": "https://en.wikipedia.org/wiki/Subspace_Rhapsody",
                     "director": "Dermott Downs",
                     "air_date": "August 3, 2023"
                 },
