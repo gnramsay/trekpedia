@@ -5,7 +5,7 @@ Produce JSON dumps of Star Trek data suitable for adding to an API.
 
 from rich import print  # pylint: disable=redefined-builtin
 
-from trekpedia import JSON_TEMPLATE, MAIN_URL, Trekpedia
+from trekpedia import JSON_TEMPLATE, MAIN_URL, Trekpedia, save_json
 
 
 # ---------------------------------------------------------------------------- #
@@ -26,9 +26,7 @@ def main() -> None:
         # ---- get the series info and save to a JSON file for later use. ---- #
         print("Getting Series Data ... ", end="")
         trekpedia.get_series_info()
-        trekpedia.save_json(
-            "output/star_trek_series_info.json", trekpedia.series_data
-        )
+        save_json("output/star_trek_series_info.json", trekpedia.series_data)
         print("Done!\n")
 
         # ----------- loop through each series and parse then save ----------- #

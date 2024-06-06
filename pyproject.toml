@@ -62,7 +62,7 @@ build-backend = "poetry.core.masonry.api"
 # setup 'PoeThePoet' tasks
 pre.cmd = "pre-commit run --all-files"
 pre.help = "Run pre-commit checks"
-mypy.cmd = "mypy trekpedia/**/*.py tests/**/*.py --strict"
+mypy.cmd = "mypy generate_trek.py trekpedia/**/*.py tests/**/*.py --strict"
 mypy.help = "Run mypy checks"
 format.cmd = "ruff format ."
 format.help = "Format code with Ruff"
@@ -104,8 +104,8 @@ extensions.front-matter.enabled = true
 
 [tool.ruff]
 line-length = 80
-src = ["trekpedia"]
-target-version = "py310" # minimum python version supported
+src = ["trekpedia", "generate_trek.py"]
+target-version = "py310"                # minimum python version supported
 
 [tool.ruff.format]
 indent-style = "space"

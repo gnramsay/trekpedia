@@ -3,10 +3,10 @@
 from __future__ import annotations
 
 import re
-from typing import TYPE_CHECKING, Dict, List, Tuple
+from typing import TYPE_CHECKING, Any, Optional, cast
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 from rich import print
 
 from trekpedia.helpers import (  # pylint: disable=redefined-builtin
@@ -30,7 +30,7 @@ class Trekpedia:
         self.json_template: str = json_template
         self.series_markup: BeautifulSoup = BeautifulSoup()
         self.episode_markup: BeautifulSoup = BeautifulSoup()
-        self.exceptions: List[str] = [
+        self.exceptions: list[str] = [
             "Animated",
             "Short_Treks",
             "Picard",
@@ -38,12 +38,12 @@ class Trekpedia:
             "Prodigy",
             "Strange_New_Worlds",
         ]
-        self.series_data: Dict = {}
+        self.series_data: dict = {}
         self.version: str = "0.0.7"
 
     def get_summary_data(self) -> None:
         """Get and parse the summary data."""
-        self.series_markup: BeautifulSoup = parse_url(self.main_url)
+        self.series_markup = parse_url(self.main_url)
 
     def get_series_detail_link(self, url: str) -> str:
         """Return the link to the detail page for the specified series."""
@@ -80,13 +80,13 @@ class Trekpedia:
         from the main page.
         """
         series_data = parse_url(url)
-        image_url = series_data.find(
-            "td", attrs={"class": "infobox-image"}
-        ).find("img")["src"]
+        image_url = series_data.find("td", attrs={"class": "infobox-image"})
+        if image_url:
+            return f"https:{image_url.find("img")["src"]}"
 
-        return f"https:{image_url}"
+        return ""
 
-    def get_series_details(self, series):
+    def get_series_details(self, series) -> dict[str, Any]:
         """Get explicit details for each series."""
         series_dict = {}
         series_dict["name"] = series.th.a.text
@@ -104,16 +104,24 @@ class Trekpedia:
         # get the unicode stuff out of the string...
         dates = " ".join(dates.split())
         series_dict["dates"] = dates
-        series_dict["logo"] = self.get_logo(series_dict["name"])
+        series_dict["logo"] = self.get_logo(series_dict["url"])
 
         return series_dict
 
-    def get_series_rows(self):
+    def get_series_rows(self) -> Tag | None:
         """Return all the summary rows for the current Series."""
-        tv_section = self.series_markup.find(id="Television").parent
-        trek_table = tv_section.findNext("table").find("tbody")
-        series_rows = trek_table.find_all("tr")[1:]
-        return series_rows
+        try:
+            tv_section = cast(
+                Tag | None, self.series_markup.find(id="Television")
+            )
+            if tv_section and tv_section.parent:
+                trek_table = tv_section.parent.findNext("table").find("tbody")  # type: ignore
+                rows = trek_table.find_all("tr")  # type: ignore
+                return rows[1:]  # type: ignore
+        except AttributeError:
+            return None
+
+        return None
 
     def get_series_info(self) -> None:
         """Stage 1: process main page to get and save the series info."""
@@ -283,7 +291,7 @@ class Trekpedia:
 
         return episode_list
 
-    def parse_series(self, series_dict: Tuple[int, Dict]) -> None:
+    def parse_series(self, series_dict: tuple[int, dict]) -> None:
         """Take the supplied dictionary and parses the Series."""
         index, series = series_dict
 
@@ -296,7 +304,7 @@ class Trekpedia:
         self.episode_markup = parse_url(series["episodes_url"])
 
         try:
-            overview_table = self.episode_markup.find(
+            overview_table: Tag | None = self.episode_markup.find(
                 "table", attrs={"class": "wikitable plainrowheaders"}
             )
 
@@ -355,7 +363,9 @@ class Trekpedia:
             return
         save_json(filename, {"seasons": season_all})
 
-    def consolidate(self, series, season_number, episodes, overview_row_data):
+    def consolidate(
+        self, series, season_number: int, episodes, overview_row_data
+    ) -> dict[str, Any]:
         """Consolidate the season data into a dict ready for JSON."""
         # some hoop-jumping to get around the Discovery Overview table layout
         try:
@@ -384,13 +394,11 @@ class Trekpedia:
             "episodes": episodes,
         }
 
-    def get_json_filename(self, index: int, series: Dict[str, str]) -> str:
+    def get_json_filename(self, index: int, series: dict[str, str]) -> str:
         """Generate and return a JSON filename from the template."""
-        filename = self.json_template.format(
+        return self.json_template.format(
             index, series["name"].replace(" ", "_").lower()
         )
-
-        return filename
 
 
 if __name__ == "__main__":
