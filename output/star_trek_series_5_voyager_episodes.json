@@ -143,8 +143,8 @@
                 {
                     "num_overall": "17",
                     "num_in_season": "1",
-                    "title": "The 37's",
-                    "link": "https://en.wikipedia.org/wiki/The_37%27s",
+                    "title": "The '37s",
+                    "link": "https://en.wikipedia.org/wiki/The_%2737s",
                     "director": "James L. Conway",
                     "air_date": "August 28, 1995"
                 },
@@ -707,16 +707,8 @@
                     "air_date": "February 25, 1998"
                 },
                 {
-                    "num_overall": "86",
-                    "num_in_season": "18",
-                    "title": "The Killing Game",
-                    "link": "https://en.wikipedia.org/wiki/The_Killing_Game_(Star_Trek:_Voyager)",
-                    "director": "David Livingston",
-                    "air_date": "March 4, 1998"
-                },
-                {
-                    "num_overall": "87",
-                    "num_in_season": "19",
+                    "num_overall": "8687",
+                    "num_in_season": "1819",
                     "title": "The Killing Game",
                     "link": "https://en.wikipedia.org/wiki/The_Killing_Game_(Star_Trek:_Voyager)",
                     "director": "David Livingston",

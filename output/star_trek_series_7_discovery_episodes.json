@@ -467,6 +467,93 @@
                     "air_date": "March 17, 2022"
                 }
             ]
+        },
+        "5": {
+            "total": "10",
+            "season_start": "April 4, 2024",
+            "season_end": "May 30, 2024",
+            "episodes": [
+                {
+                    "num_overall": "56",
+                    "num_in_season": "1",
+                    "title": "Red Directive",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "April 4, 2024"
+                },
+                {
+                    "num_overall": "57",
+                    "num_in_season": "2",
+                    "title": "Under the Twin Moons",
+                    "link": "",
+                    "director": "Doug Aarniokoski",
+                    "air_date": "April 4, 2024"
+                },
+                {
+                    "num_overall": "58",
+                    "num_in_season": "3",
+                    "title": "Jinaal",
+                    "link": "",
+                    "director": "Andi Armaganian",
+                    "air_date": "April 11, 2024"
+                },
+                {
+                    "num_overall": "59",
+                    "num_in_season": "4",
+                    "title": "Face the Strange",
+                    "link": "",
+                    "director": "Lee Rose",
+                    "air_date": "April 18, 2024"
+                },
+                {
+                    "num_overall": "60",
+                    "num_in_season": "5",
+                    "title": "Mirrors",
+                    "link": "",
+                    "director": "Jen McGowan",
+                    "air_date": "April 25, 2024"
+                },
+                {
+                    "num_overall": "61",
+                    "num_in_season": "6",
+                    "title": "Whistlespeak",
+                    "link": "",
+                    "director": "Chris Byrne",
+                    "air_date": "May 2, 2024"
+                },
+                {
+                    "num_overall": "62",
+                    "num_in_season": "7",
+                    "title": "Erigah",
+                    "link": "",
+                    "director": "Jon Dudkowski",
+                    "air_date": "May 9, 2024"
+                },
+                {
+                    "num_overall": "63",
+                    "num_in_season": "8",
+                    "title": "Labyrinths",
+                    "link": "",
+                    "director": "Emmanuel Osei-Kuffour",
+                    "air_date": "May 16, 2024"
+                },
+                {
+                    "num_overall": "64",
+                    "num_in_season": "9",
+                    "title": "Lagrange Point",
+                    "link": "",
+                    "director": "Jonathan Frakes",
+                    "air_date": "May 23, 2024"
+                },
+                {
+                    "num_overall": "65",
+                    "num_in_season": "10",
+                    "title": "Life, Itself",
+                    "link": "",
+                    "director": "Olatunde Osunsanmi",
+                    "air_date": "May 30, 2024"
+                }
+            ]
         }
     }
 }

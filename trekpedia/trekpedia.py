@@ -1,22 +1,36 @@
 """Define the Trekpedia class."""
-import json
+
+from __future__ import annotations
+
 import re
+from typing import TYPE_CHECKING, Any, Optional, cast
 
 import requests
-from bs4 import BeautifulSoup
-from rich import print  # pylint: disable=redefined-builtin
+from bs4 import BeautifulSoup, Tag
+from rich import print
+
+from trekpedia.helpers import (  # pylint: disable=redefined-builtin
+    clean_string,
+    get_overview_rows,
+    parse_url,
+    print_season_header,
+    save_json,
+)
+
+if TYPE_CHECKING:
+    from requests import Response
 
 
 class Trekpedia:
     """Overall class to get and Parse the Wikipedia data."""
 
-    def __init__(self, summary_url, json_template):
+    def __init__(self, summary_url: str, json_template: str) -> None:
         """Initialize the class."""
-        self.main_url = summary_url
-        self.json_template = json_template
-        self.series_markup = BeautifulSoup()
-        self.episode_markup = BeautifulSoup()
-        self.exceptions = [
+        self.main_url: str = summary_url
+        self.json_template: str = json_template
+        self.series_markup: BeautifulSoup = BeautifulSoup()
+        self.episode_markup: BeautifulSoup = BeautifulSoup()
+        self.exceptions: list[str] = [
             "Animated",
             "Short_Treks",
             "Picard",
@@ -24,17 +38,17 @@ class Trekpedia:
             "Prodigy",
             "Strange_New_Worlds",
         ]
-        self.series_data = {}
-        self.version = "0.0.7"
+        self.series_data: dict = {}
+        self.version: str = "0.0.7"
 
-    def get_summary_data(self):
+    def get_summary_data(self) -> None:
         """Get and parse the summary data."""
-        self.series_markup = self.parse_url(self.main_url)
+        self.series_markup = parse_url(self.main_url)
 
-    def get_series_detail_link(self, url):
+    def get_series_detail_link(self, url: str) -> str:
         """Return the link to the detail page for the specified series."""
-        series_page = requests.get(url, timeout=10)
-        bss = BeautifulSoup(series_page.text, "lxml")
+        series_page: Response = requests.get(url, timeout=10)
+        bss: BeautifulSoup = BeautifulSoup(series_page.text, "lxml")
         # get all the Heading rows depending on season. Wikipedia is not
         # consistent...
         if "Enterprise" in url:
@@ -45,6 +59,7 @@ class Trekpedia:
             return url
         else:
             headings = bss.find_all("h2")
+
         for heading in headings:
             headline = heading.find(
                 "span", attrs={"class": "mw-headline"}, id=re.compile("pisode")
@@ -58,38 +73,26 @@ class Trekpedia:
                     episodes = ""
         return f"https://en.wikipedia.org{episodes}"
 
-    def get_logo(self, series):
+    def get_logo(self, url: str) -> str:
         """Return the logo for the specified series.
 
-        We do this from the main page because the logo is not in the episode
-        page, or not good quality.
+        We get this from the individual series page since they have removed it
+        from the main page.
         """
-        # short treks has no logo on this page, return empty string for now...
-        if series == "Short Treks":
-            return ""
-        span = self.series_markup.find(
-            "span",
-            attrs={"class": "mw-headline"},
-            id=re.compile(rf"{series.replace(' ', '_')}_\("),
-        )
-        logo = span.findNext("img", attrs={"class": "mw-file-element"})["src"]
-        logo_url = f"https:{logo}"
-        return logo_url
+        series_data = parse_url(url)
+        image_url = series_data.find("td", attrs={"class": "infobox-image"})
+        if image_url:
+            return f"https:{image_url.find("img")["src"]}"
 
-    def get_series_details(self, series):
+        return ""
+
+    def get_series_details(self, series) -> dict[str, Any]:
         """Get explicit details for each series."""
         series_dict = {}
         series_dict["name"] = series.th.a.text
         series_dict["url"] = f'https://en.wikipedia.org{series.th.a["href"]}'
         series_dict["season_count"] = series.find_all("td")[0].text
 
-        # hack to fix the Wikipedia summary page having wrong episode count for
-        # 'Lower Decks'
-        if (
-            series_dict["name"] == "Lower Decks"
-            and series_dict["season_count"] == "2"
-        ):
-            series_dict["season_count"] = "3"
         series_dict["episode_count"] = series.find_all("td")[1].text
         series_dict["episodes_url"] = ""
         dates = (
@@ -101,18 +104,26 @@ class Trekpedia:
         # get the unicode stuff out of the string...
         dates = " ".join(dates.split())
         series_dict["dates"] = dates
-        series_dict["logo"] = self.get_logo(series_dict["name"])
+        series_dict["logo"] = self.get_logo(series_dict["url"])
 
         return series_dict
 
-    def get_series_rows(self):
+    def get_series_rows(self) -> Tag | None:
         """Return all the summary rows for the current Series."""
-        tv_section = self.series_markup.find(id="Television").parent
-        trek_table = tv_section.findNext("table").find("tbody")
-        series_rows = trek_table.find_all("tr")[1:]
-        return series_rows
+        try:
+            tv_section = cast(
+                Tag | None, self.series_markup.find(id="Television")
+            )
+            if tv_section and tv_section.parent:
+                trek_table = tv_section.parent.findNext("table").find("tbody")  # type: ignore
+                rows = trek_table.find_all("tr")  # type: ignore
+                return rows[1:]  # type: ignore
+        except AttributeError:
+            return None
 
-    def get_series_info(self):
+        return None
+
+    def get_series_info(self) -> None:
         """Stage 1: process main page to get and save the series info."""
         self.get_summary_data()
 
@@ -138,7 +149,7 @@ class Trekpedia:
         # tas, ds9, voy etc) just skip over this one as it is a
         # summary...
         try:
-            episode_data["num_overall"] = self.clean_string(
+            episode_data["num_overall"] = clean_string(
                 episode.find("th").text, brackets=True
             )
         except AttributeError:
@@ -197,7 +208,7 @@ class Trekpedia:
         # get the required data using the header indexes, otherwise
         # will mess up on ds9-s4 and later since they add new
         # columns to the table.
-        episode_data["title"] = self.clean_string(
+        episode_data["title"] = clean_string(
             cells[headers.index("title")].text.replace('"', ""),
             brackets=True,
         )
@@ -215,7 +226,7 @@ class Trekpedia:
                 # set the link url to an empty string...
                 episode_data["link"] = ""
 
-        episode_data["director"] = self.clean_string(
+        episode_data["director"] = clean_string(
             cells[headers.index("directed_by")].text, brackets=True
         )
 
@@ -228,11 +239,11 @@ class Trekpedia:
             or re.search("^paramount.*date$", item)
         ][0]
         try:
-            episode_data["air_date"] = self.clean_string(
+            episode_data["air_date"] = clean_string(
                 cells[airdate_idx].text, brackets=True
             )
         except IndexError:
-            episode_data["air_date"] = self.clean_string(
+            episode_data["air_date"] = clean_string(
                 cells[-1].text, brackets=True
             )
 
@@ -254,7 +265,7 @@ class Trekpedia:
         # series and even seasons! at this time we also remove any
         # unicode stuff
         headers = [
-            self.clean_string(
+            clean_string(
                 x.text, underscores=True, brackets=True, lowercase=True
             )
             for x in table[0].find_all("th")
@@ -280,20 +291,20 @@ class Trekpedia:
 
         return episode_list
 
-    def parse_series(self, series_dict):
+    def parse_series(self, series_dict: tuple[int, dict]) -> None:
         """Take the supplied dictionary and parses the Series."""
         index, series = series_dict
 
         filename = self.get_json_filename(index, series)
 
-        self.print_season_header(series, filename)
+        print_season_header(series, filename)
 
         season_all = {}
 
-        self.episode_markup = self.parse_url(series["episodes_url"])
+        self.episode_markup = parse_url(series["episodes_url"])
 
         try:
-            overview_table = self.episode_markup.find(
+            overview_table: Tag | None = self.episode_markup.find(
                 "table", attrs={"class": "wikitable plainrowheaders"}
             )
 
@@ -312,7 +323,7 @@ class Trekpedia:
                 }
             else:
                 # its a standard Series with multiple seasons.
-                for season in self.get_overview_rows(overview_table):
+                for season in get_overview_rows(overview_table):
                     try:
                         overview_row_header = season.find("th")
                         overview_row_data = season.find_all("td")
@@ -350,9 +361,11 @@ class Trekpedia:
                 f"({err}) at line number: {err.__traceback__.tb_lineno}"
             )
             return
-        self.save_json(filename, {"seasons": season_all})
+        save_json(filename, {"seasons": season_all})
 
-    def consolidate(self, series, season_number, episodes, overview_row_data):
+    def consolidate(
+        self, series, season_number: int, episodes, overview_row_data
+    ) -> dict[str, Any]:
         """Consolidate the season data into a dict ready for JSON."""
         # some hoop-jumping to get around the Discovery Overview table layout
         try:
@@ -361,11 +374,11 @@ class Trekpedia:
         except ValueError:
             offset = 0
 
-        season_start = self.clean_string(
+        season_start = clean_string(
             " ".join(overview_row_data[1 + offset].text.split()),
             brackets=True,
         )
-        season_end = self.clean_string(
+        season_end = clean_string(
             " ".join(overview_row_data[2 + offset].text.split()),
             brackets=True,
         )
@@ -375,63 +388,17 @@ class Trekpedia:
         if series["name"].lower() == "discovery" and season_number == 1:
             season_end = "February 11, 2018"
         return {
-            "total": self.clean_string(
-                overview_row_data[0].text, brackets=True
-            ),
+            "total": clean_string(overview_row_data[0].text, brackets=True),
             "season_start": season_start,
             "season_end": season_end,
             "episodes": episodes,
         }
 
-    def get_json_filename(self, index, series):
+    def get_json_filename(self, index: int, series: dict[str, str]) -> str:
         """Generate and return a JSON filename from the template."""
-        filename = self.json_template.format(
+        return self.json_template.format(
             index, series["name"].replace(" ", "_").lower()
         )
-
-        return filename
-
-    @staticmethod
-    def print_season_header(series, filename):
-        """Display the header for each series as it is processed."""
-        print(f'Processing : [bold][underline]{series["name"]}')
-        print(f"  -> Using URL : [green]{series['episodes_url']}")
-        print(f"  -> Storing episodes to [green]'{filename}'")
-
-    @staticmethod
-    def get_overview_rows(summary_table):
-        """Return markup for the rows in the series overview table."""
-        summary_rows = summary_table.find("tbody").find_all("tr")[2:]
-        return summary_rows
-
-    @staticmethod
-    def save_json(filename, data):
-        """Save the specified data as a JSON file to the specified location."""
-        with open(filename, "w", encoding="utf-8") as file:
-            json.dump(data, file, ensure_ascii=False, indent=4)
-
-    @staticmethod
-    def clean_string(
-        dirty_string, underscores=False, brackets=False, lowercase=False
-    ):
-        """Take a string and remove underscores, spaces etc as required."""
-        if underscores:
-            dirty_string = (
-                dirty_string.replace(" ", "_")
-                .replace(".", "_")
-                .replace("__", "_")
-            )
-        if brackets:
-            dirty_string = "".join(re.split(r"[\(\)\[\]]", dirty_string)[::2])
-        if lowercase:
-            dirty_string = dirty_string.lower()
-        return " ".join(dirty_string.split())
-
-    @staticmethod
-    def parse_url(url):
-        """Get the specified url and parse with BeautifulSoup."""
-        result = requests.get(url, timeout=10)
-        return BeautifulSoup(result.text, "lxml")
 
 
 if __name__ == "__main__":
