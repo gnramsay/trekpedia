@@ -72,27 +72,18 @@ class Trekpedia:
                     episodes = ""
         return f"https://en.wikipedia.org{episodes}"
 
-    def get_logo(self, series: str) -> str:
+    def get_logo(self, url: str) -> str:
         """Return the logo for the specified series.
 
-        We do this from the main page because the logo is not in the episode
-        page, or not good quality.
+        We get this from the individual series page since they have removed it
+        from the main page.
         """
-        # short treks has no logo on this page, return empty string for now...
-        if series == "Short Treks":
-            return ""
-        span = self.series_markup.find(
-            "span",
-            attrs={"class": "mw-headline"},
-            id=re.compile(rf"{series.replace(' ', '_')}_\("),
-        )
-        if span:
-            logo = span.findNext("img", attrs={"class": "mw-file-element"})[
-                "src"
-            ]
-            logo_url = f"https:{logo}"
-            return logo_url
-        return ""
+        series_data = parse_url(url)
+        image_url = series_data.find(
+            "td", attrs={"class": "infobox-image"}
+        ).find("img")["src"]
+
+        return f"https:{image_url}"
 
     def get_series_details(self, series):
         """Get explicit details for each series."""
