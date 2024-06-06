@@ -1,4 +1,5 @@
 """Helper functions for Trekpedia."""
+
 from __future__ import annotations
 
 import json

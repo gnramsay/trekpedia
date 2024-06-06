@@ -1,4 +1,5 @@
 """Define the Trekpedia class."""
+
 from __future__ import annotations
 
 import re
