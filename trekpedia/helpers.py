@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING, Any
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 from rich import print  # pylint: disable=redefined-builtin
 
 if TYPE_CHECKING:
@@ -22,8 +22,10 @@ def print_season_header(series: dict[str, str], filename: str) -> None:
     print(f"  -> Storing episodes to [green]'{filename}'")
 
 
-def get_overview_rows(summary_table):
+def get_overview_rows(summary_table: Tag) -> list[Tag]:
     """Return markup for the rows in the series overview table."""
+    if not summary_table:
+        return []
     return summary_table.find("tbody").find_all("tr")[2:]
 
 

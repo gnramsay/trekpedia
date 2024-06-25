@@ -2,11 +2,13 @@
 
 from __future__ import annotations
 
+import contextlib
 import re
-from typing import TYPE_CHECKING, Any, Optional, cast
+import sys
+from typing import TYPE_CHECKING, Any, cast
 
 import requests
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup, PageElement, Tag
 from rich import print
 
 from trekpedia.helpers import (  # pylint: disable=redefined-builtin
@@ -18,6 +20,7 @@ from trekpedia.helpers import (  # pylint: disable=redefined-builtin
 )
 
 if TYPE_CHECKING:
+    from bs4.element import ResultSet
     from requests import Response
 
 
@@ -86,7 +89,7 @@ class Trekpedia:
 
         return ""
 
-    def get_series_details(self, series) -> dict[str, Any]:
+    def get_series_details(self, series: PageElement) -> dict[str, Any]:
         """Get explicit details for each series."""
         series_dict = {}
         series_dict["name"] = series.th.a.text
@@ -129,6 +132,9 @@ class Trekpedia:
 
         # get all rows of the 'TV' table so we can parse it.
         series_rows = self.get_series_rows()
+        if not series_rows:
+            print("Can't find the TV Table in master Wiki page, aborting.")
+            sys.exit(1)
 
         series_all = {}
         for index, series in enumerate(series_rows, 1):
@@ -141,7 +147,12 @@ class Trekpedia:
                 series_all[series]["episodes_url"] = links
         self.series_data = series_all
 
-    def get_episode_data(self, episode, headers, last_episode):
+    def get_episode_data(
+        self,
+        episode,
+        headers: list[str],
+        last_episode: dict[str, Any],
+    ) -> dict[str, Any] | None:
         """We may grab more info in the future."""
         episode_data = {}
 
@@ -191,7 +202,7 @@ class Trekpedia:
                         f"<td>{last_episode['director']}</td>", "lxml"
                     ),
                 )
-            elif len(cells) == 4:
+            elif len(cells) == 4:  # noqa: PLR2004
                 # we have everything except the title
                 cells.insert(
                     1,
@@ -215,7 +226,7 @@ class Trekpedia:
         try:
             link_url = cells[headers.index("title")].a["href"]
             if "cite_note" in link_url:
-                raise TypeError()
+                raise TypeError  # noqa: TRY301
             episode_data["link"] = f"https://en.wikipedia.org{link_url}"
         except TypeError:
             if last_episode and episode_data["title"] == last_episode["title"]:
@@ -232,12 +243,12 @@ class Trekpedia:
 
         # air date needs fixed as is listed differently in later
         # series...
-        airdate_idx = [
+        airdate_idx = next(
             i
             for i, item in enumerate(headers)
             if re.search("^original.*date$", item)
             or re.search("^paramount.*date$", item)
-        ][0]
+        )
         try:
             episode_data["air_date"] = clean_string(
                 cells[airdate_idx].text, brackets=True
@@ -249,12 +260,14 @@ class Trekpedia:
 
         return episode_data
 
-    def get_episode_table(self, table_id):
+    def get_episode_table(self, table_id: str) -> ResultSet[Any]:
         """Return the HTML of the episode table."""
         section = self.episode_markup.find("span", id=table_id)
         return section.findNext("table").find("tbody").find_all("tr")
 
-    def parse_episodes(self, series, season_number, table):
+    def parse_episodes(
+        self, series: dict[str, Any], season_number: int, table: ResultSet[Any]
+    ) -> list[dict[str, Any]]:
         """Parse the episodes for this Season."""
         print(
             f"  -> Processing season: {season_number} "
@@ -272,12 +285,10 @@ class Trekpedia:
         ]
         # remove the overall count if it exists as this is a TH not a TD and
         # will skew the indexing later...
-        try:
+        with contextlib.suppress(ValueError):
             headers.remove("no_overall")
-        except ValueError:
-            pass
 
-        episode_list = []
+        episode_list: list[dict[str, Any]] = []
 
         # loop over each episode. We may grab more info in the future.
         # we send the previous episode back to it to handle the way some
@@ -291,7 +302,7 @@ class Trekpedia:
 
         return episode_list
 
-    def parse_series(self, series_dict: tuple[int, dict]) -> None:
+    def parse_series(self, series_dict: tuple[int, dict[str, Any]]) -> None:
         """Take the supplied dictionary and parses the Series."""
         index, series = series_dict
 
@@ -382,7 +393,7 @@ class Trekpedia:
             " ".join(overview_row_data[2 + offset].text.split()),
             brackets=True,
         )
-        # shameless hack to fix the Discovery season END date. Will look at
+        # shameless hack to fix the Discovery season 1 END date. Will look at
         # other options to get this right later but it does work and the value
         # will not change.
         if series["name"].lower() == "discovery" and season_number == 1:
