@@ -13,17 +13,17 @@ files = [
 
 [[package]]
 name = "application-properties"
-version = "0.8.1"
+version = "0.8.2"
 description = "A simple, easy to use, unified manner of accessing program properties."
 optional = false
 python-versions = ">=3.8.0"
 files = [
-    {file = "application_properties-0.8.1-py3-none-any.whl", hash = "sha256:f442e403ab7c8f97b048cf0ab92845057d595989653f65ced48579ad7cf35607"},
-    {file = "application_properties-0.8.1.tar.gz", hash = "sha256:101667125383940651e72a2a9b3aa32225f359050c3be45b4ef4b51009930bb4"},
+    {file = "application_properties-0.8.2-py3-none-any.whl", hash = "sha256:a4fe684e4d95fc45054d3316acf763a7b0f29342ccea02eee09de53004f0139c"},
+    {file = "application_properties-0.8.2.tar.gz", hash = "sha256:e5e6918c8e29ab57175567d51dfa39c00a1d75b3205625559bb02250f50f0420"},
 ]
 
 [package.dependencies]
-pyyaml = ">=6.0"
+pyyaml = ">=5.4.1"
 tomli = ">=2.0.1"
 typing-extensions = ">=4.5.0"
 
@@ -1629,17 +1629,17 @@ pytest = ">=4.6"
 
 [[package]]
 name = "pymarkdownlnt"
-version = "0.9.12"
+version = "0.9.21"
 description = "A GitHub Flavored Markdown compliant Markdown linter."
 optional = false
 python-versions = ">=3.8.0"
 files = [
-    {file = "pymarkdownlnt-0.9.12-py3-none-any.whl", hash = "sha256:4d0b4af6a533f77a3a7e0ac4c3413bfab68b250a6fc94765316c21d277872d9f"},
-    {file = "pymarkdownlnt-0.9.12.tar.gz", hash = "sha256:55057595ce872d0a3cc4947b8060382c47a6a91572fc62e12ecfdd2c31bba764"},
+    {file = "pymarkdownlnt-0.9.21-py3-none-any.whl", hash = "sha256:5efc4092898469c92cdc33686c356f3d94afb99aca09addf79119ba58959f350"},
+    {file = "pymarkdownlnt-0.9.21.tar.gz", hash = "sha256:f30f231f1fa36d98d646c7d2bedf2e8f3696a78b5e420d7a40a0d2f1c9159c0a"},
 ]
 
 [package.dependencies]
-application-properties = ">=0.8.1"
+application-properties = ">=0.8.2"
 columnar = ">=1.4.0"
 typing-extensions = ">=4.7.0"
 
@@ -2433,4 +2433,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "5f1d6265286ee1c69af1dede5518e3db53350cf15da5ada6a2e2dff96ec8f877"
+content-hash = "76d848770d82fa43fa6f85749d16c129baf304ba58b975829681c2490d698eff"
