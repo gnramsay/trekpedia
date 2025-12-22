@@ -3,7 +3,7 @@
 Produce JSON dumps of Star Trek data suitable for adding to an API.
 """
 
-from rich import print  # pylint: disable=redefined-builtin
+from rich import print as rprint
 
 from trekpedia import JSON_TEMPLATE, MAIN_URL, Trekpedia, save_json
 
@@ -16,18 +16,18 @@ def main() -> None:
     try:
         trekpedia = Trekpedia(summary_url=MAIN_URL, json_template=JSON_TEMPLATE)
 
-        print(
+        rprint(
             "Trekpedia : Parse '[cyan]Star Trek[/cyan]' "
             "data from the Web and save as JSON.\n"
         )
-        print("\u00a9 2023 Grant Ramsay <grant@gnramsay.com>\n")
-        print(f"Version {trekpedia.version}\n")
+        rprint("\u00a9 2023 Grant Ramsay <grant@gnramsay.com>\n")
+        rprint(f"Version {trekpedia.version}\n")
 
         # ---- get the series info and save to a JSON file for later use. ---- #
-        print("Getting Series Data ... ", end="")
+        rprint("Getting Series Data ... ", end="")
         trekpedia.get_series_info()
         save_json("output/star_trek_series_info.json", trekpedia.series_data)
-        print("Done!\n")
+        rprint("Done!\n")
 
         # ----------- loop through each series and parse then save ----------- #
         for series_data in trekpedia.series_data.items():
@@ -35,8 +35,8 @@ def main() -> None:
             if series_data[0] not in [11]:
                 trekpedia.parse_series(series_data)
     except KeyboardInterrupt:
-        print("\r", " " * 80)
-        print("[red][bold]Escape Pressed, processing ABORTED.\n")
+        rprint("\r", " " * 80)
+        rprint("[red][bold]Escape Pressed, processing ABORTED.\n")
 
 
 # ---------------------------------------------------------------------------- #

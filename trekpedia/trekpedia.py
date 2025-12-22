@@ -8,10 +8,10 @@ import sys
 from typing import TYPE_CHECKING, Any, cast
 
 import requests
-from bs4 import BeautifulSoup, PageElement, Tag
-from rich import print
+from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
+from rich import print as rprint
 
-from trekpedia.helpers import (  # pylint: disable=redefined-builtin
+from trekpedia.helpers import (
     clean_string,
     get_overview_rows,
     parse_url,
@@ -115,7 +115,7 @@ class Trekpedia:
         """Return all the summary rows for the current Series."""
         try:
             tv_section = cast(
-                Tag | None, self.series_markup.find(id="Television")
+                "Tag | None", self.series_markup.find(id="Television")
             )
             if tv_section and tv_section.parent:
                 trek_table = tv_section.parent.findNext("table").find("tbody")  # type: ignore
@@ -133,7 +133,7 @@ class Trekpedia:
         # get all rows of the 'TV' table so we can parse it.
         series_rows = self.get_series_rows()
         if not series_rows:
-            print("Can't find the TV Table in master Wiki page, aborting.")
+            rprint("Can't find the TV Table in master Wiki page, aborting.")
             sys.exit(1)
 
         series_all = {}
@@ -147,7 +147,7 @@ class Trekpedia:
                 series_all[series]["episodes_url"] = links
         self.series_data = series_all
 
-    def get_episode_data(
+    def get_episode_data(  # noqa: C901
         self,
         episode,
         headers: list[str],
@@ -269,7 +269,7 @@ class Trekpedia:
         self, series: dict[str, Any], season_number: int, table: ResultSet[Any]
     ) -> list[dict[str, Any]]:
         """Parse the episodes for this Season."""
-        print(
+        rprint(
             f"  -> Processing season: {season_number} "
             f"of {series['season_count']}"
         )
@@ -315,8 +315,10 @@ class Trekpedia:
         self.episode_markup = parse_url(series["episodes_url"])
 
         try:
-            overview_table: Tag | None = self.episode_markup.find(
-                "table", attrs={"class": "wikitable plainrowheaders"}
+            overview_table: Tag | NavigableString | None = (
+                self.episode_markup.find(
+                    "table", attrs={"class": "wikitable plainrowheaders"}
+                )
             )
 
             if not overview_table:
@@ -367,7 +369,7 @@ class Trekpedia:
                         series, season_number, episodes, overview_row_data
                     )
         except AttributeError as err:
-            print(
+            rprint(
                 "[red]  => AttributeError, need to investigate! "
                 f"({err}) at line number: {err.__traceback__.tb_lineno}"
             )
@@ -413,7 +415,7 @@ class Trekpedia:
 
 
 if __name__ == "__main__":
-    print(
+    rprint(
         "\nThis library is [red]not meant to be run directly[/red], aborting."
     )
-    print("Please run the [cyan]'generate_trek.py'[/cyan] file instead!\n")
+    rprint("Please run the [cyan]'generate_trek.py'[/cyan] file instead!\n")

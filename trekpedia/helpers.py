@@ -9,7 +9,7 @@ from typing import TYPE_CHECKING, Any
 
 import requests
 from bs4 import BeautifulSoup, Tag
-from rich import print  # pylint: disable=redefined-builtin
+from rich import print as rprint
 
 if TYPE_CHECKING:
     from requests import Response
@@ -17,9 +17,9 @@ if TYPE_CHECKING:
 
 def print_season_header(series: dict[str, str], filename: str) -> None:
     """Display the header for each series as it is processed."""
-    print(f"Processing : [bold][underline]{series['name']}")
-    print(f"  -> Using URL : [green]{series['episodes_url']}")
-    print(f"  -> Storing episodes to [green]'{filename}'")
+    rprint(f"Processing : [bold][underline]{series['name']}")
+    rprint(f"  -> Using URL : [green]{series['episodes_url']}")
+    rprint(f"  -> Storing episodes to [green]'{filename}'")
 
 
 def get_overview_rows(summary_table: Tag) -> list[Tag]:
