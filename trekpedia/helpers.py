@@ -17,7 +17,7 @@ if TYPE_CHECKING:
 
 def print_season_header(series: dict[str, str], filename: str) -> None:
     """Display the header for each series as it is processed."""
-    print(f'Processing : [bold][underline]{series["name"]}')
+    print(f"Processing : [bold][underline]{series['name']}")
     print(f"  -> Using URL : [green]{series['episodes_url']}")
     print(f"  -> Storing episodes to [green]'{filename}'")
 

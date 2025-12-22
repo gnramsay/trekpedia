@@ -1,104 +1,276 @@
-annotated-types==0.7.0 ; python_version >= "3.10" and python_version < "4.0"
-application-properties==0.8.2 ; python_version >= "3.10" and python_version < "4.0"
-babel==2.15.0 ; python_version >= "3.10" and python_version < "4.0"
-beautifulsoup4==4.12.3 ; python_version >= "3.10" and python_version < "4.0"
-certifi==2024.6.2 ; python_version >= "3.10" and python_version < "4.0"
-cffi==1.16.0 ; python_version >= "3.10" and python_version < "4.0"
-cfgv==3.4.0 ; python_version >= "3.10" and python_version < "4.0"
-charset-normalizer==3.3.2 ; python_version >= "3.10" and python_version < "4.0"
-click==8.1.7 ; python_version >= "3.10" and python_version < "4.0"
-colorama==0.4.6 ; python_version >= "3.10" and python_version < "4.0"
-columnar==1.4.1 ; python_version >= "3.10" and python_version < "4.0"
-coverage[toml]==7.5.3 ; python_version >= "3.10" and python_version < "4.0"
-cryptography==42.0.8 ; python_version >= "3.10" and python_version < "4.0"
-csscompressor==0.9.5 ; python_version >= "3.10" and python_version < "4.0"
-deprecated==1.2.14 ; python_version >= "3.10" and python_version < "4.0"
-distlib==0.3.8 ; python_version >= "3.10" and python_version < "4.0"
-exceptiongroup==1.2.1 ; python_version >= "3.10" and python_version < "3.11"
-execnet==2.1.1 ; python_version >= "3.10" and python_version < "4.0"
-faker==25.5.0 ; python_version >= "3.10" and python_version < "4.0"
-filelock==3.14.0 ; python_version >= "3.10" and python_version < "4.0"
-ghp-import==2.1.0 ; python_version >= "3.10" and python_version < "4.0"
-gitdb==4.0.11 ; python_version >= "3.10" and python_version < "4.0"
-github-changelog-md==0.9.3 ; python_version >= "3.10" and python_version < "4.0"
-gitpython==3.1.43 ; python_version >= "3.10" and python_version < "4.0"
-greenlet==3.0.3 ; python_version >= "3.10" and python_version < "4.0"
-htmlmin2==0.1.13 ; python_version >= "3.10" and python_version < "4.0"
-identify==2.5.36 ; python_version >= "3.10" and python_version < "4.0"
-idna==3.7 ; python_version >= "3.10" and python_version < "4.0"
-iniconfig==2.0.0 ; python_version >= "3.10" and python_version < "4.0"
-jinja2==3.1.4 ; python_version >= "3.10" and python_version < "4.0"
-jsmin==3.0.1 ; python_version >= "3.10" and python_version < "4.0"
-lxml==4.9.4 ; python_version >= "3.10" and python_version < "4.0"
-markdown-it-py==3.0.0 ; python_version >= "3.10" and python_version < "4.0"
-markdown==3.6 ; python_version >= "3.10" and python_version < "4.0"
-markupsafe==2.1.5 ; python_version >= "3.10" and python_version < "4.0"
-mdurl==0.1.2 ; python_version >= "3.10" and python_version < "4.0"
-mergedeep==1.3.4 ; python_version >= "3.10" and python_version < "4.0"
-mkdocs-autorefs==1.0.1 ; python_version >= "3.10" and python_version < "4.0"
-mkdocs-get-deps==0.2.0 ; python_version >= "3.10" and python_version < "4.0"
-mkdocs-git-revision-date-localized-plugin==1.2.6 ; python_version >= "3.10" and python_version < "4.0"
-mkdocs-latest-git-tag-plugin==0.1.2 ; python_version >= "3.10" and python_version < "4.0"
-mkdocs-material-extensions==1.3.1 ; python_version >= "3.10" and python_version < "4.0"
-mkdocs-material==9.5.25 ; python_version >= "3.10" and python_version < "4.0"
-mkdocs-minify-plugin==0.8.0 ; python_version >= "3.10" and python_version < "4.0"
-mkdocs==1.6.0 ; python_version >= "3.10" and python_version < "4.0"
-mkdocstrings==0.25.1 ; python_version >= "3.10" and python_version < "4.0"
-mock==5.1.0 ; python_version >= "3.10" and python_version < "4.0"
-mypy-extensions==1.0.0 ; python_version >= "3.10" and python_version < "4.0"
-mypy==1.10.0 ; python_version >= "3.10" and python_version < "4.0"
-nodeenv==1.9.1 ; python_version >= "3.10" and python_version < "4.0"
-packaging==24.0 ; python_version >= "3.10" and python_version < "4.0"
-paginate==0.5.6 ; python_version >= "3.10" and python_version < "4.0"
-pastel==0.2.1 ; python_version >= "3.10" and python_version < "4.0"
-pathspec==0.12.1 ; python_version >= "3.10" and python_version < "4.0"
-platformdirs==4.2.2 ; python_version >= "3.10" and python_version < "4.0"
-pluggy==1.5.0 ; python_version >= "3.10" and python_version < "4.0"
-poethepoet==0.22.1 ; python_version >= "3.10" and python_version < "4.0"
-pre-commit==3.7.1 ; python_version >= "3.10" and python_version < "4.0"
-pycparser==2.22 ; python_version >= "3.10" and python_version < "4.0"
-pydantic-core==2.18.4 ; python_version >= "3.10" and python_version < "4.0"
-pydantic==2.7.3 ; python_version >= "3.10" and python_version < "4.0"
-pyfakefs==5.5.0 ; python_version >= "3.10" and python_version < "4.0"
-pygithub==2.3.0 ; python_version >= "3.10" and python_version < "4.0"
-pygments==2.18.0 ; python_version >= "3.10" and python_version < "4.0"
-pyjwt[crypto]==2.8.0 ; python_version >= "3.10" and python_version < "4.0"
-pymarkdownlnt==0.9.20 ; python_version >= "3.10" and python_version < "4.0"
-pymdown-extensions==10.8.1 ; python_version >= "3.10" and python_version < "4.0"
-pynacl==1.5.0 ; python_version >= "3.10" and python_version < "4.0"
-pytest-cov==5.0.0 ; python_version >= "3.10" and python_version < "4.0"
-pytest-mock==3.14.0 ; python_version >= "3.10" and python_version < "4.0"
-pytest-randomly==3.15.0 ; python_version >= "3.10" and python_version < "4.0"
-pytest-reverse==1.7.0 ; python_version >= "3.10" and python_version < "4.0"
-pytest-sugar==1.0.0 ; python_version >= "3.10" and python_version < "4.0"
-pytest-watcher==0.4.2 ; python_version >= "3.10" and python_version < "4.0"
-pytest-xdist==3.6.1 ; python_version >= "3.10" and python_version < "4.0"
-pytest==8.2.2 ; python_version >= "3.10" and python_version < "4.0"
-python-dateutil==2.9.0.post0 ; python_version >= "3.10" and python_version < "4.0"
-pytz==2024.1 ; python_version >= "3.10" and python_version < "4.0"
-pyyaml-env-tag==0.1 ; python_version >= "3.10" and python_version < "4.0"
-pyyaml==6.0.1 ; python_version >= "3.10" and python_version < "4.0"
-regex==2024.5.15 ; python_version >= "3.10" and python_version < "4.0"
-requests==2.31.0 ; python_version >= "3.10" and python_version < "4.0"
-rich==13.7.1 ; python_version >= "3.10" and python_version < "4.0"
-rtoml==0.10.0 ; python_version >= "3.10" and python_version < "4.0"
-ruff==0.4.8 ; python_version >= "3.10" and python_version < "4.0"
-shellingham==1.5.4 ; python_version >= "3.10" and python_version < "4.0"
-simple-toml-settings==0.6.1 ; python_version >= "3.10" and python_version < "4.0"
-six==1.16.0 ; python_version >= "3.10" and python_version < "4.0"
-smmap==5.0.1 ; python_version >= "3.10" and python_version < "4.0"
-soupsieve==2.5 ; python_version >= "3.10" and python_version < "4.0"
-termcolor==2.4.0 ; python_version >= "3.10" and python_version < "4.0"
-tomli==2.0.1 ; python_version >= "3.10" and python_version < "4.0"
-toolz==0.12.1 ; python_version >= "3.10" and python_version < "4.0"
-typer==0.12.3 ; python_version >= "3.10" and python_version < "4.0"
-types-beautifulsoup4==4.12.0.20240511 ; python_version >= "3.10" and python_version < "4.0"
-types-colorama==0.4.15.20240311 ; python_version >= "3.10" and python_version < "4.0"
-types-html5lib==1.1.11.20240228 ; python_version >= "3.10" and python_version < "4.0"
-types-requests==2.32.0.20240602 ; python_version >= "3.10" and python_version < "4.0"
-typing-extensions==4.12.1 ; python_version >= "3.10" and python_version < "4.0"
-urllib3==2.2.1 ; python_version >= "3.10" and python_version < "4.0"
-virtualenv==20.26.2 ; python_version >= "3.10" and python_version < "4.0"
-watchdog==4.0.1 ; python_version >= "3.10" and python_version < "4.0"
-wcwidth==0.2.13 ; python_version >= "3.10" and python_version < "4.0"
-wrapt==1.16.0 ; python_version >= "3.10" and python_version < "4.0"
+# This file was autogenerated by uv via the following command:
+#    uv export --no-hashes --no-emit-project --output-file=requirements-dev.txt
+annotated-types==0.7.0
+    # via pydantic
+application-properties==0.8.2
+    # via pymarkdownlnt
+babel==2.15.0
+    # via
+    #   mkdocs-git-revision-date-localized-plugin
+    #   mkdocs-material
+beautifulsoup4==4.12.3
+    # via trekpedia
+certifi==2024.6.2
+    # via requests
+cffi==1.16.0
+    # via
+    #   cryptography
+    #   pynacl
+cfgv==3.4.0
+    # via pre-commit
+charset-normalizer==3.3.2
+    # via requests
+click==8.1.7
+    # via
+    #   mkdocs
+    #   mkdocstrings
+    #   typer
+colorama==0.4.6
+    # via
+    #   click
+    #   mkdocs
+    #   mkdocs-material
+    #   pytest
+columnar==1.4.1
+    # via pymarkdownlnt
+coverage==7.5.3
+    # via pytest-cov
+cryptography==42.0.8
+    # via pyjwt
+csscompressor==0.9.5
+    # via mkdocs-minify-plugin
+deprecated==1.2.14
+    # via pygithub
+distlib==0.3.8
+    # via virtualenv
+exceptiongroup==1.2.1 ; python_full_version < '3.11'
+    # via pytest
+execnet==2.1.1
+    # via pytest-xdist
+faker==25.5.0
+filelock==3.14.0
+    # via virtualenv
+ghp-import==2.1.0
+    # via mkdocs
+gitdb==4.0.11
+    # via gitpython
+github-changelog-md==0.9.3
+    # via simple-toml-settings
+gitpython==3.1.43
+    # via
+    #   mkdocs-git-revision-date-localized-plugin
+    #   mkdocs-latest-git-tag-plugin
+greenlet==3.3.0
+htmlmin2==0.1.13
+    # via mkdocs-minify-plugin
+identify==2.5.36
+    # via pre-commit
+idna==3.7
+    # via requests
+iniconfig==2.0.0
+    # via pytest
+jinja2==3.1.4
+    # via
+    #   mkdocs
+    #   mkdocs-material
+    #   mkdocstrings
+jsmin==3.0.1
+    # via mkdocs-minify-plugin
+librt==0.7.4 ; platform_python_implementation != 'PyPy'
+    # via mypy
+lxml==6.0.2
+    # via trekpedia
+markdown==3.6
+    # via
+    #   mkdocs
+    #   mkdocs-autorefs
+    #   mkdocs-material
+    #   mkdocstrings
+    #   pymdown-extensions
+markdown-it-py==3.0.0
+    # via rich
+markupsafe==2.1.5
+    # via
+    #   jinja2
+    #   mkdocs
+    #   mkdocs-autorefs
+    #   mkdocstrings
+mdurl==0.1.2
+    # via markdown-it-py
+mergedeep==1.3.4
+    # via
+    #   mkdocs
+    #   mkdocs-get-deps
+mkdocs==1.6.0
+    # via
+    #   mkdocs-autorefs
+    #   mkdocs-git-revision-date-localized-plugin
+    #   mkdocs-latest-git-tag-plugin
+    #   mkdocs-material
+    #   mkdocs-minify-plugin
+    #   mkdocstrings
+mkdocs-autorefs==1.0.1
+    # via mkdocstrings
+mkdocs-get-deps==0.2.0
+    # via mkdocs
+mkdocs-git-revision-date-localized-plugin==1.2.6
+mkdocs-latest-git-tag-plugin==0.1.2
+mkdocs-material==9.5.25
+mkdocs-material-extensions==1.3.1
+    # via mkdocs-material
+mkdocs-minify-plugin==0.8.0
+mkdocstrings==0.25.1
+mock==5.1.0
+mypy==1.19.1
+mypy-extensions==1.0.0
+    # via mypy
+nodeenv==1.9.1
+    # via pre-commit
+packaging==24.0
+    # via
+    #   mkdocs
+    #   pytest
+    #   pytest-sugar
+paginate==0.5.6
+    # via mkdocs-material
+pastel==0.2.1
+    # via poethepoet
+pathspec==0.12.1
+    # via
+    #   mkdocs
+    #   mypy
+platformdirs==4.2.2
+    # via
+    #   mkdocs-get-deps
+    #   mkdocstrings
+    #   virtualenv
+pluggy==1.5.0
+    # via pytest
+poethepoet==0.22.1
+pre-commit==3.7.1
+pycparser==2.22
+    # via cffi
+pydantic==2.12.5
+    # via github-changelog-md
+pydantic-core==2.41.5
+    # via pydantic
+pyfakefs==5.5.0
+pygithub==2.3.0
+    # via github-changelog-md
+pygments==2.18.0
+    # via
+    #   mkdocs-material
+    #   rich
+pyjwt==2.8.0
+    # via pygithub
+pymarkdownlnt==0.9.20
+pymdown-extensions==10.8.1
+    # via
+    #   mkdocs-material
+    #   mkdocstrings
+pynacl==1.5.0
+    # via pygithub
+pytest==8.2.2
+    # via
+    #   pytest-cov
+    #   pytest-mock
+    #   pytest-randomly
+    #   pytest-reverse
+    #   pytest-sugar
+    #   pytest-xdist
+pytest-cov==5.0.0
+pytest-mock==3.14.0
+pytest-randomly==3.15.0
+pytest-reverse==1.7.0
+pytest-sugar==1.0.0
+pytest-watcher==0.4.2
+pytest-xdist==3.6.1
+python-dateutil==2.9.0.post0
+    # via
+    #   faker
+    #   ghp-import
+pytz==2024.1
+    # via mkdocs-git-revision-date-localized-plugin
+pyyaml==6.0.1
+    # via
+    #   application-properties
+    #   mkdocs
+    #   mkdocs-get-deps
+    #   pre-commit
+    #   pymdown-extensions
+    #   pyyaml-env-tag
+pyyaml-env-tag==0.1
+    # via mkdocs
+regex==2024.5.15
+    # via mkdocs-material
+requests==2.31.0
+    # via
+    #   mkdocs-material
+    #   pygithub
+    #   trekpedia
+rich==13.7.1
+    # via
+    #   github-changelog-md
+    #   trekpedia
+    #   typer
+rtoml==0.13.0
+    # via
+    #   github-changelog-md
+    #   simple-toml-settings
+ruff==0.14.10
+shellingham==1.5.4
+    # via typer
+simple-toml-settings==0.6.1
+    # via github-changelog-md
+six==1.16.0
+    # via python-dateutil
+smmap==5.0.1
+    # via gitdb
+soupsieve==2.5
+    # via beautifulsoup4
+termcolor==2.4.0
+    # via pytest-sugar
+tomli==2.0.1
+    # via
+    #   application-properties
+    #   coverage
+    #   mypy
+    #   poethepoet
+    #   pytest
+    #   pytest-watcher
+toolz==0.12.1
+    # via columnar
+typer==0.12.3
+    # via github-changelog-md
+types-beautifulsoup4==4.12.0.20240511
+types-colorama==0.4.15.20240311
+types-html5lib==1.1.11.20240228
+    # via types-beautifulsoup4
+types-requests==2.32.0.20240602
+typing-extensions==4.15.0
+    # via
+    #   application-properties
+    #   mypy
+    #   pydantic
+    #   pydantic-core
+    #   pygithub
+    #   pymarkdownlnt
+    #   typer
+    #   typing-inspection
+typing-inspection==0.4.2
+    # via pydantic
+urllib3==2.2.1
+    # via
+    #   pygithub
+    #   requests
+    #   types-requests
+virtualenv==20.26.2
+    # via pre-commit
+watchdog==4.0.1
+    # via
+    #   mkdocs
+    #   pytest-watcher
+wcwidth==0.2.13
+    # via columnar
+wrapt==1.16.0
+    # via deprecated

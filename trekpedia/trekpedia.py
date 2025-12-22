@@ -85,7 +85,7 @@ class Trekpedia:
         series_data = parse_url(url)
         image_url = series_data.find("td", attrs={"class": "infobox-image"})
         if image_url:
-            return f"https:{image_url.find("img")["src"]}"
+            return f"https:{image_url.find('img')['src']}"
 
         return ""
 
@@ -93,7 +93,7 @@ class Trekpedia:
         """Get explicit details for each series."""
         series_dict = {}
         series_dict["name"] = series.th.a.text
-        series_dict["url"] = f'https://en.wikipedia.org{series.th.a["href"]}'
+        series_dict["url"] = f"https://en.wikipedia.org{series.th.a['href']}"
         series_dict["season_count"] = series.find_all("td")[0].text
 
         series_dict["episode_count"] = series.find_all("td")[1].text
@@ -414,7 +414,6 @@ class Trekpedia:
 
 if __name__ == "__main__":
     print(
-        "\nThis library is [red]not meant to be run directly[/red], "
-        "aborting."
+        "\nThis library is [red]not meant to be run directly[/red], aborting."
     )
     print("Please run the [cyan]'generate_trek.py'[/cyan] file instead!\n")
