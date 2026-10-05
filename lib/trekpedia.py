@@ -1,4 +1,5 @@
 """Define the Trekpedia class."""
+
 import json
 import re
 
